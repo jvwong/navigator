@@ -3,7 +3,7 @@ import simpleStyleSheet from './simpleStyleSheet.js';
 
 // set the sbgn style sheet
 // bind interaction events (mouse hovering, collapsing)
-export const initGraph = ( container ) => {
+var initGraph = function( container ){
 
   const graphInstance = cytoscape({
 		container: container,
@@ -12,3 +12,5 @@ export const initGraph = ( container ) => {
 
 	return graphInstance;
 };
+
+export { initGraph };

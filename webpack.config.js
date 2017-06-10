@@ -2,11 +2,9 @@ const webpack = require('webpack'); //to access built-in plugins
 const path = require('path');
 
 module.exports = {
-  entry: {
-    main: './js/App.jsx',
+  entry: { bundle: './js/App.jsx'},
     // the entry point of our app
-  },
-  output: {
+    output: {
     filename: '[name].js',
     // the filename template for entry chunks
 
@@ -17,7 +15,7 @@ module.exports = {
     publicPath: "/", // string
     // the url to the output directory resolved relative to the HTML page
   },
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -30,7 +28,7 @@ module.exports = {
           'postcss-loader'
         ]
       },
-      { test: /\.(js|jsx)$/,
+      { test: /\.(jsx)$/,
         exclude: /node_modules/,
         use: [
           { loader: "babel-loader" },
@@ -45,7 +43,7 @@ module.exports = {
     ignored: /node_modules/
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
     new webpack.HotModuleReplacementPlugin() // Enable HMR
   ],
 
