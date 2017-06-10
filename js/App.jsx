@@ -10,7 +10,7 @@ const mountElement = document.getElementById('container');
 export class App extends React.Component {
 	render() {
 		return (
-			<Navigator />
+			<Navigator style={styles} />
 		);
 	}
 }

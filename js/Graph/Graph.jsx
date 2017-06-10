@@ -1,15 +1,10 @@
 import React from 'react';
-import cytoscape from 'cytoscape';
-import { Row, Col } from 'react-bootstrap';
-
 import { initGraph } from './components/init.js';
 import isEmpty from 'lodash/isEmpty';
-import simpleStyleSheet from './components/simpleStyleSheet.js';
-
 
 // Graph
 // Prop Dependencies ::
-
+// - data
 export class Graph extends React.Component {
 
   constructor(props) {
@@ -47,14 +42,13 @@ export class Graph extends React.Component {
   }
 
 	render() {
-  	return (
-			<div className='Graph'>
-				<div id={ this.state.graphId } style={{
-					width: this.state.width,
-					height: this.state.height
-				}}/>
-			</div>
-		)
-	}
+    return (
+      <div className='Graph'>
+        <div id={ this.state.graphId }
+          style={{width: this.state.width,height: this.state.height}}
+        />
+      </div>
+    )
+  }
 }
 //

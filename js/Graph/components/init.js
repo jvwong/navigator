@@ -1,5 +1,5 @@
 import cytoscape from 'cytoscape';
-import simpleStyleSheet from './simpleStyleSheet.js';
+import styleSheet from './EMStyleSheet.js';
 
 // set the sbgn style sheet
 // bind interaction events (mouse hovering, collapsing)
@@ -7,7 +7,7 @@ var initGraph = function( container ){
 
   const graphInstance = cytoscape({
 		container: container,
-		style: simpleStyleSheet( cytoscape )
+		style: styleSheet( cytoscape )
 	});
 
 	return graphInstance;
