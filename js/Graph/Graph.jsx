@@ -4,25 +4,30 @@ import isEmpty from 'lodash/isEmpty';
 
 // Graph
 // Prop Dependencies ::
-// - data
-export class Graph extends React.Component {
+// - data: cytoscape graph elements
+// - styleSheet: A cytoscape style sheet object
+// - layout: A cytoscape layout
+export default class Graph extends React.Component {
 
   constructor(props) {
 		super(props);
 		this.state = {
-			graphId: this.props.id || Math.floor(Math.random() * Math.pow(10, 8)) + 1,
+			id: this.props.id,
       graphContainer: null,
       data: null,
 			graphRendered: false,
 			graphEmpty: false,
       width: '100vw',
-			height: '85vh',
-			layout: 'preset'
+			height: '85vh'
 		};
 	}
 
   componentDidMount() {
-    const graph = initGraph( document.getElementById( this.state.graphId ) );
+    const graph = initGraph(
+      document.getElementById( this.state.id ),
+      this.props.styleSheet,
+      this.props.layout
+    );
     this.setState({ graphInstance: graph })
 	}
 
@@ -43,7 +48,7 @@ export class Graph extends React.Component {
 	render() {
     return (
       <div className='Graph'>
-        <div id={ this.state.graphId }
+        <div id={ this.state.id }
           style={{width: this.state.width,height: this.state.height}}
         />
       </div>

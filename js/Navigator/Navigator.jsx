@@ -1,8 +1,9 @@
 import React from 'react';
-import { Graph } from '../Graph/Graph.jsx';
+import { EMGraph } from '../Graph/components/EMGraph.jsx';
 
 // Navigator
 // Prop Dependencies ::
+
 export class Navigator extends React.Component {
 	constructor(props) {
 		super(props);
@@ -24,7 +25,8 @@ export class Navigator extends React.Component {
 
 	render() {
 		return (
-			<Graph data={ this.state.data } />
+			<EMGraph
+			data={ this.state.data }/>
 		);
 	}
 }
