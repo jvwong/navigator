@@ -22,8 +22,8 @@ export class Graph extends React.Component {
 	}
 
   componentDidMount() {
-		const graphContainer = document.getElementById( this.state.graphId );
-    this.setState({ graphContainer: graphContainer });
+    const graph = initGraph( document.getElementById( this.state.graphId ) );
+    this.setState({ graphInstance: graph })
 	}
 
   componentWillReceiveProps( nextProps ){
@@ -34,10 +34,9 @@ export class Graph extends React.Component {
 
   // Graph rendering is not tracked by React
 	renderGraph( data ) {
-    const graphInstance = initGraph( this.state.graphContainer );
-    graphInstance.remove('*');
-    graphInstance.add( data );
-    graphInstance.fit();
+    this.state.graphInstance.remove('*');
+    this.state.graphInstance.add( data );
+    this.state.graphInstance.fit();
     return true;
   }
 
