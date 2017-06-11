@@ -3,7 +3,7 @@ FROM node:8.0.0-alpine
 RUN addgroup -S nodejs && adduser -S -g nodejs nodejs
 RUN apk add --no-cache bash sed git openssh
 
-RUN cd /tmp && git clone -b integration https://github.com/jvwong/navigator.git
+RUN cd /tmp && git clone -b development https://github.com/jvwong/navigator.git
 RUN cd /tmp/navigator && npm install
 RUN npm install -g webpack http-server
 
