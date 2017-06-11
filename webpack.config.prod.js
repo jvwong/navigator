@@ -43,20 +43,7 @@ module.exports = {
       }
     ]
   },
-  watchOptions: {
-    aggregateTimeout: 1000, // in ms
-    // aggregates multiple changes to a single rebuild
-    ignored: /node_modules/
-  },
   plugins: [
-    new webpack.HotModuleReplacementPlugin() // Enable HMR
-  ],
-
-  devServer: {
-    host: 'localhost',
-    port: 8080,
-    hot: true, // Tell the dev-server we're using HMR
-    contentBase: path.resolve(__dirname, 'public'),
-    publicPath: '/'
-  }
+    new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
+  ]
 };
