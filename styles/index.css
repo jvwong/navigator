@@ -1,8 +1,8 @@
 /* Load spinner styles */
-@import './../node_modules/spinkit/css/spinners/9-cube-grid.css';
+@import 'spinkit/css/spinners/9-cube-grid.css';
 
 /* Load theme css files and theme dependencies */
-@import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Load variables */
 @import './css/variables.css';

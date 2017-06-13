@@ -15,7 +15,7 @@ export class Navigator extends React.Component {
 		this.state = {
 			data: null,
 			loading: true,
-			currentSource : 'reactome',
+			currentSource : 'inoh',
 			sources: {
 				all: {
 					displayName: "All",
@@ -62,25 +62,33 @@ export class Navigator extends React.Component {
 
 		// This binding is necessary to make `this` work in the callback
     this.renderSourceMenu = this.renderSourceMenu.bind(this);
-		this.handleSelect = this.handleSelect.bind(this);
+		this.handleSelect = this.handleSelect.bind(this);		
 	}
 
 	getSource( key ) {
 		const url = 'data/' + this.state.sources[key].data;
-		fetch(url, {method: 'get', mode: 'no-cors'})
+		return fetch(url, { method: 'get', mode: 'no-cors' })
 			.then(function(response) {
 				return response.json()
 			})
-			.then(data => {
-				this.setState({
-					data: data.elements,
-					loading: false
+			;
+	}
+
+	updateSource( key ){
+		this.getSource( key )
+			.then( data => {
+				this.setState(( prevState, props ) => {
+					return {
+						data: data.elements,
+						currentSource: key,
+						loading: false
+					}
 				});
-      });
+			});
 	}
 
 	componentDidMount() {
-		this.getSource( this.state.currentSource );
+		this.updateSource( this.state.currentSource );
   }
 
 	renderSourceMenu(key, i) {
@@ -94,17 +102,15 @@ export class Navigator extends React.Component {
 
 	handleSelect( key ) {
 		if( key === this.state.currentSource ) return;
-		this.setState({
-			currentSource: key,
-			loading: true
-		});
-		this.getSource( key );
+		this.setState(( prevState, props ) => {
+			return { loading: true };
+		}, this.updateSource( key ) );
 	}
 
 	render() {
 		return (
 			<div className="Navigator">
-				<Spinner full hidden={this.state.loading} />
+				<Spinner full hidden={!this.state.loading} />
 				<SplitButton
 					bsStyle='default'
 					title={ this.state.sources[this.state.currentSource].displayName }
