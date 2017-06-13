@@ -15,32 +15,38 @@ module.exports = {
     publicPath: "/", // string
     // the url to the output directory resolved relative to the HTML page
   },
-  devtool: 'source-map',
+  devtool: 'source-map',  
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
           'style-loader',
-          { loader: 'css-loader',
-            options: { importLoaders: 1 }
-          },
+          'css-loader',
           'postcss-loader'
         ]
       },
       { test: /\.jsx$/,
         exclude: /node_modules/,
         use: [
-          { loader: 'babel-loader' },
-          { loader: 'eslint-loader' }
+          'babel-loader',
+          'eslint-loader'
         ]
       },
       { test: /\.js$/,
         exclude: /node_modules/,
         use: [
-          { loader: 'eslint-loader' }
+          'eslint-loader'
         ]
-      }
+      },
+			{
+				test: /\.(eot|svg|ttf|woff|woff2)$/,
+				use: 'file-loader?name=fonts/[name].[ext]'
+			},
+			{
+				test: /\.png$/,
+				use: 'url-loader'
+			}
     ]
   },
   watchOptions: {

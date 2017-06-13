@@ -1,0 +1,1249 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.4.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "EM1_Enrichment Map",
+    "name" : "EM1_Enrichment Map",
+    "SUID" : 81390,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "81426",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nE15C2D32912B3060462D7E9C2B9648DE",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "PELI1", "PELI2", "AKT1", "NFKBIA", "S100B", "NFKBIB", "SOD1", "SQSTM1", "UBE2N", "UBE2V1", "PIK3R1", "PIK3R2", "CHUK", "GSK3B", "PPP6C", "MAP2K3", "PRKCZ", "MAP2K2", "DOK1", "PLA2G4A", "PTPN11", "HSPB2", "RB1", "REL", "RELA", "TOLLIP", "SIRPA", "STAT3", "IKBKAP", "IKBKB", "IKBKG", "PLCG1", "IRS1", "JUN", "TAB1", "TAB2", "TAB3", "MAP2K1", "MAP2K4", "MAP2K6", "MAP2K7", "MAP3K14", "MAP3K2", "MAP3K3", "MAP3K7", "ACAN", "MAPK1", "ECSIT", "MAPK14", "ATF2", "EIF2AK3", "MAPK3", "EIF2S1", "MAPK8", "FBXW5", "MAPK9", "IL1A", "TRAF6", "IL1B", "IL1R1", "IL1R2", "IL1RAP", "IL1RN", "IRAK1", "IRAK2", "IRAK3", "IRAK4", "MYD88" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E15C2D32912B3060462D7E9C2B9648DE",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL1; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E15C2D32912B3060462D7E9C2B9648DE",
+        "EM1_gs_size_dataset1" : 69,
+        "SUID" : 81426,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E15C2D32912B3060462D7E9C2B9648DE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -102.12218560112848,
+        "y" : 266.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81425",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n99E683A77EE273CBDAF5755E35D2668D",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AP2B1", "AKT1", "LEF1", "BTRC", "CAV1", "BCAR1", "CHUK", "CAMK2A", "COPS5", "CREBBP", "CUL1", "CDK2", "CD44", "EP300", "CRK", "FOXO1", "DAB2", "GRB2", "HDAC1", "HSPA8", "IKBKB", "ITCH", "JUN", "JUNB", "SDC2", "SKI", "MAP2K1", "MAP2K6", "CDK4", "ERBIN", "MAP3K7", "FOXO4", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MTOR", "HGS", "ETS1", "NFKB1", "NFKBIA", "ACVRL1", "ANAPC1", "ANAPC10", "JUND", "ANAPC2", "PDK1", "ANAPC4", "ANAPC5", "ANAPC7", "ATF3", "PIK3R1", "CAMK2B", "PIK3R2", "CAMK2D", "CAMK2G", "PML", "CCNB2", "CDC16", "CDC23", "CDC27", "CDKN1A", "CITED1", "CSNK1G2", "CTCF", "CTNNA1", "CTNNA2", "DCP1A", "DYNC1I1", "DYNLRB1", "DYNLRB2", "MAP2K3", "E2F4", "E2F5", "MAP4K1", "EID2", "EIF3I", "ENG", "EWSR1", "FKBP1A", "FNTA", "FOSB", "FOXG1", "FOXH1", "FZR1", "GIPC1", "HNF4A", "PTK2", "HOXA9", "ING2", "IRF2BP1", "ITGB3", "KLF10", "KPNB1", "RB1", "MED15", "MEF2A", "MEF2C", "PARD3", "NEDD4L", "NFYA", "NFYB", "NFYC", "NME1", "PDPK1", "NUP153", "NUP214", "OLIG1", "PARD6A", "PJA1", "PPM1A", "PPP1CC", "PPP1R15A", "PPP2R1A", "RPS6KA5", "PPP2R2A", "RPS6KB1", "PRKAR1B", "PRKAR2A", "RBL1", "SKP1", "RBL2", "SMAD2", "RBX1", "SMAD3", "RNF111", "ROCK1", "RUNX3", "SAMD3", "SIK1", "SKIL", "SMAD4", "SOS1", "SMAD6", "SMAD7", "SMURF1", "SRC", "SMURF2", "SNIP1", "SNW1", "SUMO1", "SNX1", "SNX2", "TAB1", "SNX4", "SNX6", "SOX9", "SPARC", "SPTBN1", "STAMBPL1", "STK11IP", "STRAP", "TFDP1", "TFDP2", "TGFB1", "TGFB2", "TGFB3", "TGFBR1", "TGFBR2", "TP53", "TGFBR3", "TP73", "TRIM33", "UBE2D1", "UCHL5", "VDR", "TRAF6", "VPS39", "WWP1", "WWTR1", "TRAP1", "XPO1", "XPO4", "YAP1", "ZEB1", "ZEB2", "ZFYVE9", "UBE2D2", "RHOA", "UBE2D3", "UBE2I", "CCND1", "EIF4EBP1", "ESR1", "FOS", "FOXO3", "GSK3B", "ITGB1", "MAP2K2", "MYC", "PIK3CA", "STK11", "PPP2CA", "PXN", "RAF1", "SHC1", "ZFYVE16", "ARRB2", "AR", "ATF2", "BRCA1", "CCNE1", "CDC25A", "CDK1", "CTNNB1", "DAXX", "DDX5", "KAT2B", "NCOA1", "PIAS1", "PIAS2", "RUNX1", "RUNX2", "SP1", "TCF4", "TGIF1", "AXIN1", "AXIN2", "CDK6", "DVL1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_99E683A77EE273CBDAF5755E35D2668D",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TGF_beta_Receptor; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_99E683A77EE273CBDAF5755E35D2668D",
+        "EM1_gs_size_dataset1" : 220,
+        "SUID" : 81425,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_99E683A77EE273CBDAF5755E35D2668D",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -2.1221856011284785,
+        "y" : 266.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81424",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n6284C9242EF6746036B180F50003BAB5",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "ARHGEF2", "ARHGAP35", "ARHGEF7", "ATP1A1", "CALM1", "CALM2", "CHUK", "CALM3", "CASKIN2", "CBLB", "CREB1", "CREBBP", "CDC42", "DDX3X", "DOK1", "CEBPB", "CLTC", "CRK", "CRKL", "GRB2", "DOK2", "HSP90AB1", "DYRK1A", "DYRK1B", "IKBKB", "ITCH", "JUN", "MAP2K1", "MAP3K1", "MAP3K14", "ERBIN", "FLNB", "MAP3K8", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "GIT2", "HGS", "NFKB1", "NFKBIA", "NFKBIB", "PAK1", "ITSN2", "KIRREL", "PIK3R1", "PIK3R2", "LCK", "LDHA", "PRKCD", "PRKCQ", "MAP4K1", "MPZL1", "PTK2", "PTPN11", "NEDD9", "REL", "RELA", "PARD3", "PGAM1", "PIK3C2B", "RPS6KA5", "RPS6KB1", "PKM", "PKP4", "PLCG1", "PLCG2", "SOS1", "SOS2", "SRC", "STAT1", "STAT5A", "SYK", "PRKD1", "PRPF4B", "PTK2B", "PTPN12", "PTPRA", "PTTG1IP", "TRAF6", "RAP1A", "RASA1", "YWHAQ", "YWHAZ", "SDCBP", "CBL", "CD3E", "SH2D2A", "CISH", "SH2D3C", "DNM2", "SHB", "FOS", "FYN", "GAB2", "GSK3B", "KHDRBS1", "LYN", "MAP2K2", "MAPK7", "NCK1", "STAM2", "TFRC", "PTPN6", "PXN", "RAF1", "SHC1", "UBASH3B", "STAT5B", "TEC", "VASP", "VAV3", "VAV1", "VAV2", "ZAP70", "STAT4", "ABL1", "ACBD6", "ACLY", "ACTA1", "ACTR10", "ADA", "AHCY", "ANXA11", "ARHGDIB", "ARHGEF6", "ATP1A3", "BCL10", "BDH1", "BMF", "C9ORF78", "CABIN1", "CARD11", "CCT8", "CD2", "CD247", "CD28", "CD2AP", "CD3D", "CD3G", "CD4", "ATF2", "CD5", "CD7", "CD80", "CD82", "CD84", "CD86", "CD8A", "CGN", "CTLA4", "CYFIP1", "CDK1", "DBNL", "DDX49", "DEF6", "DGKA", "DIAPH1", "CTNNB1", "DLG1", "DNAJB1", "DOCK2", "DPYSL2", "DTX1", "DUSP3", "EGR1", "EIF3M", "ELMO1", "ELP3", "ENAH", "ENO2", "EPHA3", "EPRS", "EVL", "FCRL3", "FER", "FYB", "G6PD", "GDI2", "GOLGA5", "GRAP", "HDAC7", "GRAP2", "HNRNPH3", "HOMER3", "ICOS", "ICOSLG", "INPP5D", "ITK", "ITPR1", "JAK3", "LAT", "LAX1", "LCP2", "LPXN", "LDHB", "LIME1", "LNPEP", "LY9", "MALT1", "MAPK11", "MSL2", "MTMR10", "MUC1", "NCL", "NFAM1", "NFATC1", "NFATC2", "NR4A1", "OGN", "PAG1", "PECAM1", "PGM1", "PHLDB3", "PI4KA", "PIK3AP1", "PPP3CB", "PRKD2", "PSTPIP1", "PTPN22", "PTPN3", "PTPRC", "PTPRH", "R3HCC1L", "RAPGEF1", "RASGRP1", "RASGRP2", "RIPK2", "SH2B3", "SH3BP2", "SIT1", "SKAP1", "RAN", "SKAP2", "SLA", "SLA2", "SLAMF6", "SNRNP70", "STK39", "STK4", "TRAT1", "TRIM25", "TSG101", "TUBA1A", "TUBA4A", "TUBB", "TXK", "TXNRD1", "UNC119", "WAS", "WASF2", "WDR1", "WIPF1", "ZDHHC17", "ZNF404", "ABI1", "ACP1", "ADAM9", "ANXA2" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_6284C9242EF6746036B180F50003BAB5",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TCR; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_6284C9242EF6746036B180F50003BAB5",
+        "EM1_gs_size_dataset1" : 261,
+        "SUID" : 81424,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_6284C9242EF6746036B180F50003BAB5",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -202.12218560112848,
+        "y" : 266.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81423",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nF4BC9E7D28422CA47315389631F940CA",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "NFKB2", "AKT1", "NFKBIA", "AKT2", "SQSTM1", "ETV5", "FHL2", "CBL", "PIK3R1", "RPS6KB2", "PIK3R2", "BAD", "ATP6V1E1", "CAPN1", "EIF4EBP1", "FCAR", "FCGR3A", "FCGR3B", "OSCAR", "PILRA", "PSMD14", "FYN", "SIRPB1", "CHUK", "GAB2", "SPI1", "MITF", "TNFRSF11B", "TNFSF11", "TREM2", "TYROBP", "CBLB", "CREB1", "JAK1", "LYN", "NFATC1", "CEBPB", "EGFR", "PTK2", "REL", "RELA", "PTPN6", "RELB", "CYLD", "HSP90AA1", "RPS6KB1", "HSPA5", "VAV3", "HSPA8", "RUNX1", "IKBKB", "SMARCA4", "IKBKG", "PLCG1", "PLCG2", "ABL1", "JUN", "SRC", "STAT1", "PRKAA1", "SYK", "TAB1", "TAB2", "MAP2K1", "MAP2K6", "PRKAA2", "MAP2K7", "TNFRSF11A", "MAP3K7", "MAP3K8", "FOXO4", "MAPK1", "TRAF1", "MAPK14", "TRAF2", "ATF2", "MAPK3", "TRAF3", "MAPK8", "MAPK9", "TRAF5", "TRAF6", "MTOR" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F4BC9E7D28422CA47315389631F940CA",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: RANKL; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F4BC9E7D28422CA47315389631F940CA",
+        "EM1_gs_size_dataset1" : 84,
+        "SUID" : 81423,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F4BC9E7D28422CA47315389631F940CA",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 249.13956366644965,
+        "y" : -132.36179832175924
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81422",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nE65E93EF6712F286E5DAF85045F66F50",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "ETS2", "OLIG1", "ELK3", "ID1", "HES1", "ID2", "ID3", "FHL2", "ID4", "PAX2", "IFI16", "MYF5", "MYF6", "RBL1", "MYOD1", "RBL2", "MYOG", "SMAD3", "OLIG2", "PAX5", "PAX8", "ATF3", "PSMD4", "SREBF1", "TCF12", "ELK4", "ELK1", "SMURF2", "TCF4", "TCF3", "TCF7L2", "MAP2K1", "MAP2K2", "CDK2", "MAPK1", "MAPK3", "RB1", "RAF1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E65E93EF6712F286E5DAF85045F66F50",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: ID; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E65E93EF6712F286E5DAF85045F66F50",
+        "EM1_gs_size_dataset1" : 38,
+        "SUID" : 81422,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_E65E93EF6712F286E5DAF85045F66F50",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 397.8778143988715,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81421",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nD0CC6886D8306300FDC897F824214B28",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "SHC1", "STAT3", "STAT5B", "IL7R", "PIK3R1", "BAD", "IRS1", "IRS2", "STAT1", "STAT5A", "FOXO3", "IL2RG", "FYN", "JAK3", "GSK3B", "MAP2K1", "PTK2B", "CBLB", "JAK1", "MAP2K2", "STAM", "MAPK1", "MAPK3", "CLTC", "GSK3A", "IL7", "FOXO1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL-7; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_gs_size_dataset1" : 28,
+        "SUID" : 81421,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -104.7892083062066,
+        "y" : -1.6244020815248632
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81420",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n37A25F57F611F7AA7D256C20256A47AE",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "UBE2I", "BRINP1", "CCND1", "CASP3", "CASP7", "CASP8", "CAV1", "CDC37", "CDK5", "ESR1", "CDK9", "GSK3B", "CREB1", "CREBBP", "EGFR", "EP300", "FLNA", "PXN", "FOXO1", "HDAC1", "STAT3", "HSP90AA1", "HSPA5", "HSPA8", "HSPB1", "APPL1", "JUN", "MDM2", "AES", "AHR", "AR", "ARNT", "ATF2", "BAG1", "BRCA1", "CALR", "CASP1", "CCND3", "CCNE1", "CCNH", "CDC25A", "CDC25B", "CDK1", "CDK11B", "CDK7", "CEBPA", "COX5B", "CTNNB1", "DAPK3", "DAXX", "DBT", "DDC", "DDX5", "EFCAB6", "ERCC2", "ERCC3", "NR2C2", "ETV5", "FHL2", "FKBP4", "FOXA1", "GAPDH", "GSN", "GTF2F1", "GTF2F2", "GTF2H1", "GTF2H2", "PIAS3", "GTF2H3", "PIK3R1", "GTF2H4", "PIK3R2", "HDAC7", "HIPK3", "HSP90B1", "HSPA4", "IL6ST", "KAT2B", "KAT5", "KAT7", "KDM1A", "KDM3A", "KDM4C", "LAMTOR5", "LPXN", "MAGEA11", "MNAT1", "NCOA1", "NCOA2", "NCOA3", "NCOA4", "NCOA6", "NCOR1", "NCOR2", "NELFCD", "NONO", "NR0B2", "NR2C1", "NR3C1", "NRIP1", "NSD1", "PA2G4", "PTK2", "PAK6", "PARK7", "PARP1", "RACK1", "PATZ1", "PELP1", "PIAS1", "RB1", "PIAS2", "PIAS4", "PLAGL1", "PNRC1", "POU2F1", "PPP1CA", "PPP1R14A", "PRDX1", "PRMT1", "PRMT2", "PSMC3IP", "PTEN", "RAC3", "RAD54L2", "RAN", "RANBP9", "RBAK", "RCHY1", "RNF14", "RNF4", "RNF6", "RUNX1", "RUNX2", "SMAD3", "SENP1", "SF1", "SIN3A", "SMARCC1", "SIRT1", "SLC25A4", "SMARCE1", "SNURF", "SP1", "SPDEF", "SRY", "SRC", "STUB1", "SVIL", "TCF4", "TGFB1I1", "TGIF1", "TMF1", "TOP1", "TRIM68", "UBE3A", "UXT", "VIP", "WHSC1", "XRCC5", "XRCC6", "ZMIZ1", "ZMIZ2" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_37A25F57F611F7AA7D256C20256A47AE",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: AndrogenReceptor; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_37A25F57F611F7AA7D256C20256A47AE",
+        "EM1_gs_size_dataset1" : 164,
+        "SUID" : 81420,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_37A25F57F611F7AA7D256C20256A47AE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 197.87781439887152,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81419",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n8247FDA91565E226D650381FDCF47E72",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "CTNNB1", "AKT1", "BOC", "YWHAE", "CCNB1", "CDK8", "CDON", "DHH", "GAS1", "DYRK1A", "GLI1", "GLI2", "GLI3", "HHAT", "HHIP", "IHH", "SIN3A", "KIF27", "KIF7", "MED1", "MED12", "MED23", "MED6", "NR2E1", "ARRB2", "PTCH1", "PTCH2", "RAB23", "SAP18", "SMAD1", "SDC2", "GRK2", "SHH", "SKI", "SMO", "STK36", "SUFU", "PRKACA", "CREBBP" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8247FDA91565E226D650381FDCF47E72",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Hedgehog; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8247FDA91565E226D650381FDCF47E72",
+        "EM1_gs_size_dataset1" : 39,
+        "SUID" : 81419,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8247FDA91565E226D650381FDCF47E72",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 297.8778143988715,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81418",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "IL9R", "VCP", "AKT1", "MAP2K1", "SHC1", "GRB2", "JAK1", "STAT3", "MAP2K2", "STAT5B", "TYK2", "MAPK1", "MAPK3", "PIK3R1", "PTPN11", "STAT6", "IRS1", "IRS2", "STAT1", "KAT5", "STAT5A", "IL2RG", "IL9", "JAK3" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL9; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_gs_size_dataset1" : 24,
+        "SUID" : 81418,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -151.63573540581598,
+        "y" : -56.20380881980611
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81417",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nB459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "HNRNPA1", "NFKB1", "AKT1", "NFKBIA", "DAXX", "HRAS", "INPPL1", "NLK", "CBL", "BTK", "PIAS3", "PIK3R1", "PIK3R2", "BAD", "FES", "EIF4EBP1", "FGR", "IL6ST", "CDK5", "HCK", "INPP5D", "CDK9", "FOS", "FOXO3", "FYN", "GAB2", "GSK3B", "PRKCD", "NCOA1", "JAK1", "MAP3K4", "CREBBP", "JAK2", "LYN", "MAP2K2", "CEBPB", "EP300", "PTK2", "ERBB2", "PTPN11", "ERBB3", "BMX", "EIF4E", "CD40", "EIF2A", "HNF1A", "RB1", "IL6", "IL6R", "PXN", "FOXO1", "GAB1", "MAPT", "RPS6KA2", "SHC1", "GRB2", "SIRPA", "HDAC1", "SOCS3", "STAT3", "HSP90AA1", "RPS6KB1", "STAT5B", "TEC", "TYK2", "HSPB1", "VAV1", "PLCG1", "SOS1", "JUN", "STAT1", "STAT5A", "MAP2K1", "MAP2K4", "PTK2B", "MAP2K6", "SGK1", "MAP3K7", "AR", "FOXO4", "MAPK1", "MAPK14", "MAPK3", "RAC1", "MAPK8" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL6; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_gs_size_dataset1" : 85,
+        "SUID" : 81417,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -103.94335259331598,
+        "y" : -123.47126487449361
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81416",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "ETS1", "NFKB1", "ETS2", "AKT1", "IL15", "IL2", "IL2RA", "IL2RB", "ITM2B", "MKNK1", "NMI", "PLCB1", "TERT", "VIL1", "YBX1", "CBL", "PIK3R1", "PIK3R2", "BAD", "CISH", "EIF4EBP1", "ELK1", "BCL2", "SHB", "FOXO3", "LCK", "FYN", "JAK3", "GAB2", "CREB1", "JAK1", "JAK2", "PRKCZ", "LYN", "MAP2K2", "CDK2", "STAM", "STAM2", "NR3C1", "PIK3CA", "PIK3CB", "PIK3CG", "PTPN11", "EIF4E", "CRK", "CRKL", "RELA", "PTPN6", "RAF1", "RPS6", "SHC1", "GRB2", "SOCS1", "SOCS3", "PIK3CD", "STAT3", "HSP90AA1", "PIK3R3", "RPS6KB1", "STAT5B", "VAV1", "STAT4", "IRS1", "IRS2", "SOS1", "JUN", "STAT1", "STAT5A", "IL2RG", "SYK", "MAP2K1", "PTK2B", "SGK1", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "CCNE1", "MTOR", "EIF3B" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL2; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_gs_size_dataset1" : 81,
+        "SUID" : 81416,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -74.33321465386285,
+        "y" : -70.45542625144674
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81415",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nAA08251CE1428F76F6F6701AB18144CF",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "RPS6KA1", "CBL", "BTK", "CSF2RB", "DOK3", "BAD", "EPOR", "EZR", "FES", "EIF4EBP1", "FGR", "ELK1", "G3BP1", "SH3KBP1", "GYS1", "HCK", "KITLG", "FOXO3", "MAD2L1", "FYN", "MAPK12", "GAB2", "MATK", "GSK3B", "MITF", "MPDZ", "MSN", "PTPRU", "CBLB", "RAB7A", "RDX", "JAK2", "SH2B2", "SOCS4", "LYN", "SOCS5", "MAP2K2", "SOCS6", "SPRED1", "SPRED2", "STAP1", "CDK2", "TNFRSF10A", "DOK1", "YES1", "PIK3CA", "EP300", "CLTC", "CRK", "CRKL", "PRKCB", "PTPN6", "RAF1", "RPS6", "SHC1", "GRB2", "SOCS1", "DOK2", "STAT3", "STAT5B", "TEC", "VAV1", "IL7R", "ABL1", "JUN", "MAP2K1", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "GRB10", "GRB7", "GSK3A", "MTOR", "HRAS", "PAK1", "FER", "FYB", "KIT", "PIK3R1", "PIK3R2", "GRAP", "INPP5D", "JAK3", "LAT", "PRKCA", "NFATC2", "PTPN11", "RELA", "SH2B3", "SKAP2", "RPS6KB1", "PLCG1", "PLCG2", "SOS1", "WAS", "SRC", "STAT1", "WIPF1", "STAT5A", "ACTR2", "RASA1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: KitReceptor; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "EM1_gs_size_dataset1" : 104,
+        "SUID" : 81415,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -157.2459954155816,
+        "y" : -134.26636985496236
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81414",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "NFKB2", "AKT1", "NFKBIA", "JAK1", "JAK2", "STAT3", "STAT5B", "MAPK1", "MAPK14", "CRLF2", "MAPK3", "IL7R", "MAPK8", "STAT4", "MAPK9", "STAT6", "TSLP", "EIF4EBP1", "STAT1", "RELA", "STAT5A", "RELB", "RPS6" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TSLP; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_gs_size_dataset1" : 24,
+        "SUID" : 81414,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -90.3451165093316,
+        "y" : 47.57963844581889
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81413",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "CTNNB1", "NFKB2", "AKT1", "NFKBIA", "AKT2", "NFKBIB", "HDAC1", "BIRC2", "IKBKB", "BAD", "CASP8", "CD163", "TNFRSF12A", "TNFRSF25", "TNFSF12", "CHUK", "GSK3B", "TNF", "MAP3K7", "MAPK1", "TRAF1", "MAPK14", "TRAF2", "MAPK3", "RAC1", "TRAF3", "MAPK8", "MAPK9", "TRAF5", "FADD", "PARP1", "RELA", "RELB", "RIPK1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TWEAK; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "EM1_gs_size_dataset1" : 35,
+        "SUID" : 81413,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 174.05310736762152,
+        "y" : -209.77686790183736
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81412",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n734B38657EAD53B0299E9671BE672445",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "GCKR", "GPC3", "RHOA", "AKT1", "ILK", "KL", "KREMEN1", "LEF1", "LRP1", "LRP5", "YWHAB", "LRP6", "MESDC2", "NLK", "PAX2", "ARHGEF4", "PI4K2A", "PIN1", "PIP5K1B", "PPARG", "PPP1R1B", "BTRC", "PRKCH", "ROR1", "CCND1", "ROR2", "RPS6KB2", "RSPO1", "RSPO2", "RSPO3", "RYK", "SETDB1", "SFRP1", "SFRP2", "SFRP4", "SLC9A3R1", "SMAD1", "SOX1", "TCF3", "GSK3B", "TCF7L2", "WIF1", "WNT1", "WNT11", "WNT2", "WNT3", "WNT3A", "WNT4", "WNT5A", "WNT5B", "CDH1", "WNT6", "CDH2", "WNT7A", "WNT7B", "WNT9A", "WNT9B", "YES1", "PPP2CA", "PRKCB", "CTBP1", "RAF1", "DAB2", "JUN", "ARRB1", "ARRB2", "MAP2K4", "PRKACA", "MAP3K1", "MAP3K7", "MAPK1", "MAPK3", "MAPK8", "MARK2", "GSK3A", "CTNNB1", "JUP", "PRKCA", "PRKCD", "PRKCE", "MAP3K4", "PRKCQ", "NFATC2", "PPP1CA", "SRC", "TCF4", "PRKCG", "APC", "AXIN1", "AXIN2", "BCL9", "CDK6", "CHD7", "CHRNA7", "CSNK1A1", "CSNK1D", "CSNK1E", "CTBP2", "DAAM1", "DIXDC1", "DKK1", "DVL1", "DVL2", "DVL3", "RAC1", "FRAT1", "FRAT2", "FRZB", "FZD1", "FZD10", "FZD2", "FZD3", "FZD4", "FZD5", "FZD6", "FZD7", "FZD8", "FZD9" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_734B38657EAD53B0299E9671BE672445",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Wnt; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_734B38657EAD53B0299E9671BE672445",
+        "EM1_gs_size_dataset1" : 118,
+        "SUID" : 81412,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_734B38657EAD53B0299E9671BE672445",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -2.1221856011284785,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81411",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nD5BCB03009435C2E32E5FAA85CB0909D",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "AKT1", "APP", "DTX1", "LEF1", "PIK3R1", "PIK3R2", "KAT2B", "LCK", "SMAD1", "TCF3", "GSK3B", "JAK2", "CUL1", "NCOR1", "NCOR2", "EP300", "FBXW7", "RELA", "MEF2C", "ADAM10", "APH1A", "APH1B", "ASCL1", "BLOC1S1", "CIR1", "CNTN1", "DLL1", "DLL3", "DLL4", "HDAC1", "FHL1", "HDAC2", "FURIN", "HES1", "HES5", "STAT3", "HES6", "HEY2", "JAG1", "JAG2", "SKP1", "LFNG", "MAGEA1", "RBX1", "SMAD3", "MAML1", "MAML2", "MAML3", "SIN3A", "MFNG", "NCSTN", "NOTCH1", "NOTCH2", "ITCH", "NOTCH3", "NOTCH4", "NOV", "SRC", "NUMB", "NUMBL", "POFUT1", "SNW1", "PSEN1", "PSEN2", "PSENEN", "RBPJ", "RING1", "SAP30", "SKP2", "SPEN", "WDR12", "YY1", "MAPK1", "MAPK3", "ADAM17" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D5BCB03009435C2E32E5FAA85CB0909D",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Notch; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D5BCB03009435C2E32E5FAA85CB0909D",
+        "EM1_gs_size_dataset1" : 76,
+        "SUID" : 81411,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D5BCB03009435C2E32E5FAA85CB0909D",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 97.87781439887152,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81410",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n035C8DB08948E45EAD85F4B45AA655A9",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "ACTL6A", "AKAP8", "AKT1", "AKT2", "ALPL", "APAF1", "ARHGEF1", "ARHGEF2", "BAG4", "BAX", "BCL2L1", "BCL3", "BCL7A", "BID", "BIRC2", "BIRC3", "BRINP1", "BTRC", "CASP10", "CASP2", "CASP3", "CASP7", "CASP8", "CASP9", "CAV1", "CCNT1", "CDC34", "CDC37", "CDK5", "CDK9", "CFL1", "CFLAR", "CHUK", "COMMD1", "COPB2", "COPS3", "COPS5", "CRADD", "CREB1", "CREBBP", "CRYAB", "CSNK2A1", "CUL1", "CYBA", "DCAF7", "DDX3X", "DIABLO", "DOK1", "DPF2", "EED", "EGFR", "EP300", "ERBB2", "ERBB3", "FADD", "FAF1", "FANCD2", "FBL", "FBXW11", "FBXW7", "FKBP5", "FLNA", "FOXO1", "G3BP2", "GAB1", "GLB1", "GLG1", "GLUL", "GRB2", "GTF2I", "HDAC1", "HDAC2", "HDAC6", "HIST3H3", "HMGB1", "HSP90AA1", "HSP90AB1", "HSPA5", "HSPA8", "HSPB1", "IKBKAP", "IKBKB", "IKBKE", "IKBKG", "IQGAP2", "IRAK1BP1", "IRS1", "IRS2", "ITCH", "JUN", "JUNB", "KCNQ1", "KPNA2", "KPNA3", "KPNA6", "KTN1", "LRPPRC", "MADD", "MAP2K1", "MAP2K4", "MAP2K5", "MAP2K6", "MAP2K7", "MAP3K1", "MAP3K11", "MAP3K14", "MAP3K2", "MAP3K3", "MAP3K5", "MAP3K7", "MAP3K8", "MAP4K2", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "MAPKAPK2", "MARK2", "MCC", "MCM5", "MCM7", "MTIF2", "MTOR", "MYL2", "MYL9", "MYLK", "NCF1", "NFKB1", "NFKB2", "NFKBIA", "NFKBIB", "NFKBIE", "NFKBIZ", "NKIRAS1", "NKIRAS2", "NLRP4", "NR2C2", "NSMAF", "NUPR1", "OTUD7B", "PAK1", "PAPOLA", "PDCD2", "PDK1", "PEG3", "PFDN2", "PIAS3", "PIK3R1", "PIK3R2", "PKN1", "PML", "POLR1A", "POLR1B", "POLR1C", "POLR1D", "POLR1E", "POLR2H", "POLR2L", "PPP1R12A", "PPP1R13L", "PPP6C", "PRC1", "PRKCA", "PRKCD", "PRKCE", "PRKCQ", "PRKCZ", "PSMB5", "PSMC1", "PSMC2", "PSMC3", "PSMD1", "PSMD12", "PSMD13", "PSMD2", "PSMD3", "PSMD6", "PSMD7", "PTK2", "PTPN11", "PYGL", "RACK1", "RASA3", "RASAL2", "RB1", "REL", "RELA", "RELB", "RFFL", "RFK", "RIPK1", "RIPK3", "RNF11", "RNF25", "ROMO1", "RPL30", "RPL4", "RPL6", "RPL8", "RPS11", "RPS13", "RPS6KA5", "RPS6KB1", "RXRA", "SEC16A", "SKP1", "SMAD2", "SMAD3", "SMARCA4", "SMARCB1", "SMARCC1", "SMARCC2", "SMARCE1", "SMPD3", "SOS1", "SOS2", "SPAG9", "SRC", "STAT1", "STAT5A", "SUMO1", "SYK", "TAB1", "TAB2", "TAB3", "TANK", "TAX1BP1", "TBK1", "TBKBP1", "TIFA", "TNF", "TNFAIP3", "TNFRSF11A", "TNFRSF1A", "TNFRSF1B", "TNFRSF8", "TNIP2", "TP53", "TRADD", "TRAF1", "TRAF2", "TRAF3", "TRAF4", "TRAF5", "TRAF6", "TRAF7", "TRAIP", "TRAP1", "TRAPPC9", "TRIB3", "TRIM32", "TRPC4AP", "TXLNA", "TXN", "TXNIP", "UBE2D2", "UBE2D3", "UBE2I", "UNC5CL", "USP11", "USP2", "XIAP", "YWHAB", "YWHAE", "YWHAG", "YWHAH", "YWHAQ", "YWHAZ", "ZBTB17", "ZFAND5" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_035C8DB08948E45EAD85F4B45AA655A9",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TNFalpha; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_035C8DB08948E45EAD85F4B45AA655A9",
+        "EM1_gs_size_dataset1" : 271,
+        "SUID" : 81410,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_035C8DB08948E45EAD85F4B45AA655A9",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 104.07341681586371,
+        "y" : -292.81019309714986
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81409",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "YWHAG", "YWHAZ", "AGAP2", "BRAF", "BTRC", "CAMLG", "CBL", "CCND1", "CD3E", "CENPJ", "CISH", "CTSD", "DNM2", "EIF4EBP1", "ELK1", "ERBB4", "ESR1", "FOS", "FOXO3", "FYN", "GAB2", "GSK3B", "HLTF", "HMGN2", "IGBP1", "ITGB1", "JAK1", "CREBBP", "JAK2", "KHDRBS1", "LYN", "MAP2K2", "MAPK4", "MAPK7", "MYB", "MYC", "NCK1", "NEK3", "PIK3CA", "EGFR", "PIK3CB", "EP300", "PIK3CG", "ERBB2", "PLAU", "PPIA", "PPIB", "PPP2CA", "PRKCB", "PRL", "FBXW11", "PRLR", "PTPN1", "PTPN6", "FLNA", "PXN", "RAF1", "RPS6", "RPS6KA2", "SERPINE1", "SH2B1", "SHC1", "GRB2", "SIRPA", "SLC12A2", "SOCS1", "SOCS2", "SOCS3", "SOCS7", "STAT3", "STAT5B", "TEC", "THRB", "TYK2", "VAV1", "VAV2", "ZAP70", "IRS1", "IRS2", "JUN", "MAP2K1", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "MTOR", "NFKB1", "NFKBIA", "NFKBIB", "PAK1", "PIAS3", "PIK3R1", "PIK3R2", "PRKCD", "PTK2", "PTPN11", "RB1", "RELA", "SOS1", "SRC", "STAT1", "STAT5A" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Prolactin; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "EM1_gs_size_dataset1" : 104,
+        "SUID" : 81409,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -11.788933648003479,
+        "y" : -54.63532737449361
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81408",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nF62C135D6EEBCB1D8AC5798D9DB4B333",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "RPS6KA1", "BAX", "PIP5K1B", "BRAF", "CBL", "BTK", "CASP3", "CASP7", "DOK3", "CASP9", "DNM2", "BCAR1", "EIF4EBP1", "ELK1", "BCL2", "HCK", "FOS", "FOXO3", "FYN", "CHUK", "GAB2", "GSK3B", "CBLB", "CREB1", "SH2B2", "LYN", "MAP2K2", "MAPK4", "STAP1", "CDK2", "DOK1", "NCK1", "HCLS1", "PIK3CG", "CRK", "CRKL", "PRKCB", "CSK", "PTPN6", "FOXO1", "RAF1", "RPS6", "GAB1", "DAPP1", "SHC1", "GRB2", "GTF2I", "STAT3", "TEC", "VASP", "VAV1", "VAV2", "IKBKB", "ZAP70", "IKBKG", "JUN", "JUNB", "MAP2K1", "BCL10", "BCL2L11", "CARD11", "CDK4", "MAP3K7", "MAPK1", "MAPK14", "ATF2", "CD5", "MAPK3", "MAPK8", "MAPK9", "MAPKAPK2", "CCND3", "CCNE1", "GSK3A", "DBNL", "CDK7", "NFKB1", "CTNNB1", "NFKBIA", "PIK3R1", "PIK3R2", "HDAC7", "INPP5D", "ITK", "ITPR1", "LCK", "LCP2", "LIME1", "PRKCD", "ATP2B4", "PRKCE", "BANK1", "PRKCQ", "BCL6", "MALT1", "MAP4K1", "BLK", "BLNK", "BTLA", "CCL3", "CCL4", "CCNA2", "CCND2", "FOSB", "CD19", "NFATC2", "CD22", "CD72", "CD79A", "CD79B", "PTK2", "CD81", "PTPN11", "CHST15", "CMTM3", "CR2", "PIK3AP1", "CYCS", "FCGR2B", "NEDD9", "RB1", "HDAC5", "REL", "HNRNPK", "RELA", "IFITM1", "IGHM", "PTPRC", "ITPR2", "LAT2", "NFATC3", "RAPGEF1", "PDPK1", "PIP4K2A", "PIP4K2B", "PIP4K2C", "PIP5K1A", "PIP5K1C", "SH3BP2", "PLEKHA1", "PLEKHA2", "RAP2A", "RASGRP3", "PIK3CD", "RRAS2", "SLA2", "RPS6KB1", "TCL1A", "PLCG1", "PLCG2", "SOS1", "SOS2", "WAS", "STAT1", "SYK", "PRKD1", "PTK2B", "CDK6", "PTPN18", "RASA1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: BCR; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "EM1_gs_size_dataset1" : 161,
+        "SUID" : 81408,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -20.073815239800354,
+        "y" : -292.81019309714986
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81407",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nAAEF94F723928E575A0D1E6007B3682D",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "CTNNB1", "AKT1", "NFKBIA", "HRAS", "IL2RB", "RPS6KA1", "BAX", "YWHAZ", "SDCBP", "CBL", "BTK", "CSF2RB", "PIK3R1", "PIK3R2", "DNM2", "ELK1", "HCK", "FOXO3", "GSK3B", "PRKCD", "JAK1", "JAK2", "SH2B2", "LYN", "MAP2K2", "ALOX5", "HCLS1", "IL5", "IL5RA", "PIK3CG", "PLA2G4A", "PTPN11", "SHC2", "SOX4", "RACK1", "CRKL", "PRKCB", "PTPN6", "RAF1", "RAPGEF1", "SHC1", "GRB2", "SOCS1", "STAT3", "STAT5B", "VAV1", "SOS1", "UNC119", "JUN", "STAT1", "STAT5A", "SYK", "PTK2B", "MAPK1", "MAPK14", "ATF2", "MAPK3", "GSK3A" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL5; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D",
+        "EM1_gs_size_dataset1" : 59,
+        "SUID" : 81407,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -32.63689507378473,
+        "y" : -176.75266746238424
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81406",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n81636B1BEED0789B84B97EDFB00B8EAE",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "RPS6KA1", "ATF1", "BAD", "CISH", "EIF4EBP1", "ELK1", "CDK5", "ESR1", "FYN", "CHUK", "GSK3B", "CREB1", "JAK1", "JAK2", "KHDRBS1", "CSNK2A1", "MAP2K2", "ACACA", "ACACB", "EGFR", "CD44", "EP300", "CFL2", "ERBB2", "CRP", "EIF4E", "GAP43", "GNAQ", "HSPB2", "IGF1R", "IRS4", "ITGB5", "LEP", "FOXO1", "LEPR", "RAF1", "LIMK1", "RPS6", "MAPT", "RPS6KA2", "MMP14", "PDE3A", "SH2B1", "PDIA3", "SHC1", "GRB2", "PRKAB1", "PRKAB2", "SLC2A4", "SOCS2", "SP3", "SOCS3", "SOCS7", "STAT3", "STAT5B", "HSPB1", "IKBKB", "IKBKG", "IRS1", "IRS2", "MAP2K1", "MAP2K6", "PRKAA2", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "MAPKAPK2", "GSK3A", "MTOR", "NFKB1", "NFKBIA", "PIK3R1", "PIK3R2", "LCK", "JAK3", "PRKCD", "MAP2K3", "NCOA1", "PRKCE", "PRKCZ", "PTK2", "PTPN11", "NOS3", "REL", "RELA", "PTEN", "RPS6KB1", "RUNX2", "PLCG1", "PLCG2", "SP1", "SRC", "STAT1", "STAT5A", "PRKAA1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Leptin; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE",
+        "EM1_gs_size_dataset1" : 98,
+        "SUID" : 81406,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -192.36480034722223,
+        "y" : 66.27482887550639
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81405",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nD8A45ECD5D616E5904A5C4C8F82900EE",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "NFKB1", "AKT1", "HRAS", "YWHAB", "BAX", "BCL2L1", "YWHAQ", "YWHAZ", "PAK1", "ATF1", "CBL", "CSF2RB", "PIK3R1", "PIK3R2", "BAD", "CISH", "FES", "BCL2", "HCK", "INPP5D", "FOXO3", "LCK", "FYN", "GAB2", "GSK3B", "PRKCA", "CREB1", "JAK1", "JAK2", "LYN", "DOK1", "PTK2", "PTPN11", "RACK1", "CRK", "PPP2CA", "CRKL", "PRKCB", "RB1", "PTPN6", "PTPRC", "PXN", "FOXO1", "RAF1", "GAB1", "RAPGEF1", "SHC1", "GRB2", "DNM1", "SOCS2", "SOCS3", "DOK2", "PIK3CD", "STAT3", "STAT5B", "RXRA", "TEC", "TYK2", "VCL", "HSPB1", "VAV1", "SOS1", "SRC", "STAT5A", "SYK", "MAP2K1", "PRKACA", "BCL2L11", "FCER1G", "RARA", "GATA1", "GATA2", "IL3", "IL3RA", "PILRB", "PPP3CA", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "KCNIP3", "GSK3A", "SLC2A1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL3; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE",
+        "EM1_gs_size_dataset1" : 84,
+        "SUID" : 81405,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -117.97795952690973,
+        "y" : -240.33143333152486
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81404",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n26DB2832E9DA3AA59EC3ECC3CF47B0DE",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "AKT2", "HIST3H3", "YWHAQ", "HSPB1", "ABL1", "APPL1", "ARR3", "EIF4EBP1", "ARRB1", "SRC", "ARRB2", "CGA", "FSHB", "FOXO3", "FSHR", "FYN", "GJA1", "GRK2", "GRK4", "GRK6", "MAP2K1", "MDM2", "PLCD1", "PRKAA2", "CREB1", "PRKACA", "PRKAR1A", "PTPRR", "RARA", "MAP2K2", "RPS6KA3", "SGK1", "TGM2", "TSC2", "MAPK1", "MAPK14", "EGFR", "MAPK3", "MTOR", "RELA", "FOXO1", "RAF1", "RPS6" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_26DB2832E9DA3AA59EC3ECC3CF47B0DE",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: FSH; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_26DB2832E9DA3AA59EC3ECC3CF47B0DE",
+        "EM1_gs_size_dataset1" : 44,
+        "SUID" : 81404,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_26DB2832E9DA3AA59EC3ECC3CF47B0DE",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -102.12218560112848,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81403",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n3A6D369C50D4882DC6B61149D4D84C3A",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "AKT1", "CASP9", "CAV1", "CDK5", "CFL1", "CREB1", "DDX3X", "DOK1", "EGFR", "ERBB2", "ERBB3", "FOXO1", "GAB1", "GRB2", "HDAC1", "HIST3H3", "IRS2", "ITCH", "JUN", "MAP2K1", "MAP2K5", "MAP2K7", "MAP3K1", "MAP3K14", "MAP3K2", "MAP3K3", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "MTOR", "NFKB1", "PAK1", "PIAS3", "PIK3R1", "PIK3R2", "PPP1R12A", "PRKCA", "PRKCD", "PRKCZ", "PTK2", "PTPN11", "RELA", "RIPK1", "RPL30", "RPS6KA5", "RPS6KB1", "SMAD2", "SMAD3", "SOS1", "SOS2", "SRC", "STAT1", "STAT5A", "TP53", "YWHAB", "YWHAZ", "BRAF", "CBL", "EIF4EBP1", "ELK1", "FOS", "FYN", "GAB2", "GSK3B", "ITGB1", "JAK1", "JAK2", "KHDRBS1", "LYN", "MAP2K2", "MAPK7", "MYC", "NCK1", "PIK3CA", "PIK3CB", "PIK3CG", "PRKCB", "PTPN1", "PTPN6", "PXN", "RAF1", "RPS6KA2", "SH2B1", "SHC1", "SIRPA", "SOCS1", "SOCS3", "STAT3", "STAT5B", "TYK2", "VAV1", "VAV2", "ABL1", "APPL1", "GJA1", "GRK2", "PRKAA2", "PRKAR1A", "PTPRR", "RPS6KA3", "CDK1", "CEBPA", "GSN", "HIPK3", "HSPA4", "NCOA3", "PTEN", "SP1", "TGIF1", "ABI1", "ABL2", "ACP1", "ACTA2", "ACTB", "ACTN1", "ACTN4", "ACTR2", "ACTR3", "ADAM17", "ADAM9", "AFAP1L2", "AHCYL1", "AHNAK", "ALB", "ALDOA", "ANKS1A", "ANTXR1", "ANXA1", "ANXA2", "ANXA4", "AP2A1", "AP2B1", "AP2S1", "APLP2", "APP", "APPL2", "ARAF", "ARAP1", "ARF4", "ARHGAP32", "ARHGAP35", "ARHGAP42", "ARHGAP5", "ARHGEF4", "ARHGEF5", "ARHGEF7", "ASAP1", "ASAP3", "ATF1", "ATP1A1", "ATP5C1", "ATXN2", "AXL", "BAD", "BAIAP2", "BAIAP2L1", "BCAR1", "BCAR3", "BCL2", "C11ORF52", "CALCOCO2", "CALD1", "CALM1", "CALM2", "CALM3", "CAMK2A", "CASKIN2", "CAV2", "CBLB", "CBLC", "CC2D1A", "CCDC50", "CD59", "CDC42", "CDH1", "CDH2", "CDH3", "CDK2", "CDKN3", "CDV3", "CEACAM1", "CEBPB", "CLTA", "CLTC", "COL17A1", "CRIM1", "CRK", "CRKL", "CSK", "CSTB", "CTBP1", "CTNNAL1", "CTNND1", "CTTN", "CYLD", "CYSRT1", "DAB2", "DAPP1", "DCBLD2", "DDX6", "DLG3", "DNM1", "DOCK1", "DOCK4", "DOK2", "DSG2", "DSP", "DUSP1", "DYNLL1", "DYRK1A", "DYRK1B", "DYRK3", "DYRK4", "EEF1A1", "EEF1A2", "EFNB2", "EGF", "EIF4G1", "ELF3", "ELK4", "ELMO2", "ENO1", "ENSA", "EPHA1", "EPHA2", "EPHA4", "EPHB1", "EPHB2", "EPHB3", "EPHB4", "EPN1", "EPN2", "EPN3", "EPPK1", "EPS15", "EPS15L1", "EPS8", "ERBIN", "ERRFI1", "ESYT1", "FLNB", "FLOT1", "FLOT2", "FOXO4", "FRK", "FRS2", "FRS3", "GAREM1", "GIT1", "GIT2", "GPRC5A", "GRB10", "GRB14", "GRB7", "GSK3A", "HAT1", "HGS", "HIP1", "HIPK2", "HNRNPA1", "HNRNPDL", "HNRNPR", "HRAS", "HSPE1", "HTT", "HUWE1", "IL17RD", "INPPL1", "INSR", "IQGAP1", "ITGA3", "ITGB4", "ITLN2", "ITSN2", "JUND", "JUP", "KIAA1217", "KIRREL", "KIT", "KLF11", "KRAS", "KRT17", "KRT18", "KRT5", "KRT6A", "KRT7", "KRT8", "KSR1", "LAPTM4A", "LCK", "LDHA", "LDLR", "LIMD1", "LPP", "LSR", "MAGI1", "MAP2K3", "MAP3K4", "MAP4K1", "MAP4K5", "MARVELD2", "MCF2", "MET", "MINK1", "MPRIP", "MPZL1", "MT-CO2", "MTA2", "MVP", "MYH9", "MYL12B", "MYO6", "NCK2", "NDUFA13", "NECTIN1", "NEDD4", "NEDD9", "NOS3", "OTUD6B", "PARD3", "PDCD6IP", "PDGFRB", "PDLIM1", "PDLIM4", "PDPK1", "PDZD11", "PEBP1", "PFN1", "PGAM1", "PHLDB2", "PHLPP1", "PHPT1", "PIK3C2B", "PIK3CD", "PIK3R3", "PITPNA", "PKM", "PKN2", "PKP2", "PKP3", "PKP4", "PLCE1", "PLCG1", "PLCG2", "PLD1", "PLD2", "PLEC", "PLEKHA5", "PLEKHA6", "PLEKHN1", "PLSCR1", "PPP1R14B", "PPP2R3A", "PRKAA1", "PRKCG", "PRKCI", "PRKD1", "PRKX", "PRPF4B", "PTK2B", "PTK6", "PTPN12", "PTPN18", "PTPN23", "PTPN5", "PTPRA", "PTPRE", "PTPRF", "PTPRK", "PTRF", "PTTG1IP", "PYGB", "RAB5A", "RAC1", "RACGAP1", "RALA", "RALB", "RALBP1", "RALGDS", "RAP1A", "RASA1", "RBBP7", "RBCK1", "RBM3", "REPS1", "REPS2", "RFXANK", "RGS16", "RHOA", "RICTOR", "RIN1", "RPLP0", "RPS10", "RPS2", "RPS27L", "RPS6KA1", "S100A10", "S100A11", "S100A14", "SCAMP3", "SCRIB", "SDC1", "SDC3", "SDC4", "SDCBP", "SDPR", "SERPINB3", "SFPQ", "SH2D2A", "SH2D3C", "SH3BGRL", "SH3GL2", "SH3GL3", "SH3KBP1", "SHB", "SIAH1", "SIAH2", "SLC12A7", "SLC25A6", "SLC38A2", "SLC5A5", "SLITRK6", "SMU1", "SNCA", "SNRPD2", "SNX33", "SNX5", "SPG20", "SPRY1", "SPRY2", "SPRY3", "SPRY4", "SRI", "STAM", "STAM2", "STAMBP", "STAT2", "STIP1", "STK11", "STX4", "STXBP1", "TAGLN2", "TFG", "TFRC", "TJP2", "TKT", "TLN1", "TNIP1", "TNK2", "TNS1", "TNS2", "TNS3", "TNS4", "TOLLIP", "TOM1", "TOM1L1", "TOM1L2", "TRIM29", "TRIP6", "UBASH3B", "UBB", "USP31", "USP6NL", "VASP", "VAV3", "VCL", "VIM", "WASL", "WBP2", "WNK1", "ZDHHC5", "ZFYVE16", "ZPR1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: EGFR1; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A",
+        "EM1_gs_size_dataset1" : 475,
+        "SUID" : 81403,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 4.073416815863709,
+        "y" : 30.141955340350137
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81402",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\nF7C168A1FE2E0DBFAF56085C6751D1C5",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "ETS1", "NFKB1", "AKT1", "NFKBIA", "BCL2L1", "CBL", "BTK", "PIK3R1", "PIK3R2", "BAD", "FES", "ELK1", "INPP5D", "LCK", "FYN", "JAK3", "CHUK", "GAB2", "SPI1", "PRKCD", "JAK1", "CREBBP", "JAK2", "NCOA3", "PRKCZ", "MAPK11", "SOCS5", "STAM", "PIK3CA", "CEBPB", "EP300", "PTK2", "PTPN11", "CD40", "RELA", "PTPN6", "SHC1", "GRB2", "SOCS1", "SOCS3", "DOK2", "HIST3H3", "PIK3CD", "STAT3", "RPS6KB1", "STAT5B", "CXCR4", "GRK3", "HIST2H3A", "TYK2", "HIST2H3C", "HIST2H3D", "IKBKB", "IL13", "IL13RA1", "IL4", "PLCG1", "IL4R", "PLCG2", "SND1", "STAT6", "IRS1", "IRS2", "SOS1", "STAT1", "STAT5A", "IL2RG", "SYK", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "RASA1", "CEBPA" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: IL4; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5",
+        "EM1_gs_size_dataset1" : 75,
+        "SUID" : 81402,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -202.12218560112848,
+        "y" : -28.434765851056113
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81401",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n88AF25B76310C17D135A92322529C92D",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "RHOA", "AKT1", "NFKBIA", "HRAS", "NFKBIB", "RPS6KA1", "SCRIB", "PPP1R1B", "ATP1A1", "PIK3R1", "PIK3R2", "EIF4EBP1", "HMGN2", "PRKCA", "MAP2K3", "CREB1", "JAK1", "JAK2", "PRKCZ", "CDK2", "PIK3CA", "PTK2", "GNAQ", "RB1", "IGF1R", "RELA", "LEP", "RAF1", "RPS6", "PDPK1", "SHC1", "SOCS1", "SOCS3", "STAT3", "VASP", "HSPA5", "HSPA8", "IKBKB", "IRS2", "SRC", "STAT1", "CGA", "MAP2K1", "AKT1S1", "MAP2K6", "APEX1", "PRKACA", "ARF1", "BSG", "CANX", "CDK4", "CDKN1B", "CREM", "CTSB", "GNA11", "GNA12", "GNA13", "MAPK1", "GNAI1", "MAPK14", "ATF2", "GNAI2", "MAPK3", "GNAI3", "GNAO1", "CALR", "GNAS", "HMGN1", "CCND3", "KCNIP3", "RALGDS", "CCNE1", "PDE4D", "RAP1GAP", "SLC16A1", "MTOR", "SLC2A1", "ANXA1", "TG", "TSHB", "TSHR" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_88AF25B76310C17D135A92322529C92D",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: TSH; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_88AF25B76310C17D135A92322529C92D",
+        "EM1_gs_size_dataset1" : 81,
+        "SUID" : 81401,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_88AF25B76310C17D135A92322529C92D",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -202.12218560112848,
+        "y" : 166.2748288755064
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81400",
+        "EM1_Formatted_name" : "\nHTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_\n9C6D8845D9CDBC4540A53F21FB9BED77",
+        "EM1_GS_Source" : "none",
+        "EM1_Genes" : [ "CLCA2", "DST", "RHOA", "AKT1", "EIF6", "ITGA6", "LAMA1", "LAMA2", "LAMA3", "LAMA5", "YWHAB", "LAMB1", "YWHAE", "LAMB2", "LAMB3", "YWHAH", "LAMC1", "YWHAQ", "ITGB4", "LAMC2", "YWHAZ", "MST1R", "PAK1", "MYLK3", "NTN1", "RPSA", "RTKN", "SFN", "CASP3", "PIK3R1", "PIK3R2", "BAD", "EIF4EBP1", "FOS", "FYN", "PRKCA", "PRKCD", "MET", "YES1", "PIK3CA", "EGFR", "PIK3CB", "PIK3CG", "PTK2", "ERBB2", "PTPN11", "COL17A1", "EIF4E", "GAB1", "SHC1", "GRB2", "PIK3CD", "DSP", "PIK3R3", "SMAD2", "VIM", "SMAD3", "IRS1", "ABL1", "IRS2", "PLEC", "JUN", "SRC", "EPHB2", "ERBIN", "AR", "MAPK1", "TP73", "MAPK14", "MAPK3", "RAC1", "MTOR", "CD151", "CLCA1" ],
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_GS_Type" : "ENR",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_9C6D8845D9CDBC4540A53F21FB9BED77",
+        "EM1_Colouring_dataset1" : 0.99,
+        "EM1_GS_DESCR" : "name: Alpha6Beta4Integrin; datasource: netpath; organism: 9606; idtype: hgnc symbol",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_9C6D8845D9CDBC4540A53F21FB9BED77",
+        "EM1_gs_size_dataset1" : 74,
+        "SUID" : 81400,
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_9C6D8845D9CDBC4540A53F21FB9BED77",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 349.13956366644965,
+        "y" : -292.81019309714986
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "81453",
+        "source" : "81418",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "SHC1", "STAT3", "STAT5B", "PIK3R1", "IRS1", "IRS2", "STAT1", "STAT5A", "IL2RG", "JAK3", "MAP2K1", "JAK1", "MAP2K2", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.5555555555555556,
+        "SUID" : 81453,
+        "selected" : false,
+        "EM1_Overlap_size" : 16
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81454",
+        "source" : "81417",
+        "target" : "81418",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "JAK1", "MAP2K2", "PTPN11", "SHC1", "GRB2", "STAT3", "STAT5B", "TYK2", "STAT1", "STAT5A", "MAP2K1", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.39228723404255317,
+        "SUID" : 81454,
+        "selected" : false,
+        "EM1_Overlap_size" : 15
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81433",
+        "source" : "81417",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "BAD", "FOXO3", "FYN", "GSK3B", "JAK1", "MAP2K2", "FOXO1", "SHC1", "STAT3", "STAT5B", "STAT1", "STAT5A", "MAP2K1", "PTK2B", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4161654135338346,
+        "SUID" : 81433,
+        "selected" : false,
+        "EM1_Overlap_size" : 18
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81458",
+        "source" : "81416",
+        "target" : "81418",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "JAK3", "JAK1", "MAP2K2", "PTPN11", "SHC1", "GRB2", "STAT3", "STAT5B", "IRS1", "IRS2", "STAT1", "STAT5A", "IL2RG", "MAP2K1", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.47844827586206895,
+        "SUID" : 81458,
+        "selected" : false,
+        "EM1_Overlap_size" : 18
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81439",
+        "source" : "81416",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "BAD", "FOXO3", "FYN", "JAK3", "JAK1", "MAP2K2", "STAM", "SHC1", "STAT3", "STAT5B", "IRS1", "IRS2", "STAT1", "STAT5A", "IL2RG", "MAP2K1", "PTK2B", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4943181818181818,
+        "SUID" : 81439,
+        "selected" : false,
+        "EM1_Overlap_size" : 21
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81438",
+        "source" : "81415",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "BAD", "FOXO3", "FYN", "GSK3B", "CBLB", "MAP2K2", "CLTC", "SHC1", "STAT3", "STAT5B", "IL7R", "MAP2K1", "MAPK1", "MAPK3", "GSK3A", "PIK3R1", "JAK3", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.44642857142857145,
+        "SUID" : 81438,
+        "selected" : false,
+        "EM1_Overlap_size" : 20
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81430",
+        "source" : "81415",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "AKT1", "CBL", "BAD", "EIF4EBP1", "ELK1", "FOXO3", "FYN", "GAB2", "JAK2", "LYN", "MAP2K2", "CDK2", "PIK3CA", "CRK", "CRKL", "PTPN6", "RAF1", "RPS6", "SHC1", "GRB2", "SOCS1", "STAT3", "STAT5B", "VAV1", "JUN", "MAP2K1", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "MTOR", "PIK3R1", "PIK3R2", "JAK3", "PTPN11", "RELA", "RPS6KB1", "SOS1", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.39544753086419754,
+        "SUID" : 81430,
+        "selected" : false,
+        "EM1_Overlap_size" : 41
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81435",
+        "source" : "81414",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "STAT3", "STAT5B", "STAT4", "EIF4EBP1", "STAT1", "STAT5A", "JAK1", "JAK2", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "RELA", "RPS6" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4232209737827715,
+        "SUID" : 81435,
+        "selected" : false,
+        "EM1_Overlap_size" : 16
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81450",
+        "source" : "81413",
+        "target" : "81423",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F4BC9E7D28422CA47315389631F940CA",
+        "EM1_Overlap_genes" : [ "NFKB1", "NFKB2", "AKT1", "NFKBIA", "AKT2", "IKBKB", "BAD", "CHUK", "MAP3K7", "MAPK1", "TRAF1", "MAPK14", "TRAF2", "MAPK3", "TRAF3", "MAPK8", "MAPK9", "TRAF5", "RELA", "RELB" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F4BC9E7D28422CA47315389631F940CA",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3867243867243867,
+        "SUID" : 81450,
+        "selected" : false,
+        "EM1_Overlap_size" : 20
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81446",
+        "source" : "81410",
+        "target" : "81413",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_035C8DB08948E45EAD85F4B45AA655A9 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "EM1_Overlap_genes" : [ "AKT1", "AKT2", "BIRC2", "CASP8", "CHUK", "FADD", "HDAC1", "IKBKB", "MAP3K7", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "NFKB1", "NFKB2", "NFKBIA", "NFKBIB", "RELA", "RELB", "RIPK1", "TNF", "TRAF1", "TRAF2", "TRAF3", "TRAF5" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_035C8DB08948E45EAD85F4B45AA655A9 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3FFC851BCD78D675E02AA5AD21AEC4C8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.41785714285714287,
+        "SUID" : 81446,
+        "selected" : false,
+        "EM1_Overlap_size" : 26
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81459",
+        "source" : "81409",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "FOXO3", "FYN", "GSK3B", "JAK1", "MAP2K2", "SHC1", "STAT3", "STAT5B", "IRS1", "IRS2", "MAP2K1", "MAPK1", "MAPK3", "PIK3R1", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.37748447204968943,
+        "SUID" : 81459,
+        "selected" : false,
+        "EM1_Overlap_size" : 17
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81456",
+        "source" : "81409",
+        "target" : "81414",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_Overlap_genes" : [ "AKT1", "EIF4EBP1", "JAK1", "JAK2", "RPS6", "STAT3", "STAT5B", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MAPK9", "NFKB1", "NFKBIA", "RELA", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.43074324324324326,
+        "SUID" : 81456,
+        "selected" : false,
+        "EM1_Overlap_size" : 17
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81447",
+        "source" : "81409",
+        "target" : "81417",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_Overlap_genes" : [ "AKT1", "CBL", "EIF4EBP1", "FOS", "FOXO3", "FYN", "GAB2", "GSK3B", "JAK1", "CREBBP", "JAK2", "LYN", "MAP2K2", "EP300", "ERBB2", "PXN", "RPS6KA2", "SHC1", "GRB2", "SIRPA", "SOCS3", "STAT3", "STAT5B", "TEC", "TYK2", "VAV1", "JUN", "MAP2K1", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "NFKB1", "NFKBIA", "PIAS3", "PIK3R1", "PIK3R2", "PRKCD", "PTK2", "PTPN11", "RB1", "SOS1", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.41054766734279924,
+        "SUID" : 81447,
+        "selected" : false,
+        "EM1_Overlap_size" : 44
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81443",
+        "source" : "81409",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "AKT1", "CBL", "CISH", "EIF4EBP1", "ELK1", "FOXO3", "FYN", "GAB2", "JAK1", "JAK2", "LYN", "MAP2K2", "PIK3CA", "PIK3CB", "PIK3CG", "PTPN6", "RAF1", "RPS6", "SHC1", "GRB2", "SOCS1", "SOCS3", "STAT3", "STAT5B", "VAV1", "IRS1", "IRS2", "JUN", "MAP2K1", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MTOR", "NFKB1", "PIK3R1", "PIK3R2", "PTPN11", "RELA", "SOS1", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.40611240611240607,
+        "SUID" : 81443,
+        "selected" : false,
+        "EM1_Overlap_size" : 42
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81441",
+        "source" : "81409",
+        "target" : "81418",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Overlap_genes" : [ "AKT1", "JAK1", "MAP2K2", "SHC1", "GRB2", "STAT3", "STAT5B", "TYK2", "IRS1", "IRS2", "MAP2K1", "MAPK1", "MAPK3", "PIK3R1", "PTPN11", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.43074324324324326,
+        "SUID" : 81441,
+        "selected" : false,
+        "EM1_Overlap_size" : 17
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81449",
+        "source" : "81407",
+        "target" : "81408",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "EM1_Overlap_genes" : [ "NFKB1", "CTNNB1", "AKT1", "NFKBIA", "RPS6KA1", "BAX", "CBL", "BTK", "PIK3R1", "PIK3R2", "DNM2", "ELK1", "HCK", "FOXO3", "GSK3B", "PRKCD", "SH2B2", "LYN", "MAP2K2", "HCLS1", "PIK3CG", "PTPN11", "CRKL", "PRKCB", "PTPN6", "RAF1", "RAPGEF1", "SHC1", "GRB2", "STAT3", "VAV1", "SOS1", "JUN", "STAT1", "SYK", "PTK2B", "MAPK1", "MAPK14", "ATF2", "MAPK3", "GSK3A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4619827667834486,
+        "SUID" : 81449,
+        "selected" : false,
+        "EM1_Overlap_size" : 41
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81444",
+        "source" : "81407",
+        "target" : "81409",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "NFKBIA", "YWHAZ", "CBL", "PIK3R1", "PIK3R2", "DNM2", "ELK1", "FOXO3", "GSK3B", "PRKCD", "JAK1", "JAK2", "LYN", "MAP2K2", "PIK3CG", "PTPN11", "PRKCB", "PTPN6", "RAF1", "SHC1", "GRB2", "SOCS1", "STAT3", "STAT5B", "VAV1", "SOS1", "JUN", "STAT1", "STAT5A", "MAPK1", "MAPK14", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_0BF1BA4F6CB227777A5ED1BA49A86CC2",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4199185389567731,
+        "SUID" : 81444,
+        "selected" : false,
+        "EM1_Overlap_size" : 34
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81442",
+        "source" : "81407",
+        "target" : "81417",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "NFKBIA", "HRAS", "CBL", "BTK", "PIK3R1", "PIK3R2", "HCK", "FOXO3", "GSK3B", "PRKCD", "JAK1", "JAK2", "LYN", "MAP2K2", "PTPN11", "SHC1", "GRB2", "STAT3", "STAT5B", "VAV1", "SOS1", "JUN", "STAT1", "STAT5A", "PTK2B", "MAPK1", "MAPK14", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3858162355040142,
+        "SUID" : 81442,
+        "selected" : false,
+        "EM1_Overlap_size" : 30
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81440",
+        "source" : "81407",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "IL2RB", "CBL", "PIK3R1", "PIK3R2", "ELK1", "FOXO3", "JAK1", "JAK2", "LYN", "MAP2K2", "PIK3CG", "PTPN11", "CRKL", "PTPN6", "RAF1", "SHC1", "GRB2", "SOCS1", "STAT3", "STAT5B", "VAV1", "SOS1", "JUN", "STAT1", "STAT5A", "SYK", "PTK2B", "MAPK1", "MAPK14", "ATF2", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.43386662442578805,
+        "SUID" : 81440,
+        "selected" : false,
+        "EM1_Overlap_size" : 33
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81434",
+        "source" : "81407",
+        "target" : "81415",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "EM1_Overlap_genes" : [ "AKT1", "HRAS", "RPS6KA1", "CBL", "BTK", "CSF2RB", "PIK3R1", "PIK3R2", "ELK1", "HCK", "FOXO3", "GSK3B", "JAK2", "SH2B2", "LYN", "MAP2K2", "PTPN11", "CRKL", "PRKCB", "PTPN6", "RAF1", "SHC1", "GRB2", "SOCS1", "STAT3", "STAT5B", "VAV1", "SOS1", "JUN", "STAT1", "STAT5A", "MAPK1", "MAPK14", "ATF2", "MAPK3", "GSK3A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.44681702922727884,
+        "SUID" : 81434,
+        "selected" : false,
+        "EM1_Overlap_size" : 36
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81462",
+        "source" : "81406",
+        "target" : "81418",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Overlap_genes" : [ "AKT1", "JAK1", "MAP2K2", "SHC1", "GRB2", "STAT3", "STAT5B", "IRS1", "IRS2", "MAP2K1", "MAPK1", "MAPK3", "PIK3R1", "JAK3", "PTPN11", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4351190476190476,
+        "SUID" : 81462,
+        "selected" : false,
+        "EM1_Overlap_size" : 17
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81436",
+        "source" : "81406",
+        "target" : "81414",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_Overlap_genes" : [ "AKT1", "EIF4EBP1", "JAK1", "JAK2", "RPS6", "STAT3", "STAT5B", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "NFKB1", "NFKBIA", "RELA", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.40880503144654085,
+        "SUID" : 81436,
+        "selected" : false,
+        "EM1_Overlap_size" : 16
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81427",
+        "source" : "81406",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "BAD", "FYN", "GSK3B", "JAK1", "MAP2K2", "FOXO1", "SHC1", "STAT3", "STAT5B", "IRS1", "IRS2", "MAP2K1", "MAPK1", "MAPK3", "GSK3A", "PIK3R1", "JAK3", "STAT1", "STAT5A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4514824797843666,
+        "SUID" : 81427,
+        "selected" : false,
+        "EM1_Overlap_size" : 20
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81457",
+        "source" : "81405",
+        "target" : "81417",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "HRAS", "CBL", "PIK3R1", "PIK3R2", "BAD", "FES", "HCK", "INPP5D", "FOXO3", "FYN", "GAB2", "GSK3B", "JAK1", "JAK2", "LYN", "PTK2", "PTPN11", "RB1", "PXN", "FOXO1", "GAB1", "SHC1", "GRB2", "SOCS3", "STAT3", "STAT5B", "TEC", "TYK2", "HSPB1", "VAV1", "SOS1", "STAT5A", "MAP2K1", "MAPK1", "MAPK14", "MAPK3", "MAPK8" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3821428571428571,
+        "SUID" : 81457,
+        "selected" : false,
+        "EM1_Overlap_size" : 39
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81455",
+        "source" : "81405",
+        "target" : "81408",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "BAX", "CBL", "PIK3R1", "PIK3R2", "BCL2", "HCK", "INPP5D", "FOXO3", "LCK", "FYN", "GAB2", "GSK3B", "CREB1", "LYN", "DOK1", "PTK2", "PTPN11", "CRK", "CRKL", "PRKCB", "RB1", "PTPN6", "PTPRC", "FOXO1", "RAF1", "GAB1", "RAPGEF1", "SHC1", "GRB2", "PIK3CD", "STAT3", "TEC", "VAV1", "SOS1", "SYK", "MAP2K1", "BCL2L11", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "GSK3A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F62C135D6EEBCB1D8AC5798D9DB4B333",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.38035714285714284,
+        "SUID" : 81455,
+        "selected" : false,
+        "EM1_Overlap_size" : 45
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81445",
+        "source" : "81405",
+        "target" : "81407",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "HRAS", "BAX", "YWHAZ", "CBL", "CSF2RB", "PIK3R1", "PIK3R2", "HCK", "FOXO3", "GSK3B", "JAK1", "JAK2", "LYN", "PTPN11", "RACK1", "CRKL", "PRKCB", "PTPN6", "RAF1", "RAPGEF1", "SHC1", "GRB2", "STAT3", "STAT5B", "VAV1", "SOS1", "STAT5A", "SYK", "MAPK1", "MAPK14", "ATF2", "MAPK3", "GSK3A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AAEF94F723928E575A0D1E6007B3682D",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.45864720652856245,
+        "SUID" : 81445,
+        "selected" : false,
+        "EM1_Overlap_size" : 35
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81431",
+        "source" : "81405",
+        "target" : "81415",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "EM1_Overlap_genes" : [ "AKT1", "HRAS", "PAK1", "CBL", "CSF2RB", "PIK3R1", "PIK3R2", "BAD", "FES", "HCK", "INPP5D", "FOXO3", "FYN", "GAB2", "GSK3B", "PRKCA", "JAK2", "LYN", "DOK1", "PTPN11", "CRK", "CRKL", "PRKCB", "PTPN6", "RAF1", "SHC1", "GRB2", "DOK2", "STAT3", "STAT5B", "TEC", "VAV1", "SOS1", "SRC", "STAT5A", "MAP2K1", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "GSK3A" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D8A45ECD5D616E5904A5C4C8F82900EE (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3938356164383562,
+        "SUID" : 81431,
+        "selected" : false,
+        "EM1_Overlap_size" : 42
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81452",
+        "source" : "81403",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "FOXO1", "IRS2", "MAP2K1", "MAPK1", "MAPK3", "PIK3R1", "STAT1", "STAT5A", "FYN", "GSK3B", "JAK1", "MAP2K2", "SHC1", "STAT3", "STAT5B", "BAD", "CBLB", "CLTC", "GSK3A", "PTK2B", "STAM" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4157261657261657,
+        "SUID" : 81452,
+        "selected" : false,
+        "EM1_Overlap_size" : 22
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81428",
+        "source" : "81403",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "AKT1", "CREB1", "GRB2", "IRS2", "JUN", "MAP2K1", "MAPK1", "MAPK14", "MAPK3", "MAPK8", "MTOR", "NFKB1", "PIK3R1", "PIK3R2", "PRKCZ", "PTPN11", "RELA", "RPS6KB1", "SOS1", "STAT1", "STAT5A", "CBL", "EIF4EBP1", "ELK1", "FYN", "GAB2", "JAK1", "JAK2", "LYN", "MAP2K2", "PIK3CA", "PIK3CB", "PIK3CG", "PTPN6", "RAF1", "SHC1", "SOCS1", "SOCS3", "STAT3", "STAT5B", "VAV1", "BAD", "BCL2", "CDK2", "CRK", "CRKL", "LCK", "PIK3CD", "PIK3R3", "PTK2B", "SHB", "STAM", "STAM2" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_3A6D369C50D4882DC6B61149D4D84C3A (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.37984439044743884,
+        "SUID" : 81428,
+        "selected" : false,
+        "EM1_Overlap_size" : 53
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81461",
+        "source" : "81402",
+        "target" : "81421",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "BAD", "FYN", "JAK3", "JAK1", "STAM", "SHC1", "STAT3", "STAT5B", "IRS1", "IRS2", "STAT1", "STAT5A", "IL2RG", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_D0CC6886D8306300FDC897F824214B28",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.40240863787375414,
+        "SUID" : 81461,
+        "selected" : false,
+        "EM1_Overlap_size" : 17
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81460",
+        "source" : "81402",
+        "target" : "81415",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "EM1_Overlap_genes" : [ "AKT1", "CBL", "BTK", "PIK3R1", "PIK3R2", "BAD", "FES", "ELK1", "INPP5D", "FYN", "JAK3", "GAB2", "JAK2", "SOCS5", "PIK3CA", "EP300", "PTPN11", "RELA", "PTPN6", "SHC1", "GRB2", "SOCS1", "DOK2", "STAT3", "RPS6KB1", "STAT5B", "PLCG1", "PLCG2", "SOS1", "STAT1", "STAT5A", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8", "RASA1" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_AA08251CE1428F76F6F6701AB18144CF",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3769483568075117,
+        "SUID" : 81460,
+        "selected" : false,
+        "EM1_Overlap_size" : 37
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81451",
+        "source" : "81402",
+        "target" : "81417",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "NFKBIA", "CBL", "BTK", "PIK3R1", "PIK3R2", "BAD", "FES", "INPP5D", "FYN", "GAB2", "PRKCD", "JAK1", "CREBBP", "JAK2", "CEBPB", "EP300", "PTK2", "PTPN11", "CD40", "SHC1", "GRB2", "SOCS3", "STAT3", "RPS6KB1", "STAT5B", "TYK2", "PLCG1", "SOS1", "STAT1", "STAT5A", "MAPK1", "MAPK14", "MAPK3", "MAPK8" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_B459F55FD5F1DB2FE042427E5C9C642D",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.3851612903225806,
+        "SUID" : 81451,
+        "selected" : false,
+        "EM1_Overlap_size" : 36
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81448",
+        "source" : "81402",
+        "target" : "81418",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "EM1_Overlap_genes" : [ "AKT1", "PIK3R1", "JAK3", "JAK1", "PTPN11", "SHC1", "GRB2", "STAT3", "STAT5B", "TYK2", "STAT6", "IRS1", "IRS2", "STAT1", "STAT5A", "IL2RG", "MAPK1", "MAPK3" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_72DB5C010CC22E8D5FEF4C513E8003D8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4861111111111111,
+        "SUID" : 81448,
+        "selected" : false,
+        "EM1_Overlap_size" : 18
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81437",
+        "source" : "81402",
+        "target" : "81414",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "NFKBIA", "JAK1", "JAK2", "RELA", "STAT3", "STAT5B", "STAT6", "STAT1", "STAT5A", "MAPK1", "MAPK14", "MAPK3", "MAPK8" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_1ABBF29AA2592CC2B382D2332CED92B8",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.4017857142857143,
+        "SUID" : 81437,
+        "selected" : false,
+        "EM1_Overlap_size" : 15
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81432",
+        "source" : "81402",
+        "target" : "81416",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "EM1_Overlap_genes" : [ "ETS1", "NFKB1", "AKT1", "CBL", "PIK3R1", "PIK3R2", "BAD", "ELK1", "LCK", "FYN", "JAK3", "GAB2", "JAK1", "JAK2", "PRKCZ", "STAM", "PIK3CA", "PTPN11", "RELA", "PTPN6", "SHC1", "GRB2", "SOCS1", "SOCS3", "PIK3CD", "STAT3", "RPS6KB1", "STAT5B", "IRS1", "IRS2", "SOS1", "STAT1", "STAT5A", "IL2RG", "SYK", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_8ED0774B5606CAE9CEE7ED9B5A1DDDD4",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.43908045977011495,
+        "SUID" : 81432,
+        "selected" : false,
+        "EM1_Overlap_size" : 40
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81429",
+        "source" : "81402",
+        "target" : "81406",
+        "shared_name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE",
+        "EM1_Overlap_genes" : [ "NFKB1", "AKT1", "NFKBIA", "PIK3R1", "PIK3R2", "BAD", "ELK1", "LCK", "FYN", "JAK3", "CHUK", "PRKCD", "JAK1", "JAK2", "PRKCZ", "EP300", "PTK2", "PTPN11", "RELA", "SHC1", "GRB2", "SOCS3", "STAT3", "RPS6KB1", "STAT5B", "IKBKB", "PLCG1", "PLCG2", "IRS1", "IRS2", "STAT1", "STAT5A", "MAPK1", "MAPK14", "ATF2", "MAPK3", "MAPK8" ],
+        "shared_interaction" : "Geneset_Overlap",
+        "name" : "HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_F7C168A1FE2E0DBFAF56085C6751D1C5 (Geneset_Overlap) HTTP://PATHWAYCOMMONS.ORG/PC2/PATHWAY_81636B1BEED0789B84B97EDFB00B8EAE",
+        "interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "EM1_similarity_coefficient" : 0.38269607843137254,
+        "SUID" : 81429,
+        "selected" : false,
+        "EM1_Overlap_size" : 37
+      },
+      "selected" : false
+    } ]
+  }
+}

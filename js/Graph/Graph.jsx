@@ -1,5 +1,5 @@
 import React from 'react';
-import { initGraph } from './components/init.js';
+import { initGraph } from './helpers/init.js';
 import isEmpty from 'lodash/isEmpty';
 
 // Graph
