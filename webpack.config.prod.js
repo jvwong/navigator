@@ -40,10 +40,28 @@ module.exports = {
         use: [
           { loader: 'eslint-loader' }
         ]
-      }
+      },
+			{
+				test: /\.(eot|svg|ttf|woff|woff2)$/,
+				use: 'file-loader?name=fonts/[name].[ext]'
+			},
+			{
+				test: /\.png$/,
+				use: 'url-loader'
+			}
     ]
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
+    new webpack.DefinePlugin({
+			'process.env': {
+				'NODE_ENV': JSON.stringify('production')
+			}
+		}),
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true,
+      compress: {
+				warnings: true
+			}
+    })
   ]
 };

@@ -15,14 +15,16 @@ module.exports = {
     publicPath: "/", // string
     // the url to the output directory resolved relative to the HTML page
   },
-  devtool: 'source-map',  
+  devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader',
+          { loader: 'css-loader',
+            options: { importLoaders: 1 }
+          },
           'postcss-loader'
         ]
       },
