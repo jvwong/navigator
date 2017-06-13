@@ -1,0 +1,3404 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.4.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "EM1_Enrichment Map",
+    "name" : "EM1_Enrichment Map",
+    "SUID" : 81020,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "81112",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 25,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycine, serine and threonine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PIPOX", "PSAT1", "PSPH", "SARDH", "SDS", "SHMT1", "SRR", "DLD", "AGXT", "ALDH7A1", "AMT", "AOC3", "BHMT", "CBS", "CHDH", "CTH", "DAO", "DMGDH", "GAMT", "GATM", "GCAT", "GLDC", "GLYCTK", "GNMT", "PHGDH" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00260\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "SUID" : 81112,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 89.72207729931336,
+        "y" : 163.3090015893959
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81111",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Fatty acid elongation; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACOT2", "ACSL4", "BAAT", "ECHS1", "EHHADH", "HADH", "HADHA", "MECR", "PPT1", "TUBA8" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00062\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "SUID" : 81111,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 142.04483502026062,
+        "y" : -39.26490054073105
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81110",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 23,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Steroid hormone biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "COMT", "CYP11A1", "CYP11B1", "CYP11B2", "CYP17A1", "CYP19A1", "CYP1A1", "CYP1B1", "CYP21A2", "AKR1C4", "CYP3A43", "AKR1D1", "HSD11B2", "HSD17B3", "HSD17B6", "HSD3B1", "SRD5A3", "STS", "CYP7A1", "SULT1E1", "CYP7B1", "SULT2A1", "SULT2B1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00140\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00140",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00140",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00140",
+        "SUID" : 81110,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -377.403315614505,
+        "y" : 408.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81109",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 24,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Tryptophan metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GCDH", "TDO2", "DDC", "WARS2", "ALDH3A2", "DLD", "CYP1A2", "IL4I1", "AOC1", "ACAT1", "ECHS1", "AANAT", "ACMSD", "AFMID", "AOX1", "DLST", "ASMT", "CAT", "HAAO", "IDO2", "INMT", "KMO", "KYAT1", "KYNU" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00380\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00380",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00380",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00380",
+        "SUID" : 81109,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 32.59236614819031,
+        "y" : -74.34837756099472
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81108",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 7,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Fatty acid biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACACA", "ELOVL2", "ELOVL6", "FASN", "MCAT", "OLAH", "OXSM" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00061\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00061",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00061",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00061",
+        "SUID" : 81108,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 622.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81107",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 10,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Terpenoid backbone biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACAT1", "MVD", "MVK", "PDSS1", "PMVK", "DHDDS", "FDPS", "GGPS1", "HMGCR", "IDI1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00900\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00900",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00900",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00900",
+        "SUID" : 81107,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 50.61037914867859,
+        "y" : -249.37555346431503
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81106",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 18,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Drug metabolism - other enzymes; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "CYP2A13", "TYMP", "XDH", "GUSB", "CDA", "DPYD", "GMPS", "DPYS", "CYP3A43", "HPRT1", "CES2", "ITPA", "CES5A", "UCK1", "TPMT", "UMPS", "UPB1", "UPP2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00983\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "SUID" : 81106,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -144.6011152971222,
+        "y" : -138.1892894262291
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81105",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 3,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Lipoic acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "LIAS", "LIPT1", "LIPT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00785\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00785",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00785",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00785",
+        "SUID" : 81105,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 131.65245525951843,
+        "y" : -98.16964373531113
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81104",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 20,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Pyruvate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACSS2", "ALDH3A1", "ALDH3A2", "ACACA", "ACOT12", "ACYP2", "DLAT", "DLD", "GLO1", "AKR1B1", "GRHPR", "HAGH", "LDHD", "ME2", "LDHAL6A", "ACAT1", "PCK2", "PDHB", "MDH1", "PC" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00620\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00620",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00620",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00620",
+        "SUID" : 81104,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 522.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81103",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 19,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Starch and sucrose metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "SI", "G6PC2", "ENPP1", "GBA3", "GCK", "GUSB", "GPI", "UGDH", "UGP2", "AGL", "GBE1", "GYS2", "MGAM", "NUDT14", "PGM2L1", "PYGM", "TREH", "UXS1", "GANC" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00500\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00500",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00500",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00500",
+        "SUID" : 81103,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -357.64553363208313,
+        "y" : 208.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81102",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Porphyrin and chlorophyll metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GUSB", "ALAD", "COX10", "COX15", "CPOX", "EARS2", "FECH", "FTMT", "HCCS", "HMBS", "MMAB", "PPOX", "UROD", "UROS", "BLVRB" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00860\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00860",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00860",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00860",
+        "SUID" : 81102,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 422.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81101",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 9,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Drug metabolism - cytochrome P450; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH3A1", "CYP2B6", "CYP2D6", "CYP3A43", "CYP2E1", "FMO2", "AOX1", "CYP2A13", "CYP1A2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00982\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "SUID" : 81101,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -269.88723285083313,
+        "y" : -313.96803698482285
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81100",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 6,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Riboflavin metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "FLAD1", "RFK", "TYR", "ENPP1", "ACP6", "BLVRB" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00740\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00740",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00740",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00740",
+        "SUID" : 81100,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 322.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81099",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 3,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Lysine biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH7A1", "AADAT", "AASS" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00300\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "SUID" : 81099,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 189.86279003735046,
+        "y" : -144.84564623775253
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81098",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 6,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Metabolism of xenobiotics by cytochrome P450; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH3A1", "EPHX1", "AKR1C4", "CYP3A43", "CYP2E1", "CYP1A2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00980\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "SUID" : 81098,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -162.9971876848175,
+        "y" : -239.74953112544785
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81097",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Steroid biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "CYP27B1", "CYP2R1", "CYP51A1", "DHCR24", "DHCR7", "EBP", "FAXDC2", "FDFT1", "HSD17B7", "LIPA", "LSS", "NSDHL", "SC5D", "SOAT1", "SQLE", "TM7SF2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00100\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00100",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00100",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00100",
+        "SUID" : 81097,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -145.96926410083313,
+        "y" : 12.32589879093399
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81096",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 3,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Cyanoamino acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GGT5", "SHMT1", "GBA3" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00460\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00460",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00460",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00460",
+        "SUID" : 81096,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 222.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81095",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 12,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Citrate cycle (TCA cycle); datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PCK2", "PDHB", "ACLY", "CS", "DLAT", "DLST", "DLD", "FH", "IDH1", "MDH1", "PC", "SDHA" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00020\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00020",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00020",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00020",
+        "SUID" : 81095,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 94.80922215099793,
+        "y" : -6.9508117193199155
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81094",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 2,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Biotin metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "BTD", "HLCS" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00780\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00780",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00780",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00780",
+        "SUID" : 81094,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -144.84450824145813,
+        "y" : 62.10772671756973
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81093",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Histidine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "CNDP2", "DDC", "FTCD", "ALDH3A1", "HAL", "ALDH3A2", "ASPA", "HDC", "HNMT", "METTL6", "UROC1", "AOC1", "CARNS1", "AMDHD1", "CNDP1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00340\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00340",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00340",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00340",
+        "SUID" : 81093,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 122.596684385495,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81092",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Fructose and mannose metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDOC", "AKR1B1", "FBP1", "AKR1B10", "FPGT", "PFKP", "FUK", "GMDS", "TPI1", "GMPPB", "KHK", "MPI", "PFKFB4", "PMM1", "SORD", "TSTA3" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00051\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00051",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00051",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00051",
+        "SUID" : 81092,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -13.347590516848754,
+        "y" : -255.1371196264244
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81091",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 24,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Alanine, aspartate and glutamate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH4A1", "ALDH5A1", "ADSL", "ASL", "ADSS", "ASNS", "ASPA", "ASS1", "PPAT", "CPS1", "DDO", "GFPT1", "GOT2", "GLS", "GLUD2", "TAT", "GLUL", "GNPDA2", "GPT2", "CAD", "IL4I1", "NIT2", "ABAT", "AGXT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00250\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "SUID" : 81091,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -20.16518695239563,
+        "y" : 139.47175183353653
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81090",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 13,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Galactose metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GLA", "GLB1", "LCT", "SI", "AKR1B1", "G6PC2", "GCK", "UGP2", "PFKP", "B4GALT1", "GALE", "GALT", "GANC" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00052\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "SUID" : 81090,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -165.93319232348938,
+        "y" : 160.7500874048256
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81089",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 4,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Valine, leucine and isoleucine biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PDHB", "LARS2", "VARS", "BCAT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00290\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00290",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00290",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00290",
+        "SUID" : 81089,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 22.596684385494996,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81088",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 6,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosaminoglycan biosynthesis - heparan sulfate; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "EXTL1", "EXTL3", "B3GALT6", "B3GAT2", "B4GALT7", "EXT1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00534\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "SUID" : 81088,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -125.28742511157532,
+        "y" : -88.83525500240097
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81087",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 4,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Thiamine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "NTPCR", "NFS1", "THTPA", "TPK1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00730\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00730",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00730",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00730",
+        "SUID" : 81087,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 86.61813824291687,
+        "y" : -61.30252871455917
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81086",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 6,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosaminoglycan biosynthesis - chondroitin sulfate; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "B3GALT6", "B3GAT2", "B4GALT7", "CHPF2", "CHSY1", "CSGALNACT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00532\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532",
+        "SUID" : 81086,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -195.01555926684875,
+        "y" : -25.006143903157806
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81085",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 20,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Aminoacyl-tRNA biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "WARS2", "LARS2", "VARS", "AARS2", "MARS", "CARS2", "PSTK", "DARS", "FARSA", "GARS", "SEPSECS", "HARS2", "KARS", "NARS", "PARS2", "QARS", "TARS2", "EARS2", "YARS2", "MTFMT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00970\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00970",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00970",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00970",
+        "SUID" : 81085,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -77.403315614505,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81084",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 13,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosaminoglycan degradation; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GALNS", "GLB1", "GNS", "HGSNAT", "HPSE", "HYAL1", "IDS", "IDUA", "NAGLU", "SGSH", "GUSB", "HEXA", "ARSB" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00531\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00531",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00531",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00531",
+        "SUID" : 81084,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -229.14867694263,
+        "y" : -63.92212328853378
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81083",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: beta-Alanine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "MLYCD", "ALDH3A1", "ALDH3A2", "ACADM", "AOC1", "AOC3", "CARNS1", "DPYD", "SMS", "DPYS", "ECHS1", "SRM", "UPB1", "HIBCH", "ABAT", "CNDP1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00410\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00410",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00410",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00410",
+        "SUID" : 81083,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 36.05342571850281,
+        "y" : 156.4638325220131
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81082",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 569,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Metabolic pathways; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACSS2", "ADPGK", "AKR1A1", "ALDH3A1", "ALDH3A2", "ALDOC", "BPGM", "DLD", "FBP1", "G6PC2", "GAPDH", "GCK", "GPI", "LDHAL6A", "PCK2", "PDHB", "PFKP", "PGK2", "TPI1", "ACLY", "CS", "DLST", "FH", "IDH1", "MDH1", "PC", "SDHA", "G6PD", "H6PD", "PGD", "PGLS", "PRPS2", "RGN", "RPEL1", "RPIA", "TALDO1", "TKTL2", "AKR1B1", "CRYL1", "DCXR", "GUSB", "UGDH", "UGP2", "XYLB", "AKR1B10", "FPGT", "FUK", "GMDS", "GMPPB", "KHK", "MPI", "PMM1", "SORD", "TSTA3", "B4GALT1", "GALE", "GALT", "GANC", "GLB1", "LCT", "SI", "ACACA", "FASN", "MCAT", "OLAH", "OXSM", "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACOT2", "ACSL4", "BAAT", "ECHS1", "EHHADH", "HADH", "HADHA", "MECR", "PPT1", "TUBA8", "ACADL", "ACADS", "ACOX3", "CYP4A22", "GCDH", "BDH1", "HMGCL", "CYP27B1", "CYP2R1", "CYP51A1", "DHCR24", "DHCR7", "EBP", "FAXDC2", "FDFT1", "HSD17B7", "LSS", "NSDHL", "SC5D", "SQLE", "TM7SF2", "ACOX2", "AKR1C4", "AKR1D1", "AMACR", "CYP27A1", "CYP7A1", "CYP8B1", "HSD17B4", "HSD3B7", "SCP2", "SLC27A5", "COQ2", "COQ3", "COQ5", "COQ6", "COQ7", "GOT1", "GOT2", "HPD", "TAT", "COMT", "CYP11A1", "CYP11B1", "CYP11B2", "CYP17A1", "CYP19A1", "CYP1A1", "CYP21A2", "CYP3A43", "HSD11B2", "HSD17B3", "HSD17B6", "HSD3B1", "ADA", "ADK", "ADSL", "ADSS", "AK4", "ALLC", "AMPD1", "APRT", "ATIC", "BPNT1", "DCK", "DGUOK", "ENPP1", "GART", "GDA", "GMPS", "GUK1", "HPRT1", "ITPA", "NME5", "NT5C", "NTPCR", "PAICS", "PAPOLA", "PAPSS2", "PFAS", "PNP", "POLE", "POLR3K", "PPAT", "RRM1", "TYMP", "URAD", "XDH", "CYP1A2", "CAD", "CDA", "CTPS1", "DCTD", "DHODH", "DPYD", "DPYS", "DTYMK", "DUT", "TYMS", "UCK1", "UMPS", "UPB1", "UPP2", "UPRT", "ZCCHC11", "ABAT", "AGXT", "ALDH4A1", "ALDH5A1", "ASL", "ASNS", "ASS1", "CPS1", "GFPT1", "GLS", "GLUD2", "GLUL", "GNPDA2", "GPT2", "IL4I1", "ALDH7A1", "AMT", "AOC3", "BHMT", "CBS", "CTH", "DAO", "DMGDH", "GAMT", "GATM", "GLDC", "GLYCTK", "PHGDH", "PIPOX", "PSAT1", "PSPH", "SARDH", "SDS", "SHMT1", "ADI1", "AHCYL1", "AMD1", "APIP", "CDO1", "DNMT3L", "MAT2B", "MPST", "MRI1", "MTAP", "MTR", "SMS", "SRM", "ACAD8", "ALDH6A1", "AOX1", "AUH", "BCAT2", "DBT", "HIBADH", "HIBCH", "HSD17B10", "IVD", "MCCC2", "MCEE", "MUT", "PCCA", "AADAT", "AASS", "ACY1", "AGMAT", "ALDH18A1", "ARG1", "AZIN2", "CKMT2", "LAP3", "NAGS", "NOS3", "OAT", "ODC1", "OTC", "PRODH", "PRODH2", "PYCRL", "SAT2", "AMDHD1", "CNDP1", "CNDP2", "DDC", "FTCD", "HAL", "HDC", "UROC1", "DBH", "DCT", "FAH", "GSTZ1", "HGD", "PNMT", "TH", "TPO", "TYR", "TYRP1", "PAH", "PRDX6", "AANAT", "ACMSD", "AFMID", "ASMT", "HAAO", "IDO2", "KMO", "KYAT1", "KYNU", "TDO2", "MLYCD", "ADO", "CSAD", "GGT5", "SCLY", "SEPHS1", "ANPEP", "GCLM", "GSS", "AGL", "GBE1", "MGAM", "UXS1", "ALG1", "ALG10", "ALG11", "ALG12", "ALG13", "ALG14", "ALG2", "ALG3", "ALG5", "ALG6", "ALG8", "ALG9", "B4GALT3", "DAD1", "DOLK", "DPAGT1", "DPM1", "DPM2", "DPM3", "FUT8", "GANAB", "MAN1B1", "MAN2A2", "MGAT1", "MGAT2", "MGAT3", "MGAT4B", "MGAT4C", "MGAT5", "MOGS", "ST6GAL1", "STT3B", "B3GNT6", "C1GALT1", "GALNT4", "GCNT1", "GCNT3", "GCNT4", "ST3GAL1", "ST6GALNAC1", "CMAS", "GNE", "HEXA", "NANP", "NANS", "UAP1", "ARSB", "GALNS", "GNS", "HGSNAT", "HPSE", "HYAL1", "IDS", "IDUA", "NAGLU", "SGSH", "B3GALT6", "B3GAT2", "B4GALT7", "CHPF2", "CHSY1", "CSGALNACT2", "EXT1", "EXTL1", "EXTL3", "AGK", "AGPAT1", "GK2", "GPAT3", "MGLL", "MOGAT3", "PLPP3", "PNLIPRP2", "TKFC", "CDIPT", "IMPA2", "INPP1", "INPP4B", "INPP5B", "INPP5J", "IPPK", "ISYNA1", "ITPK1", "ITPKB", "PI4KB", "PIK3C3", "PIP5K1B", "PLCE1", "SYNJ2", "PIGA", "PIGB", "PIGC", "PIGF", "PIGH", "PIGL", "PIGM", "PIGN", "PIGO", "PIGP", "PIGQ", "PIGV", "PIGW", "PIGX", "PIGY", "CDS1", "CHKA", "CRLS1", "PCYT1A", "PCYT2", "PEMT", "PGS1", "PHOSPHO1", "PISD", "PLD1", "PTDSS1", "PTDSS2", "AGPS", "LPCAT2", "LPCAT4", "PAFAH2", "PLA2G2A", "ALOX12", "ALOX12B", "ALOX15B", "ALOX5", "CBR1", "CYP2E1", "CYP2J2", "CYP2U1", "CYP4A11", "CYP4F3", "EPHX2", "HPGDS", "LTA4H", "LTC4S", "PTGES", "PTGIS", "PTGS2", "TBXAS1", "ALOX15", "ASAH1", "B4GALT6", "DEGS1", "GAL3ST1", "GALC", "GBA", "KDSR", "SGMS1", "SGMS2", "SGPL1", "SMPD1", "SPHK2", "SPTLC1", "UGCG", "UGT8", "ABO", "B3GALT1", "B3GALT2", "B3GALT5", "B3GNT3", "B3GNT5", "B4GALT2", "B4GALT4", "B4GAT1", "FUT3", "FUT4", "FUT5", "FUT7", "FUT9", "GCNT2", "ST3GAL3", "ST3GAL4", "ST3GAL6", "ST8SIA1", "A4GALT", "B3GALNT1", "GBGT1", "B3GALT4", "B4GALNT1", "ST3GAL5", "ST6GALNAC3", "ST6GALNAC5", "ST6GALNAC6", "ST8SIA5", "GRHPR", "ME2", "HAO2", "HYI", "PGP", "ACSS3", "ACSM5", "DHFR", "MTHFD1", "MTHFD2L", "MTHFR", "MTHFS", "THTPA", "TPK1", "FLAD1", "RFK", "PDXK", "PDXP", "PNPO", "CD38", "NADK", "NADSYN1", "NAPRT", "NMNAT3", "NNMT", "NNT", "QPRT", "COASY", "PPCDC", "PPCS", "BTD", "HLCS", "LIAS", "LIPT1", "LIPT2", "ALPI", "FPGS", "GCH1", "MOCS1", "MOCS2", "PTS", "QDPR", "SPR", "ALDH1A1", "BCO1", "RDH11", "SDR16C5", "ALAD", "CPOX", "EARS2", "FECH", "HMBS", "MMAB", "PPOX", "UROD", "UROS", "FDPS", "GGPS1", "HMGCR", "IDI1", "MVD", "MVK", "PMVK", "QARS", "CES2", "CES5A", "ADH5", "ASPG", "CERS1", "CMBL", "ME3", "MTM1", "PLA2G16", "PON1", "PRDX4", "TGDS", "TRIT1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA01100\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "SUID" : 81082,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -36.78628070239563,
+        "y" : -32.40274653377304
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81081",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 10,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Pantothenate and CoA biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "AASDHPPT", "COASY", "PPCDC", "DPYD", "PPCS", "DPYS", "VNN2", "BCAT2", "UPB1", "ENPP1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00770\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00770",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00770",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00770",
+        "SUID" : 81081,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -83.10100848559875,
+        "y" : 31.181235933878327
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81080",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 33,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Arginine and proline metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH3A2", "AMD1", "GOT2", "SMS", "SRM", "ALDH4A1", "ASL", "ASS1", "CPS1", "GLS", "GLUD2", "GLUL", "ACY1", "AGMAT", "ALDH18A1", "AOC1", "ARG1", "AZIN2", "CARNS1", "CKMT2", "LAP3", "NAGS", "NOS3", "DAO", "OAT", "ODC1", "GAMT", "OTC", "GATM", "PRODH", "PRODH2", "PYCRL", "SAT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00330\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "SUID" : 81080,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -109.61384112720032,
+        "y" : 180.38610425052872
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81079",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 14,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Butanoate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH5A1", "BDH1", "HMGCL", "OXCT2", "ACADSB", "ACAT1", "AACS", "AKR1B10", "PDHB", "ACSM5", "L2HGDH", "ECHS1", "ACADS", "ABAT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00650\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650",
+        "SUID" : 81079,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -21.286921571536254,
+        "y" : -113.29320940913925
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81078",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 9,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Ubiquinone and other terpenoid-quinone biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "COQ2", "COQ3", "COQ5", "COQ6", "COQ7", "GOT1", "GOT2", "HPD", "TAT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00130\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130",
+        "SUID" : 81078,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -75.16631610278625,
+        "y" : -257.7125133031822
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81077",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 4,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Ascorbate and aldarate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH3A2", "MIOX", "RGN", "UGDH" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00053\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00053",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00053",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00053",
+        "SUID" : 81077,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -56.59542376880188,
+        "y" : 191.61416211185684
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81076",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 11,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Selenocompound metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PAPSS2", "MTR", "CTH", "KYAT3", "MARS", "PSTK", "SCLY", "SEPHS1", "SEPSECS", "INMT", "KYAT1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00450\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00450",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00450",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00450",
+        "SUID" : 81076,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -177.403315614505,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81075",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 21,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycolysis / Gluconeogenesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACSS2", "ADPGK", "AKR1A1", "ALDH3A1", "ALDH3A2", "ALDOC", "BPGM", "DLAT", "DLD", "FBP1", "G6PC2", "GALM", "GAPDH", "GCK", "GPI", "LDHAL6A", "PCK2", "PDHB", "PFKP", "PGK2", "TPI1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00010\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010",
+        "SUID" : 81075,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -200.94475848559875,
+        "y" : 29.05384411869278
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81074",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 19,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glutathione metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PGD", "GGT5", "RRM1", "ANPEP", "GCLM", "GGCT", "GPX4", "GPX6", "GSR", "GSS", "SMS", "LAP3", "OPLAH", "SRM", "TXNDC12", "ODC1", "IDH1", "G6PD", "H6PD" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00480\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00480",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00480",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00480",
+        "SUID" : 81074,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -277.403315614505,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81073",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 10,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Pentose and glucuronate interconversions; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "XYLB", "ALDH3A2", "RPEL1", "AKR1B1", "CRYL1", "DCXR", "DHDH", "GUSB", "UGDH", "UGP2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00040\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00040",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00040",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00040",
+        "SUID" : 81073,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 138.31220715160828,
+        "y" : 18.976768160440827
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81072",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 10,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Phenylalanine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "DDC", "AOC3", "ALDH3A1", "PAH", "PRDX6", "GOT2", "HPD", "TAT", "MIF", "IL4I1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00360\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "SUID" : 81072,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -79.52285296802063,
+        "y" : -108.23741564693222
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81071",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 26,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Valine, leucine and isoleucine degradation; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH3A2", "DLD", "ACAA2", "ACADM", "ACADSB", "ACAT1", "ECHS1", "ACAD8", "ALDH6A1", "AOX1", "AUH", "BCAT2", "DBT", "HIBADH", "ACADS", "HIBCH", "HSD17B10", "ABAT", "IVD", "MCCC2", "MCEE", "MUT", "HMGCL", "PCCA", "OXCT2", "IL4I1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00280\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "SUID" : 81071,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 122.5787753355072,
+        "y" : -156.72931322994003
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81070",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 11,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosphingolipid biosynthesis - ganglio series; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "B4GALNT1", "GLB1", "ST3GAL5", "ST6GALNAC3", "ST6GALNAC5", "ST6GALNAC6", "ST8SIA5", "HEXA", "ST3GAL1", "ST8SIA1", "B3GALT4" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00604\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00604",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00604",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00604",
+        "SUID" : 81070,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -13.208117555422973,
+        "y" : -165.88705859126816
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81069",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 9,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosphingolipid biosynthesis - globo series; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GLA", "FUT9", "HEXA", "ST3GAL1", "A4GALT", "B3GALT5", "B3GALNT1", "GBGT1", "NAGA" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00603\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00603",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00603",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00603",
+        "SUID" : 81069,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -44.98318011645813,
+        "y" : -207.33530077876816
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81068",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 23,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Sphingolipid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GLA", "SGMS2", "GLB1", "SGPL1", "LCT", "SGPP1", "SMPD1", "SPHK2", "SPTLC1", "UGCG", "UGT8", "ACER3", "ARSA", "ASAH1", "B4GALT6", "CERK", "PLPP3", "DEGS1", "GAL3ST1", "GALC", "GBA", "KDSR", "SGMS1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00600\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00600",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00600",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00600",
+        "SUID" : 81068,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 193.7376755964325,
+        "y" : -8.309598302266693
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81067",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 6,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Sulfur metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PAPSS2", "CHST11", "SUOX", "BPNT1", "SULT1E1", "SULT2B1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00920\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00920",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00920",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00920",
+        "SUID" : 81067,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -377.403315614505,
+        "y" : 308.26345410404434
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81066",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 21,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosphingolipid biosynthesis - lacto and neolacto series; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ABO", "B3GALT1", "B3GALT2", "B3GALT5", "B4GALT3", "B3GNT3", "B3GNT5", "B4GALT2", "B4GALT4", "B4GAT1", "FUT3", "FUT4", "FUT5", "FUT7", "FUT9", "GCNT2", "ST3GAL3", "ST3GAL4", "ST3GAL6", "ST8SIA1", "B4GALT1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00601\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00601",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00601",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00601",
+        "SUID" : 81066,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -263.6084852922394,
+        "y" : -24.57462916316757
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81065",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 1,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Butirosin and neomycin biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GCK" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00524\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524",
+        "SUID" : 81065,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -246.13457782153625,
+        "y" : 118.09856000004044
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81064",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 9,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Ether lipid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PLD1", "AGPS", "PLPP3", "ENPP2", "ENPP6", "LPCAT2", "LPCAT4", "PAFAH2", "PLA2G2A" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00565\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00565",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00565",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00565",
+        "SUID" : 81064,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 33.85200207348328,
+        "y" : -137.21912035884628
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81063",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 5,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Phenylalanine, tyrosine and tryptophan biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PAH", "GOT1", "GOT2", "TAT", "IL4I1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00400\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400",
+        "SUID" : 81063,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -145.59676654223938,
+        "y" : -187.6639750951744
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81062",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Propanoate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACSS2", "MCEE", "MUT", "MLYCD", "PCCA", "ALDH3A2", "ACACA", "ACADM", "LDHAL6A", "ACAT1", "ACSS3", "ECHS1", "ALDH6A1", "HIBCH", "ABAT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00640\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640",
+        "SUID" : 81062,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 185.05179302807312,
+        "y" : -75.83763537349472
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81061",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 19,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycosylphosphatidylinositol(GPI)-anchor biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PIGZ", "GPLD1", "PIGA", "DPM2", "PIGB", "PIGC", "PIGF", "PIGG", "PIGH", "PIGL", "PIGM", "PIGN", "PIGO", "PIGP", "PIGQ", "PIGV", "PIGW", "PIGX", "PIGY" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00563\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00563",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00563",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00563",
+        "SUID" : 81061,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -77.37552935962219,
+        "y" : 133.52988781986465
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81060",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 28,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycerophospholipid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACHE", "ADPRM", "BCHE", "CDS1", "CHKA", "CRLS1", "GNPAT", "GPD1L", "GPD2", "LCAT", "LPCAT3", "LPGAT1", "MBOAT1", "MBOAT7", "PCYT1A", "PCYT2", "PEMT", "PGS1", "AGPAT1", "PHOSPHO1", "PISD", "GPAT3", "PLD1", "PTDSS1", "PTDSS2", "TAZ", "PLPP3", "CDIPT" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00564\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00564",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00564",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00564",
+        "SUID" : 81060,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 620.4779977094696,
+        "y" : -313.96803698482285
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81059",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 29,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Amino sugar and nucleotide sugar metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GCK", "GPI", "GFPT1", "GNPDA2", "UGDH", "UGP2", "AMDHD2", "FPGT", "CMAS", "FUK", "CYB5R1", "GMDS", "GMPPB", "GNE", "GNPNAT1", "HEXA", "MPI", "NAGK", "NANP", "PMM1", "NANS", "NPL", "TSTA3", "PGM3", "GALE", "RENBP", "GALT", "UAP1", "UXS1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00520\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520",
+        "SUID" : 81059,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -254.42278582934875,
+        "y" : 28.68761220035782
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81058",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glycerolipid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GLA", "AKR1A1", "ALDH3A2", "AKR1B1", "AGK", "AGPAT1", "GK2", "GPAT3", "LPL", "MGLL", "MOGAT3", "PLPP3", "PNLIPRP2", "TKFC", "GLYCTK" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00561\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00561",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00561",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00561",
+        "SUID" : 81058,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 46.28530590649109,
+        "y" : -4.118490552327728
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81057",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Nicotinate and nicotinamide metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PNP", "CD38", "NADK", "NADSYN1", "NAMPT", "NAPRT", "NMNAT3", "NMRK1", "ENPP1", "NNMT", "NNT", "NUDT12", "QPRT", "AOX1", "NT5C" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00760\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00760",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00760",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00760",
+        "SUID" : 81057,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 66.33051006908875,
+        "y" : 49.507678652384186
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81056",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 22,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Inositol phosphate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "INPP5B", "INPP5J", "IPMK", "IPPK", "ISYNA1", "MIOX", "ITPK1", "ITPKB", "MINPP1", "PI4KB", "PIK3C3", "PIKFYVE", "PIP5K1B", "PLCE1", "PTEN", "SYNJ2", "TPI1", "ALDH6A1", "CDIPT", "IMPA2", "INPP1", "INPP4B" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00562\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00562",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00562",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00562",
+        "SUID" : 81056,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -196.95147235278625,
+        "y" : -150.3280375951744
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81055",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 30,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Pyrimidine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PNP", "PNPT1", "POLE", "POLR3K", "RRM1", "TYMP", "AK3", "CAD", "CDA", "CTPS1", "DCTD", "DHODH", "DPYD", "DPYS", "DTYMK", "DUT", "TYMS", "UCK1", "UMPS", "UPB1", "UPP2", "UPRT", "ZCCHC11", "DCK", "ENTPD3", "ENTPD5", "ITPA", "NME5", "NT5C", "NUDT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00240\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00240",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00240",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00240",
+        "SUID" : 81055,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -39.999445985598754,
+        "y" : 81.91370739994278
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81054",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Primary bile acid biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "HSD3B7", "SCP2", "SLC27A5", "BAAT", "ACOX2", "AKR1C4", "AKR1D1", "AMACR", "CH25H", "CYP27A1", "CYP39A1", "CYP46A1", "CYP7A1", "CYP7B1", "CYP8B1", "HSD17B4" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00120\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00120",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00120",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00120",
+        "SUID" : 81054,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 80.20957462902527,
+        "y" : -115.78950152339706
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81053",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 22,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Arachidonic acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "AKR1C3", "ALOX12", "ALOX12B", "ALOX15B", "ALOX5", "CBR1", "GGT5", "CYP2E1", "CYP2J2", "CYP2U1", "CYP4A11", "CYP4F3", "EPHX2", "HPGDS", "LTA4H", "LTC4S", "PTGES", "PTGIS", "GPX6", "PTGS2", "TBXAS1", "CYP4A22" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00590\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00590",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00590",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00590",
+        "SUID" : 81053,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -247.26723773364563,
+        "y" : -110.86054644527206
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81052",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 3,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Linoleic acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "AKR1B10", "ALOX15", "CYP3A43" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00591\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00591",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00591",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00591",
+        "SUID" : 81052,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 71.31662838573914,
+        "y" : -178.98321947994003
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81051",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Pentose phosphate pathway; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PGD", "PGLS", "PRPS2", "RBKS", "RGN", "ALDOC", "RPEL1", "RPIA", "TALDO1", "TKTL2", "FBP1", "GPI", "PFKP", "DERA", "G6PD", "H6PD" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00030\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00030",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00030",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00030",
+        "SUID" : 81051,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 134.91772930737,
+        "y" : 120.4381519800209
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81050",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 19,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Fatty acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GCDH", "ALDH3A1", "ALDH3A2", "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACSL4", "ECHS1", "EHHADH", "HADH", "HADHA", "TUBA8", "ACADL", "ACADS", "ACOX3", "CYP4A22", "ECI2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00071\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071",
+        "SUID" : 81050,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 176.80864422436218,
+        "y" : 58.60331692753067
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81049",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 16,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Biosynthesis of unsaturated fatty acids; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ELOVL2", "ELOVL6", "OXSM", "ACOT2", "ACSL4", "BAAT", "FADS2", "HADHA", "PPT1", "ACAA1", "ACOT4", "HACD1", "ACOX3", "HSD17B12", "SCD5", "TECR" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA01040\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01040",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01040",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01040",
+        "SUID" : 81049,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 420.4779977094696,
+        "y" : -313.96803698482285
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81048",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 22,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Cysteine and methionine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "SDS", "ADI1", "AHCYL1", "AMD1", "GOT2", "APIP", "CDO1", "TAT", "DNMT3L", "ENOPH1", "IL4I1", "MAT2B", "LDHAL6A", "MPST", "MRI1", "MTAP", "MTR", "BHMT", "SMS", "CBS", "SRM", "CTH" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00270\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00270",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00270",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00270",
+        "SUID" : 81048,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -77.33487994555969,
+        "y" : -158.27617297115097
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81047",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 4,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Synthesis and degradation of ketone bodies; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ACAT1", "BDH1", "HMGCL", "OXCT2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00072\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072",
+        "SUID" : 81047,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 23.85873119945984,
+        "y" : -203.64586291255722
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81046",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 11,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Nitrogen metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "AMT", "ASNS", "HAL", "CA1", "CPS1", "CTH", "DLD", "GLS", "GLUD2", "GLUL", "GLDC" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00910\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910",
+        "SUID" : 81046,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -197.50979144458313,
+        "y" : 83.10884442386856
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81045",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 12,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Other types of O-glycan biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "POMGNT1", "POMT1", "B3GLCT", "GXYLT1", "PLOD3", "B4GALT3", "LFNG", "MGAT5B", "OGT", "POFUT1", "ST6GAL1", "POGLUT1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00514\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00514",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00514",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00514",
+        "SUID" : 81045,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 520.4779977094696,
+        "y" : -313.96803698482285
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81044",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 9,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Mucin type O-Glycan biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "B3GNT6", "B4GALT5", "C1GALT1", "GALNT4", "GCNT1", "GCNT3", "GCNT4", "ST3GAL1", "ST6GALNAC1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00512\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00512",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00512",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00512",
+        "SUID" : 81044,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 9.64120190258484,
+        "y" : 44.90038266239395
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81043",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 33,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: N-Glycan biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALG10", "ALG11", "ALG12", "ALG13", "ALG14", "ALG2", "ALG3", "ALG5", "ALG6", "ALG8", "ALG9", "B4GALT3", "DAD1", "DOLK", "DOLPP1", "DPAGT1", "DPM1", "DPM2", "DPM3", "FUT8", "GANAB", "MAN1B1", "MAN2A2", "MGAT1", "MGAT2", "MGAT3", "MGAT4B", "MGAT4C", "MGAT5", "MOGS", "ST6GAL1", "STT3B", "ALG1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00510\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00510",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00510",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00510",
+        "SUID" : 81043,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -99.34269244555969,
+        "y" : -209.20383105220566
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81042",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Retinol metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ALDH1A1", "AWAT2", "BCO1", "CYP26C1", "CYP2A13", "LRAT", "PNPLA4", "RDH11", "RETSAT", "CYP1A2", "RPE65", "SDR16C5", "CYP1A1", "CYP3A43", "CYP4A22" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00830\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00830",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00830",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00830",
+        "SUID" : 81042,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -377.403315614505,
+        "y" : -247.76152453365097
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81041",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 5,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Vitamin B6 metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PSAT1", "PDXK", "PDXP", "PNPO", "AOX1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00750\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00750",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00750",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00750",
+        "SUID" : 81041,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 72.0120782148407,
+        "y" : 106.32390179691544
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81040",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 14,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Lysine degradation; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GCDH", "PIPOX", "ALDH3A2", "AADAT", "AASS", "ALDH9A1", "BBOX1", "KMT5B", "PLOD3", "TMLHE", "ACAT1", "ALDH7A1", "ECHS1", "DLST" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00310\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00310",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00310",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00310",
+        "SUID" : 81040,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 317.46054546947937,
+        "y" : -210.47555956783066
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81039",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 13,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Glyoxylate and dicarboxylate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "MCEE", "MUT", "PCCA", "GRHPR", "HAO2", "HYI", "PGP", "ACAT1", "ACLY", "CS", "AFMID", "MDH1", "GLYCTK" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00630\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00630",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00630",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00630",
+        "SUID" : 81039,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 117.2260207426117,
+        "y" : 70.08385052738419
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81038",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 5,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Taurine and hypotaurine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "ADO", "BAAT", "CSAD", "GGT5", "CDO1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00430\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00430",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00430",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00430",
+        "SUID" : 81038,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -133.12266070727844,
+        "y" : -36.49295077266464
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81037",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 3,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Caffeine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "CYP3A43", "XDH", "CYP1A2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00232\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232",
+        "SUID" : 81037,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -244.27144915942688,
+        "y" : -189.47140917720566
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81036",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 10,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Folate biosynthesis; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PTS", "QDPR", "SPR", "DHFR", "ALPI", "FPGS", "GCH1", "GGH", "MOCS1", "MOCS2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00790\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00790",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00790",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00790",
+        "SUID" : 81036,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -142.15975482348938,
+        "y" : 117.55287518558731
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81035",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 2,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: alpha-Linolenic acid metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "FADS2", "ACOX3" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00592\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00592",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00592",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00592",
+        "SUID" : 81035,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 417.46054546947937,
+        "y" : -206.24586901607285
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81034",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 2,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: D-Glutamine and D-glutamate metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "GLS", "GLUD2" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00471\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471",
+        "SUID" : 81034,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -98.29682452563782,
+        "y" : 84.58045544681778
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81033",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 22,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Tyrosine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "DDC", "ALDH3A1", "METTL6", "DBH", "GOT1", "DCT", "GOT2", "FAH", "HPD", "GSTZ1", "TAT", "COMT", "HGD", "MIF", "IL4I1", "PNMT", "TH", "TPO", "TYR", "AOC3", "TYRP1", "AOX1" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00350\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350",
+        "SUID" : 81033,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -181.02849871997375,
+        "y" : -92.05448565425644
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81032",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 15,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: One carbon pool by folate; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "FTCD", "SHMT1", "ATIC", "AMT", "GART", "MTR", "BHMT", "ALDH1L2", "DHFR", "MTFMT", "MTHFD1", "TYMS", "MTHFD2L", "MTHFR", "MTHFS" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00670\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00670",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00670",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00670",
+        "SUID" : 81032,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 15.75466625805359,
+        "y" : 99.28226056156387
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81031",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 1,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: D-Arginine and D-ornithine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "DAO" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00472\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472",
+        "SUID" : 81031,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -1.647051881594848,
+        "y" : 196.1726948267006
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81030",
+        "EM1_fdr_qvalue_dataset1" : 1.0,
+        "EM1_gs_size_dataset1" : 46,
+        "EM1_GS_Type" : "ENR",
+        "EM1_GS_Source" : "none",
+        "EM1_GS_DESCR" : "name: Purine metabolism; datasource: kegg; organism: 9606; idtype: hgnc symbol",
+        "EM1_Genes" : [ "PAPSS2", "PFAS", "PNP", "PNPT1", "POLE", "POLR3K", "PPAT", "PRUNE", "RRM1", "TYMP", "URAD", "XDH", "ADA", "ADCY3", "ADK", "ADSL", "PRPS2", "ADSS", "AK4", "ALLC", "AMPD1", "APRT", "ATIC", "BPNT1", "DCK", "DGUOK", "ENPP1", "ENTPD2", "ENTPD3", "ENTPD5", "FHIT", "GART", "GDA", "GMPS", "GUCY2D", "GUK1", "HPRT1", "ITPA", "NME5", "NT5C", "NTPCR", "NUDT16", "NUDT2", "NUDT5", "PAICS", "PAPOLA" ],
+        "EM1_Formatted_name" : "HTTP://IDENTIFI\nERS.ORG/KEGG.PA\nTHWAY/HSA00230\n",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00230",
+        "EM1_pvalue_dataset1" : 0.01,
+        "EM1_Name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00230",
+        "EM1_Colouring_dataset1" : 0.99,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00230",
+        "SUID" : 81030,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 110.14986424561005,
+        "y" : -215.97044787349472
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "81126",
+        "source" : "81098",
+        "target" : "81101",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A1", "CYP3A43", "CYP2E1", "CYP1A2" ],
+        "SUID" : 81126,
+        "EM1_Overlap_size" : 4,
+        "EM1_similarity_coefficient" : 0.5151515151515151,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81155",
+        "source" : "81086",
+        "target" : "81088",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "B3GALT6", "B3GAT2", "B4GALT7" ],
+        "SUID" : 81155,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.41666666666666663,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81196",
+        "source" : "81082",
+        "target" : "81097",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP27B1", "CYP2R1", "CYP51A1", "DHCR24", "DHCR7", "EBP", "FAXDC2", "FDFT1", "HSD17B7", "LSS", "NSDHL", "SC5D", "SQLE", "TM7SF2" ],
+        "SUID" : 81196,
+        "EM1_Overlap_size" : 14,
+        "EM1_similarity_coefficient" : 0.44975919439579687,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81192",
+        "source" : "81082",
+        "target" : "81106",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GUSB", "CYP3A43", "GMPS", "HPRT1", "ITPA", "TYMP", "XDH", "CDA", "DPYD", "DPYS", "UCK1", "UMPS", "UPB1", "UPP2", "CES2", "CES5A" ],
+        "SUID" : 81192,
+        "EM1_Overlap_size" : 16,
+        "EM1_similarity_coefficient" : 0.4584549523253551,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81191",
+        "source" : "81082",
+        "target" : "81098",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A1", "AKR1C4", "CYP3A43", "CYP1A2", "CYP2E1" ],
+        "SUID" : 81191,
+        "EM1_Overlap_size" : 5,
+        "EM1_similarity_coefficient" : 0.4210526315789474,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81185",
+        "source" : "81082",
+        "target" : "81107",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00900",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00900",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAT1", "FDPS", "GGPS1", "HMGCR", "IDI1", "MVD", "MVK", "PMVK" ],
+        "SUID" : 81185,
+        "EM1_Overlap_size" : 8,
+        "EM1_similarity_coefficient" : 0.4070052539404554,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81183",
+        "source" : "81082",
+        "target" : "81092",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00051",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00051",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDOC", "FBP1", "PFKP", "TPI1", "AKR1B1", "AKR1B10", "FPGT", "FUK", "GMDS", "GMPPB", "KHK", "MPI", "PMM1", "SORD", "TSTA3" ],
+        "SUID" : 81183,
+        "EM1_Overlap_size" : 15,
+        "EM1_similarity_coefficient" : 0.4819078947368421,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81182",
+        "source" : "81082",
+        "target" : "81090",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "G6PC2", "GCK", "PFKP", "AKR1B1", "UGP2", "B4GALT1", "GALE", "GALT", "GANC", "GLB1", "LCT", "SI" ],
+        "SUID" : 81182,
+        "EM1_Overlap_size" : 12,
+        "EM1_similarity_coefficient" : 0.4720647773279352,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81181",
+        "source" : "81082",
+        "target" : "81111",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACOT2", "ACSL4", "BAAT", "ECHS1", "EHHADH", "HADH", "HADHA", "MECR", "PPT1", "TUBA8" ],
+        "SUID" : 81181,
+        "EM1_Overlap_size" : 15,
+        "EM1_similarity_coefficient" : 0.5131810193321616,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81180",
+        "source" : "81082",
+        "target" : "81095",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00020",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00020",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DLD", "PCK2", "PDHB", "ACLY", "CS", "DLST", "FH", "IDH1", "MDH1", "PC", "SDHA" ],
+        "SUID" : 81180,
+        "EM1_Overlap_size" : 11,
+        "EM1_similarity_coefficient" : 0.46798245614035083,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81173",
+        "source" : "81082",
+        "target" : "81105",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00785",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00785",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "LIAS", "LIPT1", "LIPT2" ],
+        "SUID" : 81173,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.5026362038664324,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81172",
+        "source" : "81082",
+        "target" : "81094",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00780",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00780",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "BTD", "HLCS" ],
+        "SUID" : 81172,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5017574692442882,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81171",
+        "source" : "81082",
+        "target" : "81087",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00730",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00730",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "NTPCR", "THTPA", "TPK1" ],
+        "SUID" : 81171,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.37763157894736843,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81151",
+        "source" : "81082",
+        "target" : "81088",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00534",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "B3GALT6", "B3GAT2", "B4GALT7", "EXT1", "EXTL1", "EXTL3" ],
+        "SUID" : 81151,
+        "EM1_Overlap_size" : 6,
+        "EM1_similarity_coefficient" : 0.5052724077328646,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81150",
+        "source" : "81082",
+        "target" : "81086",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00532",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "B3GALT6", "B3GAT2", "B4GALT7", "CHPF2", "CHSY1", "CSGALNACT2" ],
+        "SUID" : 81150,
+        "EM1_Overlap_size" : 6,
+        "EM1_similarity_coefficient" : 0.5052724077328646,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81148",
+        "source" : "81082",
+        "target" : "81084",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00531",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00531",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GUSB", "GLB1", "HEXA", "ARSB", "GALNS", "GNS", "HGSNAT", "HPSE", "HYAL1", "IDS", "IDUA", "NAGLU", "SGSH" ],
+        "SUID" : 81148,
+        "EM1_Overlap_size" : 13,
+        "EM1_similarity_coefficient" : 0.5114235500878734,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81135",
+        "source" : "81082",
+        "target" : "81083",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00410",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00410",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A1", "ALDH3A2", "ACADM", "ECHS1", "DPYD", "DPYS", "UPB1", "ABAT", "AOC3", "SMS", "SRM", "HIBCH", "CNDP1", "MLYCD" ],
+        "SUID" : 81135,
+        "EM1_Overlap_size" : 14,
+        "EM1_similarity_coefficient" : 0.44975919439579687,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81128",
+        "source" : "81082",
+        "target" : "81109",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00380",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00380",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A2", "DLD", "DLST", "ACAT1", "ECHS1", "GCDH", "CYP1A2", "IL4I1", "AOX1", "DDC", "AANAT", "ACMSD", "AFMID", "ASMT", "HAAO", "IDO2", "KMO", "KYAT1", "KYNU", "TDO2" ],
+        "SUID" : 81128,
+        "EM1_Overlap_size" : 20,
+        "EM1_similarity_coefficient" : 0.4341186736474695,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81124",
+        "source" : "81082",
+        "target" : "81099",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH7A1", "AADAT", "AASS" ],
+        "SUID" : 81124,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.5026362038664324,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81121",
+        "source" : "81082",
+        "target" : "81091",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GOT2", "TAT", "ADSL", "ADSS", "PPAT", "CAD", "ABAT", "AGXT", "ALDH4A1", "ALDH5A1", "ASL", "ASNS", "ASS1", "CPS1", "GFPT1", "GLS", "GLUD2", "GLUL", "GNPDA2", "GPT2", "IL4I1" ],
+        "SUID" : 81121,
+        "EM1_Overlap_size" : 21,
+        "EM1_similarity_coefficient" : 0.45585664335664333,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81120",
+        "source" : "81082",
+        "target" : "81112",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DLD", "AGXT", "ALDH7A1", "AMT", "AOC3", "BHMT", "CBS", "CTH", "DAO", "DMGDH", "GAMT", "GATM", "GLDC", "GLYCTK", "PHGDH", "PIPOX", "PSAT1", "PSPH", "SARDH", "SDS", "SHMT1" ],
+        "SUID" : 81120,
+        "EM1_Overlap_size" : 21,
+        "EM1_similarity_coefficient" : 0.4383246073298429,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81157",
+        "source" : "81081",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00770 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00770 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "COASY", "PPCDC", "DPYD", "PPCS", "DPYS", "BCAT2", "UPB1", "ENPP1" ],
+        "SUID" : 81157,
+        "EM1_Overlap_size" : 8,
+        "EM1_similarity_coefficient" : 0.4070052539404554,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81161",
+        "source" : "81080",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A2", "AMD1", "GOT2", "SMS", "SRM", "ALDH4A1", "ASL", "ASS1", "CPS1", "GLS", "GLUD2", "GLUL", "ACY1", "AGMAT", "ALDH18A1", "ARG1", "AZIN2", "CKMT2", "LAP3", "NAGS", "NOS3", "DAO", "OAT", "ODC1", "GAMT", "OTC", "GATM", "PRODH", "PRODH2", "PYCRL", "SAT2" ],
+        "SUID" : 81161,
+        "EM1_Overlap_size" : 31,
+        "EM1_similarity_coefficient" : 0.4968423287162342,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81123",
+        "source" : "81079",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH5A1", "BDH1", "HMGCL", "ACADSB", "ACAT1", "AKR1B10", "PDHB", "ACSM5", "ECHS1", "ACADS", "ABAT" ],
+        "SUID" : 81123,
+        "EM1_Overlap_size" : 11,
+        "EM1_similarity_coefficient" : 0.4024725274725275,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81160",
+        "source" : "81078",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "COQ2", "COQ3", "COQ5", "COQ6", "COQ7", "GOT1", "GOT2", "HPD", "TAT" ],
+        "SUID" : 81160,
+        "EM1_Overlap_size" : 9,
+        "EM1_similarity_coefficient" : 0.507908611599297,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81133",
+        "source" : "81077",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00053 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00053 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A2", "RGN", "UGDH" ],
+        "SUID" : 81133,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.37763157894736843,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81152",
+        "source" : "81075",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACSS2", "ADPGK", "AKR1A1", "ALDH3A1", "ALDH3A2", "ALDOC", "BPGM", "DLD", "FBP1", "G6PC2", "GAPDH", "GCK", "GPI", "LDHAL6A", "PCK2", "PDHB", "PFKP", "PGK2", "TPI1" ],
+        "SUID" : 81152,
+        "EM1_Overlap_size" : 19,
+        "EM1_similarity_coefficient" : 0.46901843048953384,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81194",
+        "source" : "81073",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00040 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00040 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "XYLB", "ALDH3A2", "RPEL1", "AKR1B1", "CRYL1", "DCXR", "GUSB", "UGDH", "UGP2" ],
+        "SUID" : 81194,
+        "EM1_Overlap_size" : 9,
+        "EM1_similarity_coefficient" : 0.4578947368421053,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81166",
+        "source" : "81072",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DDC", "AOC3", "ALDH3A1", "PAH", "PRDX6", "GOT2", "HPD", "TAT", "IL4I1" ],
+        "SUID" : 81166,
+        "EM1_Overlap_size" : 9,
+        "EM1_similarity_coefficient" : 0.4578947368421053,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81119",
+        "source" : "81071",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALDH3A2", "DLD", "ACAA2", "ACADM", "ACADSB", "ACAT1", "ECHS1", "ACAD8", "ALDH6A1", "AOX1", "AUH", "BCAT2", "DBT", "HIBADH", "ACADS", "HIBCH", "HSD17B10", "ABAT", "IVD", "MCCC2", "MCEE", "MUT", "HMGCL", "PCCA", "IL4I1" ],
+        "SUID" : 81119,
+        "EM1_Overlap_size" : 25,
+        "EM1_similarity_coefficient" : 0.5026990553306343,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81193",
+        "source" : "81070",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00604 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00604 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "B4GALNT1", "GLB1", "ST3GAL5", "ST6GALNAC3", "ST6GALNAC5", "ST6GALNAC6", "ST8SIA5", "HEXA", "ST3GAL1", "ST8SIA1", "B3GALT4" ],
+        "SUID" : 81193,
+        "EM1_Overlap_size" : 11,
+        "EM1_similarity_coefficient" : 0.5096660808435852,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81176",
+        "source" : "81069",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00603 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00603 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "FUT9", "HEXA", "ST3GAL1", "A4GALT", "B3GALT5", "B3GALNT1", "GBGT1" ],
+        "SUID" : 81176,
+        "EM1_Overlap_size" : 7,
+        "EM1_similarity_coefficient" : 0.3950184860867873,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81174",
+        "source" : "81068",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00600 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00600 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "SGMS2", "GLB1", "SGPL1", "LCT", "SMPD1", "SPHK2", "SPTLC1", "UGCG", "UGT8", "ASAH1", "B4GALT6", "PLPP3", "DEGS1", "GAL3ST1", "GALC", "GBA", "KDSR", "SGMS1" ],
+        "SUID" : 81174,
+        "EM1_Overlap_size" : 18,
+        "EM1_similarity_coefficient" : 0.40698379033479776,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81158",
+        "source" : "81066",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00601 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00601 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ABO", "B3GALT1", "B3GALT2", "B3GALT5", "B4GALT3", "B3GNT3", "B3GNT5", "B4GALT2", "B4GALT4", "B4GAT1", "FUT3", "FUT4", "FUT5", "FUT7", "FUT9", "GCNT2", "ST3GAL3", "ST3GAL4", "ST3GAL6", "ST8SIA1", "B4GALT1" ],
+        "SUID" : 81158,
+        "EM1_Overlap_size" : 21,
+        "EM1_similarity_coefficient" : 0.5184534270650264,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81188",
+        "source" : "81065",
+        "target" : "81075",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00010",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK" ],
+        "SUID" : 81188,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5238095238095238,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81169",
+        "source" : "81065",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK" ],
+        "SUID" : 81169,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5008787346221442,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81153",
+        "source" : "81065",
+        "target" : "81103",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00500",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00500",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK" ],
+        "SUID" : 81153,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5263157894736842,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81117",
+        "source" : "81065",
+        "target" : "81090",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00052",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK" ],
+        "SUID" : 81117,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5384615384615384,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81139",
+        "source" : "81064",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00565 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00565 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PLD1", "AGPS", "PLPP3", "LPCAT2", "LPCAT4", "PAFAH2", "PLA2G2A" ],
+        "SUID" : 81139,
+        "EM1_Overlap_size" : 7,
+        "EM1_similarity_coefficient" : 0.3950184860867873,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81195",
+        "source" : "81063",
+        "target" : "81078",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00130",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GOT1", "GOT2", "TAT" ],
+        "SUID" : 81195,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.43636363636363634,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81162",
+        "source" : "81063",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PAH", "GOT1", "GOT2", "TAT", "IL4I1" ],
+        "SUID" : 81162,
+        "EM1_Overlap_size" : 5,
+        "EM1_similarity_coefficient" : 0.5043936731107206,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81115",
+        "source" : "81063",
+        "target" : "81072",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PAH", "GOT2", "TAT", "IL4I1" ],
+        "SUID" : 81115,
+        "EM1_Overlap_size" : 4,
+        "EM1_similarity_coefficient" : 0.5818181818181818,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81190",
+        "source" : "81062",
+        "target" : "81071",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "MCEE", "MUT", "PCCA", "ALDH3A2", "ACADM", "ACAT1", "ECHS1", "ALDH6A1", "HIBCH", "ABAT" ],
+        "SUID" : 81190,
+        "EM1_Overlap_size" : 10,
+        "EM1_similarity_coefficient" : 0.4946236559139785,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81149",
+        "source" : "81062",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00640 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACSS2", "MCEE", "MUT", "MLYCD", "PCCA", "ALDH3A2", "ACACA", "ACADM", "LDHAL6A", "ACAT1", "ACSS3", "ECHS1", "ALDH6A1", "HIBCH", "ABAT" ],
+        "SUID" : 81149,
+        "EM1_Overlap_size" : 15,
+        "EM1_similarity_coefficient" : 0.5131810193321616,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81131",
+        "source" : "81061",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00563 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00563 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PIGA", "DPM2", "PIGB", "PIGC", "PIGF", "PIGH", "PIGL", "PIGM", "PIGN", "PIGO", "PIGP", "PIGQ", "PIGV", "PIGW", "PIGX", "PIGY" ],
+        "SUID" : 81131,
+        "EM1_Overlap_size" : 16,
+        "EM1_similarity_coefficient" : 0.43503864556496136,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81138",
+        "source" : "81059",
+        "target" : "81065",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00524",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK" ],
+        "SUID" : 81138,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5172413793103449,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81114",
+        "source" : "81059",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00520 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCK", "GPI", "GFPT1", "GNPDA2", "UGDH", "UGP2", "FPGT", "CMAS", "FUK", "GMDS", "GMPPB", "GNE", "HEXA", "MPI", "NANP", "PMM1", "NANS", "TSTA3", "GALE", "GALT", "UAP1", "UXS1" ],
+        "SUID" : 81114,
+        "EM1_Overlap_size" : 22,
+        "EM1_similarity_coefficient" : 0.3984075670498084,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81159",
+        "source" : "81058",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00561 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00561 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "AKR1A1", "ALDH3A2", "AKR1B1", "AGK", "AGPAT1", "GK2", "GPAT3", "MGLL", "MOGAT3", "PLPP3", "PNLIPRP2", "TKFC", "GLYCTK" ],
+        "SUID" : 81159,
+        "EM1_Overlap_size" : 13,
+        "EM1_similarity_coefficient" : 0.44471687098657325,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81141",
+        "source" : "81057",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00760 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00760 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PNP", "CD38", "NADK", "NADSYN1", "NAPRT", "NMNAT3", "ENPP1", "NNMT", "NNT", "QPRT", "AOX1", "NT5C" ],
+        "SUID" : 81141,
+        "EM1_Overlap_size" : 12,
+        "EM1_similarity_coefficient" : 0.4104895104895105,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81140",
+        "source" : "81056",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00562 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00562 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "INPP5B", "INPP5J", "IPPK", "ISYNA1", "ITPK1", "ITPKB", "PI4KB", "PIK3C3", "PIP5K1B", "PLCE1", "SYNJ2", "TPI1", "ALDH6A1", "CDIPT", "IMPA2", "INPP1", "INPP4B" ],
+        "SUID" : 81140,
+        "EM1_Overlap_size" : 17,
+        "EM1_similarity_coefficient" : 0.4011719987329743,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81178",
+        "source" : "81055",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00240 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00240 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PNP", "POLE", "POLR3K", "RRM1", "TYMP", "CAD", "CDA", "CTPS1", "DCTD", "DHODH", "DPYD", "DPYS", "DTYMK", "DUT", "TYMS", "UCK1", "UMPS", "UPB1", "UPP2", "UPRT", "ZCCHC11", "DCK", "ITPA", "NME5", "NT5C" ],
+        "SUID" : 81178,
+        "EM1_Overlap_size" : 25,
+        "EM1_similarity_coefficient" : 0.43844367015098723,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81127",
+        "source" : "81054",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00120 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00120 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "HSD3B7", "SCP2", "SLC27A5", "BAAT", "ACOX2", "AKR1C4", "AKR1D1", "AMACR", "CYP27A1", "CYP7A1", "CYP8B1", "HSD17B4" ],
+        "SUID" : 81127,
+        "EM1_Overlap_size" : 12,
+        "EM1_similarity_coefficient" : 0.3854712041884817,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81177",
+        "source" : "81053",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00590 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00590 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALOX12", "ALOX12B", "ALOX15B", "ALOX5", "CBR1", "GGT5", "CYP2E1", "CYP2J2", "CYP2U1", "CYP4A11", "CYP4F3", "EPHX2", "HPGDS", "LTA4H", "LTC4S", "PTGES", "PTGIS", "PTGS2", "TBXAS1", "CYP4A22" ],
+        "SUID" : 81177,
+        "EM1_Overlap_size" : 20,
+        "EM1_similarity_coefficient" : 0.4720585893965929,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81164",
+        "source" : "81052",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00591 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00591 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "AKR1B10", "ALOX15", "CYP3A43" ],
+        "SUID" : 81164,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.5026362038664324,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81167",
+        "source" : "81051",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00030 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00030 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PGD", "PGLS", "PRPS2", "RGN", "ALDOC", "RPEL1", "RPIA", "TALDO1", "TKTL2", "FBP1", "GPI", "PFKP", "G6PD", "H6PD" ],
+        "SUID" : 81167,
+        "EM1_Overlap_size" : 14,
+        "EM1_similarity_coefficient" : 0.44975919439579687,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81184",
+        "source" : "81050",
+        "target" : "81111",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00062",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACSL4", "ECHS1", "EHHADH", "HADH", "HADHA", "TUBA8" ],
+        "SUID" : 81184,
+        "EM1_Overlap_size" : 11,
+        "EM1_similarity_coefficient" : 0.6057971014492753,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81118",
+        "source" : "81050",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00071 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GCDH", "ALDH3A1", "ALDH3A2", "ACAA2", "ACADM", "ACADSB", "ACADVL", "ACAT1", "ACSL4", "ECHS1", "EHHADH", "HADH", "HADHA", "TUBA8", "ACADL", "ACADS", "ACOX3", "CYP4A22" ],
+        "SUID" : 81118,
+        "EM1_Overlap_size" : 18,
+        "EM1_similarity_coefficient" : 0.4894736842105263,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81132",
+        "source" : "81048",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00270 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00270 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "SDS", "ADI1", "AHCYL1", "AMD1", "GOT2", "APIP", "CDO1", "TAT", "DNMT3L", "IL4I1", "MAT2B", "LDHAL6A", "MPST", "MRI1", "MTAP", "MTR", "BHMT", "SMS", "CBS", "SRM", "CTH" ],
+        "SUID" : 81132,
+        "EM1_Overlap_size" : 21,
+        "EM1_similarity_coefficient" : 0.49569377990430624,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81175",
+        "source" : "81047",
+        "target" : "81071",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00280",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAT1", "HMGCL", "OXCT2" ],
+        "SUID" : 81175,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.4305555555555556,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81134",
+        "source" : "81047",
+        "target" : "81079",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00650",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAT1", "BDH1", "HMGCL", "OXCT2" ],
+        "SUID" : 81134,
+        "EM1_Overlap_size" : 4,
+        "EM1_similarity_coefficient" : 0.6428571428571428,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81129",
+        "source" : "81047",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00072 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ACAT1", "BDH1", "HMGCL" ],
+        "SUID" : 81129,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.37763157894736843,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81165",
+        "source" : "81046",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "AMT", "ASNS", "HAL", "CPS1", "CTH", "DLD", "GLS", "GLUD2", "GLUL", "GLDC" ],
+        "SUID" : 81165,
+        "EM1_Overlap_size" : 10,
+        "EM1_similarity_coefficient" : 0.4633173843700159,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81113",
+        "source" : "81044",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00512 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00512 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "B3GNT6", "C1GALT1", "GALNT4", "GCNT1", "GCNT3", "GCNT4", "ST3GAL1", "ST6GALNAC1" ],
+        "SUID" : 81113,
+        "EM1_Overlap_size" : 8,
+        "EM1_similarity_coefficient" : 0.45146198830409356,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81137",
+        "source" : "81043",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00510 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00510 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ALG10", "ALG11", "ALG12", "ALG13", "ALG14", "ALG2", "ALG3", "ALG5", "ALG6", "ALG8", "ALG9", "B4GALT3", "DAD1", "DOLK", "DPAGT1", "DPM1", "DPM2", "DPM3", "FUT8", "GANAB", "MAN1B1", "MAN2A2", "MGAT1", "MGAT2", "MGAT3", "MGAT4B", "MGAT4C", "MGAT5", "MOGS", "ST6GAL1", "STT3B", "ALG1" ],
+        "SUID" : 81137,
+        "EM1_Overlap_size" : 32,
+        "EM1_similarity_coefficient" : 0.5129186602870813,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81125",
+        "source" : "81041",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00750 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00750 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PSAT1", "PDXK", "PDXP", "PNPO", "AOX1" ],
+        "SUID" : 81125,
+        "EM1_Overlap_size" : 5,
+        "EM1_similarity_coefficient" : 0.5043936731107206,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81170",
+        "source" : "81040",
+        "target" : "81099",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00310 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00310 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00300",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "AADAT", "AASS", "ALDH7A1" ],
+        "SUID" : 81170,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.6071428571428571,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81130",
+        "source" : "81039",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00630 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00630 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "MCEE", "MUT", "PCCA", "GRHPR", "HAO2", "HYI", "PGP", "ACAT1", "ACLY", "CS", "AFMID", "MDH1", "GLYCTK" ],
+        "SUID" : 81130,
+        "EM1_Overlap_size" : 13,
+        "EM1_similarity_coefficient" : 0.5114235500878734,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81168",
+        "source" : "81038",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00430 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00430 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "ADO", "BAAT", "CSAD", "GGT5", "CDO1" ],
+        "SUID" : 81168,
+        "EM1_Overlap_size" : 5,
+        "EM1_similarity_coefficient" : 0.5043936731107206,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81179",
+        "source" : "81037",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP3A43", "XDH", "CYP1A2" ],
+        "SUID" : 81179,
+        "EM1_Overlap_size" : 3,
+        "EM1_similarity_coefficient" : 0.5026362038664324,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81147",
+        "source" : "81037",
+        "target" : "81098",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00980",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP3A43", "CYP1A2" ],
+        "SUID" : 81147,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.47619047619047616,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81146",
+        "source" : "81037",
+        "target" : "81101",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00982",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP3A43", "CYP1A2" ],
+        "SUID" : 81146,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.43333333333333335,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81145",
+        "source" : "81037",
+        "target" : "81106",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00983",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP3A43", "XDH" ],
+        "SUID" : 81145,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.38596491228070173,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81116",
+        "source" : "81037",
+        "target" : "81042",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00830",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00232 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00830",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "CYP3A43", "CYP1A2" ],
+        "SUID" : 81116,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.3958333333333333,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81189",
+        "source" : "81036",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00790 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00790 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PTS", "QDPR", "SPR", "DHFR", "ALPI", "FPGS", "GCH1", "MOCS1", "MOCS2" ],
+        "SUID" : 81189,
+        "EM1_Overlap_size" : 9,
+        "EM1_similarity_coefficient" : 0.4578947368421053,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81156",
+        "source" : "81035",
+        "target" : "81049",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00592 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01040",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00592 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01040",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "FADS2", "ACOX3" ],
+        "SUID" : 81156,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5625,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81187",
+        "source" : "81034",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GLS", "GLUD2" ],
+        "SUID" : 81187,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5017574692442882,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81144",
+        "source" : "81034",
+        "target" : "81080",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GLS", "GLUD2" ],
+        "SUID" : 81144,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5303030303030303,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81142",
+        "source" : "81034",
+        "target" : "81091",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00250",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GLS", "GLUD2" ],
+        "SUID" : 81142,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5416666666666666,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81122",
+        "source" : "81034",
+        "target" : "81046",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00471 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00910",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GLS", "GLUD2" ],
+        "SUID" : 81122,
+        "EM1_Overlap_size" : 2,
+        "EM1_similarity_coefficient" : 0.5909090909090909,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81186",
+        "source" : "81033",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DDC", "ALDH3A1", "DBH", "GOT1", "DCT", "GOT2", "FAH", "HPD", "GSTZ1", "TAT", "COMT", "HGD", "IL4I1", "PNMT", "TH", "TPO", "TYR", "AOC3", "TYRP1", "AOX1" ],
+        "SUID" : 81186,
+        "EM1_Overlap_size" : 20,
+        "EM1_similarity_coefficient" : 0.4720585893965929,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81143",
+        "source" : "81033",
+        "target" : "81072",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00360",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DDC", "ALDH3A1", "GOT2", "HPD", "TAT", "MIF", "IL4I1", "AOC3" ],
+        "SUID" : 81143,
+        "EM1_Overlap_size" : 8,
+        "EM1_similarity_coefficient" : 0.5666666666666667,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81136",
+        "source" : "81033",
+        "target" : "81063",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00350 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00400",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "GOT1", "GOT2", "TAT", "IL4I1" ],
+        "SUID" : 81136,
+        "EM1_Overlap_size" : 4,
+        "EM1_similarity_coefficient" : 0.48695652173913045,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81197",
+        "source" : "81032",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00670 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00670 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "FTCD", "SHMT1", "ATIC", "AMT", "GART", "MTR", "BHMT", "DHFR", "MTHFD1", "TYMS", "MTHFD2L", "MTHFR", "MTHFS" ],
+        "SUID" : 81197,
+        "EM1_Overlap_size" : 13,
+        "EM1_similarity_coefficient" : 0.44471687098657325,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81198",
+        "source" : "81031",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DAO" ],
+        "SUID" : 81198,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5008787346221442,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81163",
+        "source" : "81031",
+        "target" : "81080",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00330",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DAO" ],
+        "SUID" : 81163,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.5151515151515151,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81154",
+        "source" : "81031",
+        "target" : "81112",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00472 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00260",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "DAO" ],
+        "SUID" : 81154,
+        "EM1_Overlap_size" : 1,
+        "EM1_similarity_coefficient" : 0.52,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "81199",
+        "source" : "81030",
+        "target" : "81082",
+        "shared_name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00230 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "shared_interaction" : "Geneset_Overlap",
+        "EM1_ENRICHMENT_SET" : 0,
+        "name" : "HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA00230 (Geneset_Overlap) HTTP://IDENTIFIERS.ORG/KEGG.PATHWAY/HSA01100",
+        "interaction" : "Geneset_Overlap",
+        "EM1_Overlap_genes" : [ "PAPSS2", "PFAS", "PNP", "POLE", "POLR3K", "PPAT", "RRM1", "TYMP", "URAD", "XDH", "ADA", "ADK", "ADSL", "PRPS2", "ADSS", "AK4", "ALLC", "AMPD1", "APRT", "ATIC", "BPNT1", "DCK", "DGUOK", "ENPP1", "GART", "GDA", "GMPS", "GUK1", "HPRT1", "ITPA", "NME5", "NT5C", "NTPCR", "PAICS", "PAPOLA" ],
+        "SUID" : 81199,
+        "EM1_Overlap_size" : 35,
+        "EM1_similarity_coefficient" : 0.4106071964017991,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}
