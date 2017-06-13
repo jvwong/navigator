@@ -10,3 +10,7 @@
 
 /* Load all custom css files */
 @import './css/components/Spinner.css';
+
+@import './css/Graph/Graph.css';
+
+@import './css/Navigator/Navigator.css';

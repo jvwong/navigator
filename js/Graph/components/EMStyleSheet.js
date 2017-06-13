@@ -12,7 +12,6 @@ export default function ( cytoscape ) {
         // single node
         .selector('node[EM1_gs_size_dataset1 >= 0]')
         .css({
-          'content': 'data(name)',
           'width':  'data(EM1_gs_size_dataset1)', // scaling req'd
           'height': 'data(EM1_gs_size_dataset1)'
         })
@@ -20,7 +19,7 @@ export default function ( cytoscape ) {
         // generic node
         .selector('node')
         .css({
-          'content': 'data(name)',
+          // 'content': 'data(name)',
           'text-opacity': 0.5,
           'text-valign': 'center',
           'text-halign': 'right',
@@ -39,6 +38,6 @@ export default function ( cytoscape ) {
         .css({
           'line-color': '#555',
           'color': '#555'
-        })    
+        })
         ;
 }
