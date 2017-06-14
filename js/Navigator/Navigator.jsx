@@ -19,50 +19,50 @@ export class Navigator extends React.Component {
 			sources: {
 				all: {
 					displayName: "All",
-					data: "PathwayCommons9.All.hgnc.cyjs"
+					data: "PathwayCommons9.All.hgnc.json"
 				},
 				humancyc: {
 					displayName: "HumanCyc",
-					data: "PathwayCommons9.All.hgnc.cyjs"
+					data: "PathwayCommons9.All.hgnc.json"
 				},
 				inoh: {
 					displayName: "Integrating Network Objects with Hierarchies",
-					data: "PathwayCommons9.inoh.hgnc.cyjs"
+					data: "PathwayCommons9.inoh.hgnc.json"
 				},
 				kegg: {
 					displayName: "KEGG",
-					data: "PathwayCommons9.kegg.hgnc.cyjs"
+					data: "PathwayCommons9.kegg.hgnc.json"
 				},
 				netpath: {
 					displayName: "NetPath",
-					data: "PathwayCommons9.netpath.hgnc.cyjs"
+					data: "PathwayCommons9.netpath.hgnc.json"
 				},
 				panther: {
 					displayName: "PANTHER Pathway",
-					data: "PathwayCommons9.panther.hgnc.cyjs"
+					data: "PathwayCommons9.panther.hgnc.json"
 				},
 				pid: {
 					displayName: "NCI Pathway Interaction Database",
-					data: "PathwayCommons9.pid.hgnc.cyjs"
+					data: "PathwayCommons9.pid.hgnc.json"
 				},
 				reactome: {
 					displayName: "Reactome",
-					data: "PathwayCommons9.reactome.hgnc.cyjs"
+					data: "PathwayCommons9.reactome.hgnc.light.json"
 				},
 				smpdb: {
 					displayName: "Small Molecular Pathway Database",
-					data: "PathwayCommons9.smpdb.hgnc.cyjs"
+					data: "PathwayCommons9.smpdb.hgnc.json"
 				},
 				wp: {
 					displayName: "WikiPathways",
-					data: "PathwayCommons9.wp.hgnc.cyjs"
+					data: "PathwayCommons9.wp.hgnc.json"
 				}
 			}
 		};
 
 		// This binding is necessary to make `this` work in the callback
     this.renderSourceMenu = this.renderSourceMenu.bind(this);
-		this.handleSelect = this.handleSelect.bind(this);		
+		this.handleSelect = this.handleSelect.bind(this);
 	}
 
 	getSource( key ) {

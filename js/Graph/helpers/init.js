@@ -8,7 +8,7 @@ var initGraph = function( container, styleSheet, layout ){
 		container: container,
 		style: styleSheet( cytoscape ),
     layout: {
-      name: layout
+      name: 'preset'
     },
     // interaction options:
     minZoom: 0.1,

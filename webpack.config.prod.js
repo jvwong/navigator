@@ -15,7 +15,7 @@ module.exports = {
     publicPath: "/", // string
     // the url to the output directory resolved relative to the HTML page
   },
-  devtool: 'source-map',
+  devtool: 'cheap-module-source-map',
   module: {
     rules: [
       {
@@ -31,14 +31,7 @@ module.exports = {
       { test: /\.jsx$/,
         exclude: /node_modules/,
         use: [
-          { loader: 'babel-loader' },
-          { loader: 'eslint-loader' }
-        ]
-      },
-      { test: /\.js$/,
-        exclude: /node_modules/,
-        use: [
-          { loader: 'eslint-loader' }
+          { loader: 'babel-loader' }
         ]
       },
 			{
@@ -51,17 +44,6 @@ module.exports = {
 			}
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-			'process.env': {
-				'NODE_ENV': JSON.stringify('production')
-			}
-		}),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-				warnings: true
-			}
-    })
+  plugins: [  
   ]
 };
