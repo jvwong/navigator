@@ -19,11 +19,11 @@ export class Navigator extends React.Component {
 			sources: {
 				all: {
 					displayName: "All",
-					data: "PathwayCommons9.All.hgnc.json"
+					data: "PathwayCommons9.all.hgnc.json"
 				},
 				humancyc: {
 					displayName: "HumanCyc",
-					data: "PathwayCommons9.All.hgnc.json"
+					data: "PathwayCommons9.humancyc.hgnc.json"
 				},
 				inoh: {
 					displayName: "Integrating Network Objects with Hierarchies",
