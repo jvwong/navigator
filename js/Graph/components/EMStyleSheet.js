@@ -12,7 +12,7 @@ export default function ( cytoscape ) {
           'text-valign': 'center',
           'text-halign': 'right',
           'background-color': '#c0392b',
-          'background-opacity': 0.9
+          'opacity': 0.9
         })
 
         // generic edges
@@ -20,7 +20,8 @@ export default function ( cytoscape ) {
         .css({
           'line-color': '#555',
           'color': '#555',
-          'width':  'data(overlap)'
+          'width':  'data(overlap)',
+          'opacity': 0.3
         })
         ;
 }

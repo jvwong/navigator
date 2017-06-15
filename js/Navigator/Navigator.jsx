@@ -47,7 +47,7 @@ export class Navigator extends React.Component {
 				},
 				reactome: {
 					displayName: "Reactome",
-					data: "PathwayCommons9.reactome.hgnc.light.json"
+					data: "PathwayCommons9.reactome.hgnc.json"
 				},
 				smpdb: {
 					displayName: "Small Molecular Pathway Database",
