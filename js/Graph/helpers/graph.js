@@ -41,50 +41,50 @@ var initGraph = function( container, styleSheet, layout ){
     pixelRatio: 'auto'
 	});
 
-  graphInstance.on('mouseover', 'node', function (evt) {
-    const node = evt.target;
-    const neighborhood = node.neighborhood();
+  // graphInstance.on('mouseover', 'node', function (evt) {
+    // const node = evt.target;
+    // const neighborhood = node.neighborhood();
 
-    node.style({
-      'background-color': '#2980b9',
-      'opacity': 1
-    });
-    neighborhood.nodes().style({
-      'background-color': '#2980b9',
-      'opacity': 1,
-      'z-compound-depth': 'top'
-    });
-    neighborhood.edges().style({
-      'line-color': '#2ecc71',
-      'opacity': 1
-    });
-  });
+    // node.style({
+    //   'background-color': '#2980b9',
+    //   'opacity': 1
+    // });
+    // neighborhood.nodes().style({
+    //   'background-color': '#2980b9',
+    //   'opacity': 1,
+    //   'z-compound-depth': 'top'
+    // });
+    // neighborhood.edges().style({
+    //   'line-color': '#2ecc71',
+    //   'opacity': 1
+    // });
+  // });
 
-  graphInstance.on('mouseout', 'node', function (evt) {
-    const node = evt.target;
-    if (node.data('class') === 'compartment') {
-      return;
-    }
-    const neighborhood = node.neighborhood();
-
-    node.style({
-      'background-color': '#c0392b'
-    });
-    neighborhood.nodes().style({
-      'background-color': '#c0392b',
-      'z-compound-depth': 'auto'
-    });
-    neighborhood.edges().style({
-      'line-color': '#555',
-      'opacity': 0.3
-    });
-  });
-
-  graphInstance.on('tap', 'node', function (evt) {
-    const node = evt.target;
-    console.log(graphInstance.zoom());
-    console.log(node.renderedPosition());
-  });
+  // graphInstance.on('mouseout', 'node', function (evt) {
+  //   const node = evt.target;
+  //   if (node.data('class') === 'compartment') {
+  //     return;
+  //   }
+  //   const neighborhood = node.neighborhood();
+  //
+  //   node.style({
+  //     'background-color': '#c0392b'
+  //   });
+  //   neighborhood.nodes().style({
+  //     'background-color': '#c0392b',
+  //     'z-compound-depth': 'auto'
+  //   });
+  //   neighborhood.edges().style({
+  //     'line-color': '#555',
+  //     'opacity': 0.3
+  //   });
+  // });
+  //
+  // graphInstance.on('tap', 'node', function (evt) {
+  //   const node = evt.target;
+  //   console.log(graphInstance.zoom());
+  //   console.log(node.renderedPosition());
+  // });
 
 
 
