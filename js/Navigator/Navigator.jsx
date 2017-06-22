@@ -5,17 +5,25 @@ import {
 } from 'react-bootstrap';
 import { EMGraph } from '../Graph/components/EMGraph.jsx';
 import { Spinner } from '../components/Spinner.jsx';
+import queryString from 'query-string';
+// import cloneDeep from 'lodash/cloneDeep';
 
 // Navigator
 // Prop Dependencies ::
-
+// - history
 export class Navigator extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			data: null,
 			loading: true,
-			currentSource : 'inoh',
+			searchMap: {
+				//This is not robust to garbage. need validate method
+				datasource: this.makeSearchMap().datasource || 'smpdb'
+			},
+			searchSchema: {
+				datasource: true
+			},
 			sources: {
 				all: {
 					displayName: "All",
@@ -60,9 +68,18 @@ export class Navigator extends React.Component {
 			}
 		};
 
+
 		// This binding is necessary to make `this` work in the callback
     this.renderSourceMenu = this.renderSourceMenu.bind(this);
 		this.handleSelect = this.handleSelect.bind(this);
+		this.handleSearchChange = this.handleSearchChange.bind(this);
+		// Listen for any changes to the current location (browser, history api).
+		this.props.history.listen( this.handleSearchChange );
+	}
+
+	//this needs to be robust to garbage in
+	makeSearchMap(){
+		return queryString.parse( this.props.history.location.search );
 	}
 
 	getSource( key ) {
@@ -88,7 +105,7 @@ export class Navigator extends React.Component {
 	}
 
 	componentDidMount() {
-		this.updateSource( this.state.currentSource );
+		this.handleSelect( this.state.searchMap.datasource );
   }
 
 	renderSourceMenu(key, i) {
@@ -101,10 +118,19 @@ export class Navigator extends React.Component {
 	}
 
 	handleSelect( key ) {
-		if( key === this.state.currentSource ) return;
+		this.props.history.push( '?' + queryString.stringify({ datasource: key}) );
+	}
+
+	handleSearchChange( location, action ) {
+		const parsed = queryString.parse( location.search );
+		// TODO. Not robust
+			//1. validate against searchSchema - dont' allow any garbage
+			//2. try to change validate against searchSchema - dont' allow any garbage
+			// - copy previous parameters
+
 		this.setState(( prevState, props ) => {
 			return { loading: true };
-		}, this.updateSource( key ) );
+		}, this.updateSource( parsed.datasource ) );
 	}
 
 	render() {
@@ -113,7 +139,7 @@ export class Navigator extends React.Component {
 				<Spinner full hidden={!this.state.loading} />
 				<SplitButton
 					bsStyle='default'
-					title={ this.state.sources[this.state.currentSource].displayName }
+					title={ this.state.sources[this.state.searchMap.datasource].displayName }
 					id="split-button-sources"
 					onSelect={ this.handleSelect }>
 					{ Object.keys(this.state.sources).map(this.renderSourceMenu) }

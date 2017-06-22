@@ -11,7 +11,7 @@ export default function ( cytoscape ) {
           'height': 'data(size)',
           'text-valign': 'center',
           'text-halign': 'right',
-          'background-color': '#c0392b',
+          'background-color': function( ele ){ return colors[ele.data('datasource')] },
           'opacity': 0.9
         })
 
@@ -25,3 +25,16 @@ export default function ( cytoscape ) {
         })
         ;
 }
+
+export const colors = {
+  'humancyc': '#2c3e50',
+  'inoh': '#c0392b',
+  'kegg': '#8e44ad',
+  'netpath': '#2980b9',
+  'panther': '#27ae60',
+  'pid': '#d35400',
+  'reactome': '#f39c12',
+  'smpdb': '#AEA8D3',
+  'wikipathways': '#A2DED0',
+  'default': '#c0392b'
+};

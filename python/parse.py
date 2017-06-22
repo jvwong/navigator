@@ -1,5 +1,8 @@
 import json
 
+# cyRest url
+# http://localhost:1234/v1/commands/enrichmentmap/build?analysisType=generic&gmtFile=<GMTFILE>&similaritycutoff=0.375&coeffecients=COMBINED
+
 def parse_description( data ):
     fields = ['idtype', 'organism', 'datasource', 'name']
     parsed = {}

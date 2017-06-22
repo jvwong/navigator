@@ -80,6 +80,13 @@ var initGraph = function( container, styleSheet, layout ){
     });
   });
 
+  graphInstance.on('tap', 'node', function (evt) {
+    const node = evt.target;
+    console.log(graphInstance.zoom());
+    console.log(node.renderedPosition());
+  });
+
+
 
 	return graphInstance;
 };

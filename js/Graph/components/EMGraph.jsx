@@ -18,6 +18,7 @@ export class EMGraph extends React.Component {
 	render() {
     return (
       <Graph
+      { ...this.props }
       id={ this.state.id }
 			data={ this.props.data }
       styleSheet={ EMStyleSheet }
