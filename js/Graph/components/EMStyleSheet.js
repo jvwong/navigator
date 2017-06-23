@@ -5,7 +5,7 @@ export default function ( cytoscape ) {
         // cluster node
         .selector('node')
         .css({
-          'content': 'data(name)',
+          'label': 'data(name)',
           'text-opacity': 0.5,
           'width':  'data(size)',// scaling req'd
           'height': 'data(size)',
@@ -13,6 +13,11 @@ export default function ( cytoscape ) {
           'text-halign': 'right',
           'background-color': function( ele ){ return colors[ele.data('datasource')] },
           'opacity': 0.9
+        })
+
+        .selector('node.highlight')
+        .css({
+          'background-color': '#88CC88'
         })
 
         // generic edges
@@ -23,6 +28,13 @@ export default function ( cytoscape ) {
           'width':  'data(overlap)',
           'opacity': 0.3
         })
+
+        .selector('edge.highlight')
+        .css({
+          'line-color': '#CD88AF',
+          'opacity': 0.8
+        })
+
         ;
 }
 
