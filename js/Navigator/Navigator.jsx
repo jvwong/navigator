@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-	SplitButton,
-	MenuItem
+	Button
 } from 'react-bootstrap';
+import Select from 'react-select';
 import { EMGraph } from '../Graph/components/EMGraph.jsx';
 import { Spinner } from '../components/Spinner.jsx';
 import queryString from 'query-string';
-// import cloneDeep from 'lodash/cloneDeep';
+import concat from 'lodash/concat';
+import isEqual from 'lodash/isEqual';
 
 // Navigator
 // Prop Dependencies ::
@@ -15,136 +16,176 @@ export class Navigator extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
+			dataUrl: 'data/PathwayCommons9.all.hgnc.json',
 			data: null,
 			loading: true,
-			searchMap: {
-				//This is not robust to garbage. need validate method
-				datasource: this.makeSearchMap().datasource || 'smpdb'
-			},
+			selected: [],
+			searchMap: this.pullSearchMap(),
 			searchSchema: {
 				datasource: true
 			},
-			sources: {
-				all: {
-					displayName: "All",
-					data: "PathwayCommons9.all.hgnc.json"
+			options: [
+				{
+					label: 'HumanCyc',
+					value: 'humancyc'
 				},
-				humancyc: {
-					displayName: "HumanCyc",
-					data: "PathwayCommons9.humancyc.hgnc.json"
+				{
+					label: 'Integrating Network Objects with Hierarchies',
+					value: 'inoh'
 				},
-				inoh: {
-					displayName: "Integrating Network Objects with Hierarchies",
-					data: "PathwayCommons9.inoh.hgnc.json"
+				{
+					label: 'KEGG',
+					value: 'kegg'
 				},
-				kegg: {
-					displayName: "KEGG",
-					data: "PathwayCommons9.kegg.hgnc.json"
+				{
+					label: 'NetPath',
+					value: 'netpath'
 				},
-				netpath: {
-					displayName: "NetPath",
-					data: "PathwayCommons9.netpath.hgnc.json"
+				{
+					label: 'PANTHER Pathway',
+					value: 'panther'
 				},
-				panther: {
-					displayName: "PANTHER Pathway",
-					data: "PathwayCommons9.panther.hgnc.json"
+				{
+					label: 'NCI Pathway Interaction Database',
+					value: 'pid'
 				},
-				pid: {
-					displayName: "NCI Pathway Interaction Database",
-					data: "PathwayCommons9.pid.hgnc.json"
+				{
+					label: 'Reactome',
+					value: 'reactome'
 				},
-				reactome: {
-					displayName: "Reactome",
-					data: "PathwayCommons9.reactome.hgnc.json"
+				{
+					label: 'Small Molecular Pathway Database',
+					value: 'smpdb'
 				},
-				smpdb: {
-					displayName: "Small Molecular Pathway Database",
-					data: "PathwayCommons9.smpdb.hgnc.json"
-				},
-				wp: {
-					displayName: "WikiPathways",
-					data: "PathwayCommons9.wp.hgnc.json"
+				{
+					label: 'WikiPathways',
+					value: 'wikipathways'
 				}
-			}
+			]
 		};
 
 
 		// This binding is necessary to make `this` work in the callback
     this.renderSourceMenu = this.renderSourceMenu.bind(this);
 		this.handleSelect = this.handleSelect.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleSearchChange = this.handleSearchChange.bind(this);
 		// Listen for any changes to the current location (browser, history api).
 		this.props.history.listen( this.handleSearchChange );
 	}
 
-	//this needs to be robust to garbage in
-	makeSearchMap(){
-		return queryString.parse( this.props.history.location.search );
+	pullSearchMap(){
+		const parsed = queryString.parse( this.props.history.location.search );
+		//this needs to be robust to garbage in
+		if( parsed.datasource ){
+			parsed.datasource = concat([], parsed.datasource).sort();
+		} else {
+			parsed.datasource = [];
+		}
+		return parsed;
 	}
 
-	getSource( key ) {
-		const url = 'data/' + this.state.sources[key].data;
-		return fetch(url, { method: 'get', mode: 'no-cors' })
-			.then(function(response) {
+	pushSearchMap( searchMap ){
+		//this needs to be robust to garbage in
+		const outgoing = {};
+		for ( const key in searchMap ) {
+			if( key === 'datasource'  ){
+				outgoing[key] = searchMap[key].map( source => source.value );
+			} else {
+				outgoing[key] = searchMap[key];
+			}
+		}
+		this.props.history.push( '?' + queryString.stringify( outgoing ) );
+	}
+
+	fetchData( url ) {
+		return fetch( url, { method: 'get', mode: 'no-cors' })
+			.then( response => {
 				return response.json()
-			})
-			;
-	}
-
-	updateSource( key ){
-		this.getSource( key )
-			.then( data => {
-				this.setState(( prevState, props ) => {
-					return {
-						data: data.elements,
-						currentSource: key,
-						loading: false
-					}
-				});
 			});
 	}
 
 	componentDidMount() {
-		this.handleSelect( this.state.searchMap.datasource );
+		this.fetchData( this.state.dataUrl )
+			.then( data => {
+				const selected = this.state.options.filter( option => {
+					return this.pullSearchMap().datasource.some( source =>  {
+						return option.value === source;
+					});
+				});
+				this.setState(( prevState, props ) => {
+						return {
+							data: data.elements,
+							loading: false,
+							selected: selected
+						}
+				}, null);
+			});
   }
 
 	renderSourceMenu(key, i) {
 		return (
-			<MenuItem
-				eventKey={ key }
-				key={ i }>{ this.state.sources[key].displayName }
-			</MenuItem>
+			<Checkbox
+				key={i}
+				checked={ this.state.checkboxChecked }
+				onChange={ e => this.handleSelect(e.target.checked) }
+				inline>
+					{ this.state.sources[key].displayName }
+				</Checkbox>
 		);
 	}
 
-	handleSelect( key ) {
-		this.props.history.push( '?' + queryString.stringify({ datasource: key}) );
+	shouldComponentUpdate(nextProps, nextState){
+		if( !isEqual( this.state.searchMap.datasource, nextState.searchMap.datasource )  ){
+			return true;
+		}
+		if( !this.state.data && nextState.data ){
+			return true;
+		}
+		if( !isEqual( this.state.selected, nextState.selected ) ){
+			return true;
+		}
+		return false;
+	}
+
+	handleSelect( value ) {
+		this.setState({ selected: value });
+	}
+
+	handleSubmit( event ) {
+		event.preventDefault();
+		const searchMap = {
+			datasource: this.state.selected
+		};
+		this.pushSearchMap( searchMap );
 	}
 
 	handleSearchChange( location, action ) {
-		const parsed = queryString.parse( location.search );
-		// TODO. Not robust
-			//1. validate against searchSchema - dont' allow any garbage
-			//2. try to change validate against searchSchema - dont' allow any garbage
-			// - copy previous parameters
-
 		this.setState(( prevState, props ) => {
-			return { loading: true };
-		}, this.updateSource( parsed.datasource ) );
+			return {
+				searchMap: this.pullSearchMap()
+			}
+		});
 	}
 
 	render() {
 		return (
 			<div className="Navigator">
 				<Spinner full hidden={!this.state.loading} />
-				<SplitButton
-					bsStyle='default'
-					title={ this.state.sources[this.state.searchMap.datasource].displayName }
-					id="split-button-sources"
-					onSelect={ this.handleSelect }>
-					{ Object.keys(this.state.sources).map(this.renderSourceMenu) }
-				</SplitButton>
+				<div className="source-selection">
+					<form onSubmit={ this.handleSubmit }>
+						<Select
+							multi
+							name="form-field-name"
+							value={ this.state.selected }
+							options={ this.state.options }
+							onChange={ this.handleSelect }
+							/>
+							<Button type="submit">Submit</Button>
+					</form>
+				</div>
 				<EMGraph
+				searchMap={ this.state.searchMap }
 				data={ this.state.data }/>
 			</div>
 		);

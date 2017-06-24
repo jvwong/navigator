@@ -1,13 +1,14 @@
 import React from 'react';
 import { initGraph } from './helpers/graph.js';
 import isEmpty from 'lodash/isEmpty';
+import isEqual from 'lodash/isEqual';
 
 // Graph
 // Prop Dependencies ::
 // - data: cytoscape graph elements
 // - styleSheet: A cytoscape style sheet object
 // - layout: A cytoscape layout
-// - zoom
+// - searchMap: A map of the URL params
 export default class Graph extends React.Component {
 
   constructor(props) {
@@ -15,12 +16,17 @@ export default class Graph extends React.Component {
 		this.state = {
 			id: this.props.id,
       graphContainer: null,
-      data: null,
-			graphRendered: false,
-			graphEmpty: false,
-      width: '100vw',
+      graphRendered: false,
+			width: '100vw',
 			height: '85vh'
 		};
+	}
+
+  shouldComponentUpdate(nextProps, nextState){
+		if( this.props.data && !this.state.graphRendered ){
+			return true;
+		}
+		return false;
 	}
 
   componentDidMount() {
@@ -29,12 +35,17 @@ export default class Graph extends React.Component {
       this.props.styleSheet,
       this.props.layout
     );
-    this.setState({ graphInstance: graph })
+    this.setState(( prevState, props ) => {
+			return { graphInstance: graph }
+		});
 	}
 
   componentWillReceiveProps( nextProps ){
-    if( !isEmpty( nextProps.data ) ){
+    if( !this.state.graphRendered && !isEmpty( nextProps.data ) ){
       this.state.graphRendered = this.renderGraph( nextProps.data );
+    }
+    else if( this.state.graphRendered && !isEqual( this.props.searchMap, nextProps.searchMap ) ){
+      this.updateGraph( nextProps.searchMap.datasource );
     }
   }
 
@@ -44,17 +55,22 @@ export default class Graph extends React.Component {
     this.state.graphInstance.add( data );
     this.state.graphInstance.fit();
 
-    // A node’s position refers to the centre point of its body.
-    // There is an important distinction to make for position: A position may be a model position or a rendered position.
-    // A model position — as its name suggests — is the position stored in the model for an element. An element’s model position remains constant, despite changes to zoom and pan. Numeric style property values are specified in model co-ordinates, e.g. an node with width 20px will be 20 pixels wide at zoom 1.
-    // A rendered position is an on-screen location relative to the viewport. For example, a rendered position of { x: 100, y: 100 } specifies a point 100 pixels to the right and 100 pixels down from the top-left corner of the viewport. The model position and rendered position are the same at zoom 1 and pan (0, 0).
-    // An element’s rendered position naturally changes as zoom and pan changes, because the element’s on-screen position in the viewport changes as zooming and panning are applied. Panning is always measured in rendered coordinates.
-    // In this documentation, “position” refers to model position unless otherwise stated.
-    // this.state.graphInstance.viewport({
-    //    zoom: 1.2856455611923199,
-    //    pan:  {x: 100.43111361232786, y: 419.0732111547127}
-    // });
+    this.updateGraph( this.props.searchMap.datasource );
+
     return true;
+  }
+
+  // Graph rendering is not tracked by React
+	updateGraph( datasource ) {
+    this.state.graphInstance.batch( () => {
+      if( !datasource.length ) return;
+
+      const selectors = datasource.map(( source ) => { return "[datasource='" + source + "']" });
+      const nodes = this.state.graphInstance.nodes( selectors.join() );
+      const edges = nodes.connectedEdges();
+      nodes.addClass('visible');
+      edges.addClass('visible');
+    });
   }
 
 	render() {

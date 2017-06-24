@@ -61,6 +61,7 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
+    "react-select": "^1.0.0-rc.5",
     "spinkit": "^1.2.5"
   }
 }

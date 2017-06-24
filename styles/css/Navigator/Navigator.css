@@ -1,9 +1,5 @@
 .Navigator {
-  & .dropdown {
+  & .source-selection {
     margin: 2em 2em;
-
-    & .btn:first-child {
-      width: 22em;
-    }
   }
 }

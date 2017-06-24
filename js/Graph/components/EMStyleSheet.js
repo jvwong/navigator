@@ -5,14 +5,22 @@ export default function ( cytoscape ) {
         // cluster node
         .selector('node')
         .css({
+          'text-opacity': 0,
+          'opacity': 0
+        })
+
+        .selector('node.visible')
+        .css({
           'label': 'data(name)',
+          'font-size': '16px',
           'text-opacity': 0.5,
           'width':  'data(size)',// scaling req'd
           'height': 'data(size)',
           'text-valign': 'center',
           'text-halign': 'right',
           'background-color': function( ele ){ return colors[ele.data('datasource')] },
-          'opacity': 0.9
+          'opacity': 0.9,
+          'min-zoomed-font-size': '14px'
         })
 
         .selector('node.highlight')
@@ -22,6 +30,12 @@ export default function ( cytoscape ) {
 
         // generic edges
         .selector('edge')
+        .css({
+          'opacity': 0
+        })
+
+        // generic edges
+        .selector('edge.visible')
         .css({
           'line-color': '#555',
           'color': '#555',

@@ -1,8 +1,9 @@
 /* Load spinner styles */
 @import 'spinkit/css/spinners/9-cube-grid.css';
 
-/* Load theme css files and theme dependencies */
+/* Load third-party css files */
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-select/dist/react-select.css';
 
 /* Load variables */
 @import './css/variables.css';

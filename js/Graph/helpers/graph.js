@@ -32,13 +32,13 @@ var initGraph = function( container, styleSheet, layout ){
     // rendering options:
     headless: false,
     styleEnabled: true,
-    hideEdgesOnViewport: false,
-    hideLabelsOnViewport: false,
+    hideEdgesOnViewport: true,
+    hideLabelsOnViewport: true,
     textureOnViewport: false,
     motionBlur: false,
     motionBlurOpacity: 0.2,
     wheelSensitivity: 1,
-    pixelRatio: 'auto'
+    pixelRatio: 1
 	});
 
   graphInstance.on('mouseover', 'node', function (evt) {
