@@ -5,12 +5,12 @@ export default function ( cytoscape ) {
         // cluster node
         .selector('node')
         .css({
-          'text-opacity': 0,
-          'opacity': 0
+          'display': 'none'
         })
 
         .selector('node.visible')
         .css({
+          'display': 'element',
           'label': 'data(name)',
           'font-size': '16px',
           'text-opacity': 0.5,
@@ -31,12 +31,13 @@ export default function ( cytoscape ) {
         // generic edges
         .selector('edge')
         .css({
-          'opacity': 0
+          'display': 'none'
         })
 
         // generic edges
         .selector('edge.visible')
         .css({
+          'display': 'element',
           'line-color': '#555',
           'color': '#555',
           'width':  'data(overlap)',
