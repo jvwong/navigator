@@ -24,6 +24,10 @@ export class Navigator extends React.Component {
 			searchSchema: {
 				datasource: true
 			},
+			defaultOption: [{
+				label: 'Reactome',
+				value: 'reactome'
+			}],
 			options: [
 				{
 					label: 'HumanCyc',
@@ -108,7 +112,7 @@ export class Navigator extends React.Component {
 	componentDidMount() {
 		this.fetchData( this.state.dataUrl )
 			.then( data => {
-				const selected = this.state.options.filter( option => {
+				let selected = this.state.options.filter( option => {
 					return this.pullSearchMap().datasource.some( source =>  {
 						return option.value === source;
 					});
@@ -116,10 +120,12 @@ export class Navigator extends React.Component {
 				this.setState(( prevState, props ) => {
 						return {
 							data: data.elements,
-							loading: false,
-							selected: selected
+							selected: selected.length ? selected : this.state.defaultOption,
+							loading: false
 						}
-				}, null);
+				}, () => {					
+					this.pushSearchMap({ datasource: this.state.selected });
+				});
 			});
   }
 
@@ -133,6 +139,14 @@ export class Navigator extends React.Component {
 					{ this.state.sources[key].displayName }
 				</Checkbox>
 		);
+	}
+
+	toggleLoading( isLoading ){
+		this.setState(( prevState, props ) => {
+			return {
+				loading: isLoading
+			}
+		});
 	}
 
 	shouldComponentUpdate(nextProps, nextState){
@@ -181,7 +195,7 @@ export class Navigator extends React.Component {
 							options={ this.state.options }
 							onChange={ this.handleSelect }
 							/>
-							<Button type="submit">Submit</Button>
+							<Button type="submit">Update</Button>
 					</form>
 				</div>
 				<EMGraph

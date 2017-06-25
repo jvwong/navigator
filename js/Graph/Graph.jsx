@@ -63,14 +63,26 @@ export default class Graph extends React.Component {
   // Graph rendering is not tracked by React
 	updateGraph( datasource ) {
     this.state.graphInstance.batch( () => {
-      if( !datasource.length ) return;
+      if( !datasource.length ){
+        return this.state.graphInstance.collection('*').removeClass('visible');
+      }
 
       const selectors = datasource.map(( source ) => { return "[datasource='" + source + "']" });
+
       const nodes = this.state.graphInstance.nodes( selectors.join() );
       const edges = nodes.connectedEdges();
+
+      const nodeComplement = nodes.absoluteComplement();
+      const edgeComplement = nodeComplement.connectedEdges();
+
+      nodeComplement.removeClass('visible');
+      edgeComplement.removeClass('visible');
+
       nodes.addClass('visible');
       edges.addClass('visible');
+
     });
+    this.state.graphInstance.fit();
   }
 
 	render() {
