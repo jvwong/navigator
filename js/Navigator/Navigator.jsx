@@ -31,7 +31,8 @@ export class Navigator extends React.Component {
 			options: [
 				{
 					label: 'HumanCyc',
-					value: 'humancyc'
+					value: 'humancyc',
+					color: 'blue'
 				},
 				{
 					label: 'Integrating Network Objects with Hierarchies',
@@ -74,6 +75,7 @@ export class Navigator extends React.Component {
 		this.handleSelect = this.handleSelect.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleSearchChange = this.handleSearchChange.bind(this);
+		this.toggleLoading = this.toggleLoading.bind(this);
 		// Listen for any changes to the current location (browser, history api).
 		this.props.history.listen( this.handleSearchChange );
 	}
@@ -123,7 +125,7 @@ export class Navigator extends React.Component {
 							selected: selected.length ? selected : this.state.defaultOption,
 							loading: false
 						}
-				}, () => {					
+				}, () => {
 					this.pushSearchMap({ datasource: this.state.selected });
 				});
 			});
@@ -199,6 +201,7 @@ export class Navigator extends React.Component {
 					</form>
 				</div>
 				<EMGraph
+				toggleLoading = { this.toggleLoading }
 				searchMap={ this.state.searchMap }
 				data={ this.state.data }/>
 			</div>

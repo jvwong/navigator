@@ -52,6 +52,7 @@
     "classnames": "^2.2.5",
     "cytoscape": "^3.1.1",
     "cytoscape-qtip": "^2.7.1",
+    "fast-memoize": "^2.2.7",
     "history": "^4.6.2",
     "http-server": "^0.10.0",
     "jquery": "^3.2.1",

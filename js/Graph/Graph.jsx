@@ -2,6 +2,7 @@ import React from 'react';
 import { initGraph } from './helpers/graph.js';
 import isEmpty from 'lodash/isEmpty';
 import isEqual from 'lodash/isEqual';
+import memoize from 'fast-memoize';
 
 // Graph
 // Prop Dependencies ::
@@ -9,6 +10,7 @@ import isEqual from 'lodash/isEqual';
 // - styleSheet: A cytoscape style sheet object
 // - layout: A cytoscape layout
 // - searchMap: A map of the URL params
+// - toggleLoading: function to render or dismiss load spinner
 export default class Graph extends React.Component {
 
   constructor(props) {
@@ -60,29 +62,40 @@ export default class Graph extends React.Component {
     return true;
   }
 
-  // Graph rendering is not tracked by React
-	updateGraph( datasource ) {
-    this.state.graphInstance.batch( () => {
-      if( !datasource.length ){
-        return this.state.graphInstance.collection('*').removeClass('visible');
-      }
+  // memoize these calls for efficiency?
+	updateGraph( datasource ) {    
+    const fetchCollection = memoize(( datasource ) => {
 
       const selectors = datasource.map(( source ) => { return "[datasource='" + source + "']" });
-
       const nodes = this.state.graphInstance.nodes( selectors.join() );
       const edges = nodes.connectedEdges();
 
       const nodeComplement = nodes.absoluteComplement();
       const edgeComplement = nodeComplement.connectedEdges();
 
-      nodeComplement.removeClass('visible');
-      edgeComplement.removeClass('visible');
+      return {
+        nodes: nodes,
+        edges: edges,
+        nodeComplement: nodeComplement,
+        edgeComplement: edgeComplement
+      }
+    });
 
-      nodes.addClass('visible');
-      edges.addClass('visible');
-
+    this.state.graphInstance.batch( () => {
+      if( !datasource.length ){
+        return this.state.graphInstance.collection('*').removeClass('visible');
+      }
+      const collection = fetchCollection( datasource );
+      collection.nodeComplement.removeClass('visible');
+      collection.edgeComplement.removeClass('visible');
+      collection.nodes.addClass('visible');
+      collection.edges.addClass('visible');
     });
     this.state.graphInstance.fit();
+  }
+
+  componentWillUnmount(){
+    this.state.graphInstance.destroy();
   }
 
 	render() {
