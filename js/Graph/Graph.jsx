@@ -1,9 +1,7 @@
 import React from 'react';
 import { initGraph } from './helpers/graph.js';
 import isEqual from 'lodash/isEqual';
-import intersection from 'lodash/intersection';
-import difference from 'lodash/difference';
-// import memoize from 'fast-memoize';
+import memoize from 'fast-memoize';
 
 // Graph
 // Prop Dependencies ::
@@ -11,7 +9,6 @@ import difference from 'lodash/difference';
 // - styleSheet: A cytoscape style sheet object
 // - layout: A cytoscape layout
 // - searchMap: A map of the URL params
-// - toggleLoading: function to render or dismiss load spinner
 export default class Graph extends React.Component {
 
   constructor(props) {
@@ -68,29 +65,26 @@ export default class Graph extends React.Component {
   // memoize these calls for efficiency?
 	updateGraph( datasource, index ) {
 
-    // identify redundant
-    const common = intersection( this.props.searchMap.datasource, datasource );
-    const unique = difference( datasource, common );
-    console.log(this.props.searchMap.datasource);
-    console.log(datasource);
-    console.log(unique);
+    const getNodesBySource = memoize(( sourceId ) => {
+      let nodes = this.state.graphInstance.collection();
+      let node;
+      index[sourceId].forEach( id => {
+        node = this.state.graphInstance.getElementById( id );
+        nodes = nodes.add(node);
+      });
+      return nodes;
+    });
+
 
     this.state.graphInstance.batch( () => {
       let nodes = this.state.graphInstance.collection();
-      let node;
-      datasource.forEach(( source ) => {
-        index[source].forEach( ( id ) => {
-          node = this.state.graphInstance.getElementById(id);
-          nodes = nodes.add(node);
-          node.addClass('visible');
-          node.connectedEdges().addClass('visible');
-        });
+      datasource.forEach( sourceId => {
+          nodes = nodes.add(getNodesBySource( sourceId ));
       });
-      // const nodeComplement = nodes.absoluteComplement();
-      // const edgeComplement = nodeComplement.connectedEdges();
-      // nodeComplement.removeClass('visible');
-      // edgeComplement.removeClass('visible');
-
+      nodes.absoluteComplement().removeClass('visible');
+      nodes.absoluteComplement().connectedEdges().removeClass('visible');
+      nodes.addClass('visible');
+      nodes.connectedEdges().addClass('visible');
     });
     this.state.graphInstance.fit();
     return true;
