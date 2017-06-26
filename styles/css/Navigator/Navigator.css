@@ -2,4 +2,8 @@
   & .source-selection {
     margin: 2em 2em;
   }
+
+  & .source-selection > form .btn {
+    height: 36px;
+  }
 }

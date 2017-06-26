@@ -11,6 +11,7 @@ export default function ( cytoscape ) {
         .selector('node.visible')
         .css({
           'display': 'element',
+          'border-width': 0,
           'label': 'data(name)',
           'font-size': '16px',
           'text-opacity': 0.5,

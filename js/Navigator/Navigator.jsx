@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+	Col,
 	Button
 } from 'react-bootstrap';
 import Select from 'react-select';
@@ -17,7 +18,9 @@ export class Navigator extends React.Component {
 		super(props);
 		this.state = {
 			dataUrl: 'data/PathwayCommons9.all.hgnc.json',
+			indexUrl: 'data/PathwayCommons9.all.hgnc.index.json',
 			data: null,
+			index: null,
 			loading: true,
 			selected: [],
 			searchMap: this.pullSearchMap(),
@@ -112,24 +115,33 @@ export class Navigator extends React.Component {
 	}
 
 	componentDidMount() {
-		this.fetchData( this.state.dataUrl )
-			.then( data => {
-				let selected = this.state.options.filter( option => {
-					return this.pullSearchMap().datasource.some( source =>  {
-						return option.value === source;
-					});
-				});
-				this.setState(( prevState, props ) => {
-						return {
-							data: data.elements,
-							selected: selected.length ? selected : this.state.defaultOption,
-							loading: false
-						}
-				}, () => {
-					this.pushSearchMap({ datasource: this.state.selected });
+		Promise.all([
+			this.fetchData( this.state.indexUrl ),
+			this.fetchData( this.state.dataUrl )
+		])
+		.then( promiseArray => {
+			const indexObject = promiseArray[0];
+			const dataObject = promiseArray[1];
+
+			let selected = this.state.options.filter( option => {
+				return this.pullSearchMap().datasource.some( source =>  {
+					return option.value === source;
 				});
 			});
-  }
+
+			this.setState(( prevState, props ) => {
+					return {
+						data: dataObject.elements,
+						index: indexObject,
+						selected: selected.length ? selected : this.state.defaultOption,
+						loading: false
+					}
+			}, () => {
+				this.pushSearchMap({ datasource: this.state.selected });
+			});
+		});
+	}
+
 
 	renderSourceMenu(key, i) {
 		return (
@@ -151,15 +163,15 @@ export class Navigator extends React.Component {
 		});
 	}
 
+	// This method is not called for the initial render
 	shouldComponentUpdate(nextProps, nextState){
-		if( !isEqual( this.state.searchMap.datasource, nextState.searchMap.datasource )  ){
-			return true;
-		}
-		if( !this.state.data && nextState.data ){
-			return true;
-		}
-		if( !isEqual( this.state.selected, nextState.selected ) ){
-			return true;
+		if( nextState.data && nextState.index ){
+			if( !isEqual( this.state.searchMap.datasource, nextState.searchMap.datasource )  ){
+				return true;
+			}
+			if( !isEqual( this.state.selected, nextState.selected ) ){
+				return true;
+			}
 		}
 		return false;
 	}
@@ -190,20 +202,23 @@ export class Navigator extends React.Component {
 				<Spinner full hidden={!this.state.loading} />
 				<div className="source-selection">
 					<form onSubmit={ this.handleSubmit }>
-						<Select
-							multi
-							name="form-field-name"
-							value={ this.state.selected }
-							options={ this.state.options }
-							onChange={ this.handleSelect }
-							/>
-							<Button type="submit">Update</Button>
+						<Col xs={8}>
+							<Select
+								multi
+								name="form-field-name"
+								value={ this.state.selected }
+								options={ this.state.options }
+								onChange={ this.handleSelect }
+								/>
+						</Col>
+						<Button type="submit">Update</Button>
 					</form>
 				</div>
 				<EMGraph
 				toggleLoading = { this.toggleLoading }
 				searchMap={ this.state.searchMap }
-				data={ this.state.data }/>
+				data={ this.state.data }
+				index={ this.state.index }/>
 			</div>
 		);
 	}

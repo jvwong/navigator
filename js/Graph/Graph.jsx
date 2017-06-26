@@ -1,8 +1,9 @@
 import React from 'react';
 import { initGraph } from './helpers/graph.js';
-import isEmpty from 'lodash/isEmpty';
 import isEqual from 'lodash/isEqual';
-import memoize from 'fast-memoize';
+import intersection from 'lodash/intersection';
+import difference from 'lodash/difference';
+// import memoize from 'fast-memoize';
 
 // Graph
 // Prop Dependencies ::
@@ -24,8 +25,9 @@ export default class Graph extends React.Component {
 		};
 	}
 
+  // This method is not called for the initial render
   shouldComponentUpdate(nextProps, nextState){
-		if( this.props.data && !this.state.graphRendered ){
+		if( nextProps.index && nextProps.data && !this.state.graphRendered ){
 			return true;
 		}
 		return false;
@@ -42,12 +44,17 @@ export default class Graph extends React.Component {
 		});
 	}
 
+  // React doesn't call componentWillReceiveProps with initial props during mounting.
+  // It only calls this method if some of component's props may update.
   componentWillReceiveProps( nextProps ){
-    if( !this.state.graphRendered && !isEmpty( nextProps.data ) ){
-      this.state.graphRendered = this.renderGraph( nextProps.data );
+    if( nextProps.data && !this.state.graphRendered ){
+      this.renderGraph( nextProps.data );
+      if( nextProps.index && nextProps.searchMap ){
+        return this.updateGraph( nextProps.searchMap.datasource, nextProps.index );
+      }
     }
-    else if( this.state.graphRendered && !isEqual( this.props.searchMap, nextProps.searchMap ) ){
-      this.updateGraph( nextProps.searchMap.datasource );
+    if( this.state.graphRendered && nextProps.index && !isEqual( this.props.searchMap, nextProps.searchMap ) ){
+      this.updateGraph( nextProps.searchMap.datasource, nextProps.index );
     }
   }
 
@@ -55,43 +62,38 @@ export default class Graph extends React.Component {
 	renderGraph( data ) {
     this.state.graphInstance.remove('*');
     this.state.graphInstance.add( data );
-    this.state.graphInstance.fit();
-
-    this.updateGraph( this.props.searchMap.datasource );
-
-    return true;
+    this.setState({ graphRendered: true });
   }
 
   // memoize these calls for efficiency?
-	updateGraph( datasource ) {    
-    const fetchCollection = memoize(( datasource ) => {
+	updateGraph( datasource, index ) {
 
-      const selectors = datasource.map(( source ) => { return "[datasource='" + source + "']" });
-      const nodes = this.state.graphInstance.nodes( selectors.join() );
-      const edges = nodes.connectedEdges();
-
-      const nodeComplement = nodes.absoluteComplement();
-      const edgeComplement = nodeComplement.connectedEdges();
-
-      return {
-        nodes: nodes,
-        edges: edges,
-        nodeComplement: nodeComplement,
-        edgeComplement: edgeComplement
-      }
-    });
+    // identify redundant
+    const common = intersection( this.props.searchMap.datasource, datasource );
+    const unique = difference( datasource, common );
+    console.log(this.props.searchMap.datasource);
+    console.log(datasource);
+    console.log(unique);
 
     this.state.graphInstance.batch( () => {
-      if( !datasource.length ){
-        return this.state.graphInstance.collection('*').removeClass('visible');
-      }
-      const collection = fetchCollection( datasource );
-      collection.nodeComplement.removeClass('visible');
-      collection.edgeComplement.removeClass('visible');
-      collection.nodes.addClass('visible');
-      collection.edges.addClass('visible');
+      let nodes = this.state.graphInstance.collection();
+      let node;
+      datasource.forEach(( source ) => {
+        index[source].forEach( ( id ) => {
+          node = this.state.graphInstance.getElementById(id);
+          nodes = nodes.add(node);
+          node.addClass('visible');
+          node.connectedEdges().addClass('visible');
+        });
+      });
+      // const nodeComplement = nodes.absoluteComplement();
+      // const edgeComplement = nodeComplement.connectedEdges();
+      // nodeComplement.removeClass('visible');
+      // edgeComplement.removeClass('visible');
+
     });
     this.state.graphInstance.fit();
+    return true;
   }
 
   componentWillUnmount(){

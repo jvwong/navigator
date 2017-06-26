@@ -22,6 +22,7 @@ export class EMGraph extends React.Component {
       searchMap={ this.props.searchMap }
       id={ this.state.id }
 			data={ this.props.data }
+      index={ this.props.index }
       styleSheet={ EMStyleSheet }
       layout={ this.state.layout } />
     )

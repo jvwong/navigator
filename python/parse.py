@@ -63,10 +63,14 @@ if not os.path.exists('./results'):
 
 for root, dirs, files in os.walk("./data", topdown=False):
     for name in files:
+        if os.path.splitext(name)[1] != '.cyjs':
+            continue
+
         fsource = os.path.join(root, name)
         ftarget = './results/' + os.path.splitext(name)[0] + '.json'
+        findex = './results/' + os.path.splitext(name)[0] + '.index.json'
 
-        with open(fsource, 'r', encoding='utf-8') as infile, open(ftarget, 'w') as outfile:
+        with open(fsource, 'r', encoding='utf-8') as infile, open(ftarget, 'w') as outfile, open(findex, 'w') as indexfile:
             js = json.load(infile)
             outdata = {
                 'elements': {
@@ -74,14 +78,20 @@ for root, dirs, files in os.walk("./data", topdown=False):
                     'edges': []
                 }
             }
+            index = {}
             nodes = []
             edges = []
             for node in js['elements']['nodes']:
                 new_node = make_node( node )
                 outdata['elements']['nodes'].append(new_node)
+                if( new_node['data']['datasource'] in index ):
+                    index[new_node['data']['datasource']].append(new_node['data']['id'])
+                else:
+                    index[new_node['data']['datasource']] = [new_node['data']['id']]
 
             for edge in js['elements']['edges']:
                 new_edge = make_edge( edge )
                 outdata['elements']['edges'].append(new_edge)
 
             json.dump(outdata, outfile, ensure_ascii=False)
+            json.dump(index, indexfile, ensure_ascii=False)
