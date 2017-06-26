@@ -5,7 +5,9 @@ export default function ( cytoscape ) {
         // cluster node
         .selector('node')
         .css({
-          'display': 'none'
+          'display': 'none',
+          'width':  0,
+          'height': 0,
         })
 
         .selector('node.visible')
@@ -32,7 +34,8 @@ export default function ( cytoscape ) {
         // generic edges
         .selector('edge')
         .css({
-          'display': 'none'
+          'display': 'none',
+          'width':  0
         })
 
         // generic edges

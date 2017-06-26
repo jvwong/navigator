@@ -1,6 +1,8 @@
 import React from 'react';
 import { initGraph } from './helpers/graph.js';
 import isEqual from 'lodash/isEqual';
+import intersection from 'lodash/intersection';
+import difference from 'lodash/difference';
 import memoize from 'fast-memoize';
 
 // Graph
@@ -47,11 +49,11 @@ export default class Graph extends React.Component {
     if( nextProps.data && !this.state.graphRendered ){
       this.renderGraph( nextProps.data );
       if( nextProps.index && nextProps.searchMap ){
-        return this.updateGraph( nextProps.searchMap.datasource, nextProps.index );
+        return this.updateGraph( nextProps.index, nextProps.searchMap.datasource, null );
       }
     }
     if( this.state.graphRendered && nextProps.index && !isEqual( this.props.searchMap, nextProps.searchMap ) ){
-      this.updateGraph( nextProps.searchMap.datasource, nextProps.index );
+      this.updateGraph( nextProps.index, nextProps.searchMap.datasource, this.props.searchMap.datasource );
     }
   }
 
@@ -62,8 +64,7 @@ export default class Graph extends React.Component {
     this.setState({ graphRendered: true });
   }
 
-  // memoize these calls for efficiency?
-	updateGraph( datasource, index ) {
+	updateGraph( index, nextDatasource, datasource ) {
 
     const getNodesBySource = memoize(( sourceId ) => {
       let nodes = this.state.graphInstance.collection();
@@ -75,18 +76,40 @@ export default class Graph extends React.Component {
       return nodes;
     });
 
+    // For efficiency, do the work on source labels
+    // get intersection
+    const datasourceIntersect = intersection(nextDatasource, datasource);
+
+    // turn ON datasource - intersection
+    const datasourceON = difference(nextDatasource, datasourceIntersect);
+
+    // turn OFF current - difference
+    const datasourceOFF = difference(datasource, datasourceIntersect);
+
 
     this.state.graphInstance.batch( () => {
-      let nodes = this.state.graphInstance.collection();
-      datasource.forEach( sourceId => {
-          nodes = nodes.add(getNodesBySource( sourceId ));
+
+      // get desired nodes (graph or memoized/cache)
+      let onNodes = this.state.graphInstance.collection();
+      let offNodes = this.state.graphInstance.collection();
+
+      // collection of nodes to turn ON
+      datasourceON.forEach( sourceId => {
+          onNodes = onNodes.add(getNodesBySource( sourceId ));
       });
-      nodes.absoluteComplement().removeClass('visible');
-      nodes.absoluteComplement().connectedEdges().removeClass('visible');
-      nodes.addClass('visible');
-      nodes.connectedEdges().addClass('visible');
+      // collection of nodes to turn OFF
+      datasourceOFF.forEach( sourceId => {
+          offNodes = offNodes.add(getNodesBySource( sourceId ));
+      });
+
+      onNodes.addClass('visible');
+      onNodes.connectedEdges().addClass('visible');
+
+      // turn OFF visible.difference
+      offNodes.removeClass('visible');
+      offNodes.connectedEdges().removeClass('visible');
     });
-    this.state.graphInstance.fit();
+    if( !datasource ) this.state.graphInstance.fit();
     return true;
   }
 
