@@ -26,6 +26,15 @@ export default function ( cytoscape ) {
           'min-zoomed-font-size': '14px'
         })
 
+        .selector("node[datasource='hallmark']")
+        .css({
+          'font-size': '36px',
+          'font-weight': 'bold',
+          'text-opacity': 0.9,
+          'color': '#c0392b',
+          'min-zoomed-font-size': '1px'
+        })
+
         .selector('node.highlight')
         .css({
           'background-color': '#88CC88'
@@ -58,14 +67,14 @@ export default function ( cytoscape ) {
 }
 
 export const colors = {
+  'hallmark': '#c0392b',
   'humancyc': '#2c3e50',
-  'inoh': '#c0392b',
-  'kegg': '#8e44ad',
+  'inoh': '#8e44ad',
   'netpath': '#2980b9',
   'panther': '#27ae60',
   'pid': '#d35400',
   'reactome': '#f39c12',
   'smpdb': '#AEA8D3',
   'wikipathways': '#A2DED0',
-  'default': '#c0392b'
+  'kegg': '#16a085'
 };

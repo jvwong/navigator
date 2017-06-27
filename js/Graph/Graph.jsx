@@ -3,6 +3,7 @@ import { initGraph } from './helpers/graph.js';
 import isEqual from 'lodash/isEqual';
 import intersection from 'lodash/intersection';
 import difference from 'lodash/difference';
+import isEmpty from 'lodash/isEmpty';
 import memoize from 'fast-memoize';
 
 // Graph
@@ -19,6 +20,7 @@ export default class Graph extends React.Component {
 			id: this.props.id,
       graphContainer: null,
       graphRendered: false,
+      graphUpdated: false,
 			width: '100vw',
 			height: '85vh'
 		};
@@ -48,7 +50,7 @@ export default class Graph extends React.Component {
   componentWillReceiveProps( nextProps ){
     if( nextProps.data && !this.state.graphRendered ){
       this.renderGraph( nextProps.data );
-      if( nextProps.index && nextProps.searchMap ){
+      if( nextProps.index && !isEmpty( nextProps.searchMap.datasource ) ){
         return this.updateGraph( nextProps.index, nextProps.searchMap.datasource, null );
       }
     }
@@ -65,6 +67,8 @@ export default class Graph extends React.Component {
   }
 
 	updateGraph( index, nextDatasource, datasource ) {
+
+    this.setState({ graphUpdated: true });
 
     const getNodesBySource = memoize(( sourceId ) => {
       let nodes = this.state.graphInstance.collection();
@@ -109,7 +113,7 @@ export default class Graph extends React.Component {
       offNodes.removeClass('visible');
       offNodes.connectedEdges().removeClass('visible');
     });
-    if( !datasource ) this.state.graphInstance.fit();
+    if( !this.state.graphUpdated ) this.state.graphInstance.fit();
     return true;
   }
 

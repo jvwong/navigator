@@ -17,8 +17,8 @@ export class Navigator extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			dataUrl: 'data/PathwayCommons9.all.hgnc.json',
-			indexUrl: 'data/PathwayCommons9.all.hgnc.index.json',
+			dataUrl: 'data/PC9.hallmarks.json',
+			indexUrl: 'data/PC9.hallmarks.index.json',
 			data: null,
 			index: null,
 			loading: true,
@@ -28,14 +28,17 @@ export class Navigator extends React.Component {
 				datasource: true
 			},
 			defaultOption: [{
-				label: 'Reactome',
-				value: 'reactome'
+				label: 'MSigDB Hallmarks',
+				value: 'hallmark'
 			}],
 			options: [
 				{
+					label: 'MSigDB Hallmarks',
+					value: 'hallmark'
+				},
+				{
 					label: 'HumanCyc',
-					value: 'humancyc',
-					color: 'blue'
+					value: 'humancyc'
 				},
 				{
 					label: 'Integrating Network Objects with Hierarchies',
@@ -110,7 +113,11 @@ export class Navigator extends React.Component {
 	fetchData( url ) {
 		return fetch( url, { method: 'get', mode: 'no-cors' })
 			.then( response => {
-				return response.json()
+				if( response.ok ) {
+					return response.json();
+				}
+				console.error(response);
+				throw new Error('Network response was not ok.');
 			});
 	}
 
