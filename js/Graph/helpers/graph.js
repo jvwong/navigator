@@ -70,6 +70,11 @@ var initGraph = function( container, styleSheet, layout ){
     edge.connectedNodes().removeClass('highlight');
   });
 
+  graphInstance.on('tap', 'node', function(evt){
+    var node = evt.target;
+    window.open(node.data('uri'), "_blank")
+    console.log( 'tapped ' + node.data('uri') );
+  });
 
 	return graphInstance;
 };

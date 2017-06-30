@@ -2,6 +2,8 @@ import json
 import os
 import csv
 import requests
+import re
+from urllib.parse import urlparse
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -38,14 +40,26 @@ def format_hallmarks( inpath, outpath ):
             outrow = []
             for idx, val in enumerate( row ):
                 if idx == 1:
-                    outrow.append( 'name: {}; datasource: hallmark; organism: 9606; idtype: hgnc symbol'.format(row[0]) )
+                    outrow.append( 'name: {name}; datasource: hallmark; organism: 9606; idtype: hgnc symbol; uri: {uri}'.format(name=row[0], uri=row[1]) )
                 else:
                     outrow.append( val )
             writer.writerow( outrow )
 
+def format_pc( inpath, outpath ):
+    with open(inpath, 'r') as gmt_infile, open(outpath, 'w') as gmt_outfile:
+        reader = csv.reader(gmt_infile, delimiter='\t')
+        writer = csv.writer(gmt_outfile, delimiter='\t')
+        for row in reader:
+            outrow = []
+            for idx, val in enumerate( row ):
+                if idx == 1:
+                    outrow.append( row[idx] + '; uri: {uri}'.format(uri=row[0]) )
+                else:
+                    outrow.append( val )
+            writer.writerow( outrow )
 
 def parse_description( data ):
-    fields = ['idtype', 'organism', 'datasource', 'name']
+    fields = ['uri', 'idtype', 'organism', 'datasource', 'name']
     parsed = {}
     remainder = None
 
@@ -60,9 +74,11 @@ def parse_description( data ):
     return parsed
 
 def make_node( node ):
+    pc_view_url = 'http://beta.pathwaycommons.org/pathways/#/view?uri='
     node_schema = {
         'data': {
             'id': None,
+            'uri': None,
             'name': None,
             'datasource': None,
             'size': None
@@ -72,11 +88,15 @@ def make_node( node ):
     }
     description = parse_description( node['data']['EM1_GS_DESCR'] )
     node_schema['data']['id'] = node['data']['id']
+    node_schema['data']['uri'] = pc_view_url + description['uri']
     node_schema['data']['name'] = description['name']
     node_schema['data']['datasource'] = description['datasource']
     node_schema['data']['size'] = node['data']['EM1_gs_size']
     # node_schema['data']['genes'] = node['data']['EM1_Genes']
     node_schema['position'] = node['position']
+
+    if description['datasource'] == 'hallmark':
+        node_schema['data']['uri'] = description['uri']
 
     return node_schema
 
@@ -99,27 +119,29 @@ def make_edge( edge ):
     return edge_schema
 
 GMT_HALLMARKS = os.path.join(DATA_DIR, 'h.all.v6.0.symbols.gmt')
-GMT_HALLMARKS_FORMATTED = os.path.join(DATA_DIR, 'h.all.v6.0.symbols.description.gmt')
+GMT_HALLMARKS_DESCRIPTION = os.path.join(DATA_DIR, 'h.all.v6.0.symbols.description.gmt')
 GMT_PC = os.path.join(DATA_DIR, 'PathwayCommons9.All.hgnc.gmt')
+GMT_PC_DESCRIPTION = os.path.join(DATA_DIR, 'PathwayCommons9.All.hgnc.description.gmt')
 GMT_COMBINED = os.path.join(DATA_DIR, 'PC9.hallmarks.gmt')
 JSON_EM = os.path.join(DATA_DIR, 'PC9.hallmarks.cyjs')
 
-## ******************* START: format_hallmarks **************************** ##
-# format_hallmarks(GMT_HALLMARKS, GMT_HALLMARKS_FORMATTED)
-## ******************* END: format_hallmarks **************************** ##
-
-## Concatenate
-# ftargets = [GMT_PC, GMT_HALLMARKS_FORMATTED]
+# ## ******************* START: format_hallmarks **************************** ##
+# format_hallmarks(GMT_HALLMARKS, GMT_HALLMARKS_DESCRIPTION)
+# format_pc(GMT_PC, GMT_PC_DESCRIPTION)
+# ## ******************* END: format_hallmarks **************************** ##
+#
+# ## Concatenate
+# ftargets = [GMT_PC_DESCRIPTION, GMT_HALLMARKS_DESCRIPTION]
 # with open(GMT_COMBINED, 'w') as outfile:
 #     for fname in ftargets:
 #         with open(fname) as infile:
 #             for line in infile:
 #                 outfile.write(line)
-
-## ******************* START: do_em **************************** ##
-# problem is that cyrest doesn't return 'position' field. Do manual.
+#
+# ## ******************* START: do_em **************************** ##
+# # problem is that cyrest doesn't return 'position' field. Do manual.
 # response = do_em(GMT_COMBINED)
-## ******************* END: do_em **************************** ##
+# ## ******************* END: do_em **************************** ##
 
 ## ******************* START: format cyjson **************************** ##
 for root, dirs, files in os.walk(DATA_DIR, topdown=False):
