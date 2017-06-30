@@ -9,6 +9,8 @@ import { Spinner } from '../components/Spinner.jsx';
 import queryString from 'query-string';
 import concat from 'lodash/concat';
 import isEqual from 'lodash/isEqual';
+import intersection from 'lodash/intersection';
+import difference from 'lodash/difference';
 
 // Navigator
 // Prop Dependencies ::
@@ -121,6 +123,19 @@ export class Navigator extends React.Component {
 			});
 	}
 
+	datasourceToSelection( datasource ){
+		const selected = this.state.options.filter( option => {
+			return datasource.some( source =>  {
+				return option.value === source;
+			});
+		});
+		//maintain order
+		// get intersection, common values
+		const shared = intersection( this.state.selected, selected );
+		const unique = difference( selected, shared );
+		return concat( shared, unique );
+	}
+
 	componentDidMount() {
 		Promise.all([
 			this.fetchData( this.state.indexUrl ),
@@ -130,11 +145,7 @@ export class Navigator extends React.Component {
 			const indexObject = promiseArray[0];
 			const dataObject = promiseArray[1];
 
-			let selected = this.state.options.filter( option => {
-				return this.pullSearchMap().datasource.some( source =>  {
-					return option.value === source;
-				});
-			});
+			let selected = this.datasourceToSelection( this.pullSearchMap().datasource );
 
 			this.setState(( prevState, props ) => {
 					return {
@@ -197,8 +208,11 @@ export class Navigator extends React.Component {
 
 	handleSearchChange( location, action ) {
 		this.setState(( prevState, props ) => {
+			const searchMap = this.pullSearchMap()
+			const selected = this.datasourceToSelection( searchMap.datasource );
 			return {
-				searchMap: this.pullSearchMap()
+				searchMap: searchMap,
+				selected: selected
 			}
 		});
 	}
