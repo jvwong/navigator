@@ -74,7 +74,7 @@ def parse_description( data ):
     return parsed
 
 def make_node( node ):
-    pc_view_url = 'http://beta.pathwaycommons.org/pathways/#/view?uri='
+    pc_view_url = 'http://www.pathwaycommons.org/pathways/#/view?uri='
     node_schema = {
         'data': {
             'id': None,
@@ -125,10 +125,9 @@ GMT_PC_DESCRIPTION = os.path.join(DATA_DIR, 'PathwayCommons9.All.hgnc.descriptio
 GMT_COMBINED = os.path.join(DATA_DIR, 'PC9.hallmarks.gmt')
 JSON_EM = os.path.join(DATA_DIR, 'PC9.hallmarks.cyjs')
 
-# ## ******************* START: format_hallmarks **************************** ##
+# ## ******************* START: format **************************** ##
 # format_hallmarks(GMT_HALLMARKS, GMT_HALLMARKS_DESCRIPTION)
 # format_pc(GMT_PC, GMT_PC_DESCRIPTION)
-# ## ******************* END: format_hallmarks **************************** ##
 #
 # ## Concatenate
 # ftargets = [GMT_PC_DESCRIPTION, GMT_HALLMARKS_DESCRIPTION]
@@ -137,10 +136,11 @@ JSON_EM = os.path.join(DATA_DIR, 'PC9.hallmarks.cyjs')
 #         with open(fname) as infile:
 #             for line in infile:
 #                 outfile.write(line)
-#
+
+# ## ******************* END: format **************************** ##
+
 # ## ******************* START: do_em **************************** ##
-# # problem is that cyrest doesn't return 'position' field. Do manual.
-# response = do_em(GMT_COMBINED)
+# response = do_em(GMT_COMBINED, similaritycutoff = '0.375')
 # ## ******************* END: do_em **************************** ##
 
 ## ******************* START: format cyjson **************************** ##
